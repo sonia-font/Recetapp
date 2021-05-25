@@ -1,8 +1,11 @@
-RECETAPP
+**RECETAPP**
+
+
 Recetapp es una aplicación que permite solucionar el problema del manejo de ingredientes y planeamiento de recetas de las personas.
+--
 
 
-ALCANCE
+**ALCANCE**
 
 
 REQUISITOS FUNCIONALES:
