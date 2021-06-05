@@ -18,7 +18,7 @@ REQUISITOS FUNCIONALES:
 
 - El usuario puede **agregar recetas con ingredientes** unicamente que nosotros permitimos (para conservar una consistencia).
 
-- **Playlist **que te recomiende segun el pais de la receta.
+- **Playlist** que te recomiende segun el pais de la receta.
 
 
 REQUISITOS NO FUNCIONALES:
