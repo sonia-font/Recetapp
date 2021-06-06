@@ -1,0 +1,760 @@
+{
+    "Mariscos": [
+        {
+            "title": "Carpaccio de gambas",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/2/9/1/carpaccio_de_gambas_75192_600.jpg",
+            "comensales": "4",
+            "duracion": "45",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste medio, Popular en Primavera-Verano, En frío",
+            "ingredientes": [
+                " 10 gambas",
+                " 1 limón o lima",
+                " 1 chorro de aceite de oliva",
+                " 1 pizca de sal",
+                " 1 pizca de sal en escamas",
+                " 1 pizca de pimienta (opcional)",
+                " 1 pizca de cebollino picado"
+            ]
+        },
+        {
+            "title": "Quesadillas de camarón",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/1/8/1/quesadillas_de_camaron_75181_600.jpg",
+            "comensales": "6",
+            "duracion": "30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste medio, Nada picante, Frito, Recetas mexicanas",
+            "ingredientes": [
+                " 200 gramos de camarón limpio",
+                " 1 pizca de sal y pimienta al gusto",
+                " 1 cucharadita de achiote",
+                " 1 trozo de cebolla",
+                " 1 diente de ajo",
+                " 1 jitomate",
+                " 1 trozo de piña (opcional)",
+                " 1 pizca de comino molido",
+                " 1 pizca de orégano",
+                " 4 chiles guajillo limpios sin semillas ni venas",
+                " 1 taza de queso manchego rallado",
+                " Tortillas de maíz",
+                " Aceite vegetal"
+            ]
+        },
+        {
+            "title": "Calamares rellenos de carne",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/0/5/1/calamares_rellenos_de_carne_75150_600.jpg",
+            "comensales": "2",
+            "duracion": "1h 30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Popular en Otras fiestas, Estofado",
+            "ingredientes": [
+                " 2 cebollas",
+                " 1 diente de ajo",
+                " 250 gramos de carne picada mixta",
+                " 400 gramos de calamares limpios",
+                " 1 lata de tomate triturado natural",
+                " 1 vaso pequeño de vino blanco",
+                " 1 puñado de piñones",
+                " 1 rebanada de pan de molde",
+                " 200 mililitros de aceite de oliva"
+            ]
+        },
+        {
+            "title": "Calamares en salsa de tomate",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/6/4/1/calamares_en_salsa_de_tomate_75146_600.jpg",
+            "comensales": "3",
+            "duracion": "45",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste medio, Receta sin lactosa, Receta sin gluten, Estofado",
+            "ingredientes": [
+                " 1 cebolla",
+                " 2 dientes de ajo",
+                " 400 gramos de tomate triturado natural",
+                " 400 gramos de calamares o chipirones",
+                " 100 mililitros de aceite de oliva",
+                " 1 pizca de sal",
+                " 1 pizca de perejil",
+                " 1 vaso de vino blanco"
+            ]
+        },
+        {
+            "title": "Vieiras a la marinera",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/1/1/1/vieiras_a_la_marinera_75111_600.jpg",
+            "comensales": "4",
+            "duracion": "30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste caro, Recetas para Navidad, Salteado, Recetas españolas, Recetas gallegas",
+            "ingredientes": [
+                " 12 vieiras medianas (congeladas o frescas)",
+                " 2 cebollas grandes",
+                " 1 pimiento rojo",
+                " 150 mililitros de vino blanco",
+                " 1 chorro de aceite de oliva",
+                " 1 pizca de sal",
+                " 1 pizca de pimienta",
+                " 4 cucharadas soperas de pan rallado"
+            ]
+        },
+        {
+            "title": "Gambas al ajillo en el microondas",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/7/0/1/gambas_al_ajillo_en_el_microondas_75107_600.jpg",
+            "comensales": "4",
+            "duracion": "10",
+            "dificultad": "Dificultad muy baja",
+            "caracteristicas": "Coste medio, Poco picante, Recetas al microondas, Recetas españolas, Recetas andaluzas",
+            "ingredientes": [
+                " 4 dientes de ajos",
+                " 1 cucharada postre de perejil fresco",
+                " 2 guindillas",
+                " 8 cucharadas soperas de aceite de oliva",
+                " 300 gramos de gambas peladas",
+                " 1 pizca de sal"
+            ]
+        },
+        {
+            "title": "Burritos de camarón",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/3/9/0/burritos_de_camaron_75093_600.jpg",
+            "comensales": "4",
+            "duracion": "30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste medio, Recetas para Semana Santa, Poco picante, En sartén, Recetas mexicanas",
+            "ingredientes": [
+                " Tortillas de harina para burrito o de tamaño regular",
+                " 1 taza de frijoles refritos",
+                " ½ cebolla picada",
+                " 1 diente de ajo picado",
+                " 2 cucharadas soperas de mantequilla",
+                " 2 jitomates medianos picados",
+                " 500 gramos de camarón limpio (picado opcional)",
+                " 2 chiles de árbol seco picados",
+                " 1 cucharadita de ralladura de naranja",
+                " ½ taza de jugo de naranja",
+                " Sal al gusto",
+                " 1 rama de cilantro picado",
+                " Aguacate al gusto",
+                " Queso tipo manchego o oaxaca al gusto"
+            ]
+        },
+        {
+            "title": "Chimichangas de camarón",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/1/6/0/chimichangas_de_camaron_75061_600.jpg",
+            "comensales": "4",
+            "duracion": "30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste medio, Poco picante, Recetas mexicanas",
+            "ingredientes": [
+                " 500 gramos de camarón limpio y pelado",
+                " 1 chorro de aceite",
+                " 1 cucharada sopera de mantequilla",
+                " ½ cebolla morada picada",
+                " 1 diente de ajo picado",
+                " 1 pizca de orégano",
+                " 1 pizca de sal y pimienta al gusto",
+                " 1 chile serrano picado",
+                " 1 chile chipotle picado (opcional)",
+                " 3 cucharadas soperas de salsa cátsup",
+                " 200 gramos de queso añejo",
+                " 100 gramos de frijoles refritos",
+                " Tortillas de harina para burritos",
+                " Crema al gusto",
+                " Guacamole al gusto"
+            ]
+        },
+        {
+            "title": "Vieiras a la gallega",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/4/5/0/vieiras_a_la_gallega_75054_600.jpg",
+            "comensales": "4",
+            "duracion": "45",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste medio, Recetas al horno",
+            "ingredientes": [
+                " 4 vieiras",
+                " 1 cebolla pequeña",
+                " 100 gramos de jamón serrano",
+                " 2 cucharadas soperas de tomate frito",
+                " 1 cucharada postre de pimentón dulce o picante",
+                " 100 mililitros de vino blanco",
+                " 3 cucharadas soperas de pan rallado",
+                " 1 chorro de aceite de oliva"
+            ]
+        },
+        {
+            "title": "Tacos dorados de camarón",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/7/4/0/tacos_dorados_de_camaron_75047_600.jpg",
+            "comensales": "5",
+            "duracion": "30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste medio, Recetas para Semana Santa, Poco picante, Recetas mexicanas, Recetas sinaloenses",
+            "ingredientes": [
+                " 500 gramos de camarón limpio",
+                " 1 cebolla picada",
+                " 2 dientes de ajo picados",
+                " 2 chiles serranos picados",
+                " 2 jitomates picados",
+                " Aceite",
+                " 45 gramos de mantequilla",
+                " 1 pizca de ajo en polvo",
+                " 1 cucharadita de harina de trigo",
+                " 2 cucharadas soperas de agua",
+                " Sal y pimienta al gusto",
+                " 15 tortillas de maíz",
+                " Palillos de madera",
+                " Curtido o salsa al gusto",
+                " Rebanadas de aguacate"
+            ]
+        },
+        {
+            "title": "Camarones al tamarindo",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/4/2/9/camarones_al_tamarindo_74924_600.jpg",
+            "comensales": "2",
+            "duracion": "30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste medio, Poco picante, Ideal acompañar con vino blanco",
+            "ingredientes": [
+                " 300 gramos de camarones pelados",
+                " 8 vainas de tamarindo",
+                " 2 chiles chipotle",
+                " 45 gramos de azúcar",
+                " 1 trozo de cebolla finamente picada",
+                " 1 diente de ajo finamente picado",
+                " ½ taza de vino blanco o caldo de pollo",
+                " 1 cucharada sopera de aceite de oliva",
+                " 1 taza de agua (240 mililitros)",
+                " 1 pizca de paprika",
+                " sal al gusto"
+            ]
+        },
+        {
+            "title": "Buey de mar relleno",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/6/1/9/buey_de_mar_relleno_74916_600.jpg",
+            "comensales": "2",
+            "duracion": "1h 30",
+            "dificultad": "Dificultad media",
+            "caracteristicas": "Coste medio, Receta sin lactosa, Receta sin azúcar, Ideal acompañar con vino rosado, Recetas españolas",
+            "ingredientes": [
+                " 2 bueyes de mar cocidos de gran tamaño",
+                " 1 cebolleta",
+                " 1 pimiento verde italiano",
+                " 2 dientes de ajo",
+                " 1 vaso de tomate triturado natural",
+                " 1 copa de brandy",
+                " 50 gramos de mantequilla",
+                " 1 vaso de pan rallado con perejil mezclado",
+                " 1 pizca de sal",
+                " 1 chorro de aceite de oliva"
+            ]
+        },
+        {
+            "title": "Caldo de camarón con chipotle",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/1/9/8/caldo_de_camaron_con_chipotle_74891_600.jpg",
+            "comensales": "10",
+            "duracion": "45",
+            "dificultad": "Dificultad media",
+            "caracteristicas": "Coste medio, Poco picante, Hervido, Recetas mexicanas",
+            "ingredientes": [
+                " 250 gramos de camarón seco",
+                " 4 jitomates",
+                " 1 trozo de cebolla",
+                " 1 diente de ajo",
+                " Chile chipotle al gusto",
+                " 2 papas",
+                " 2 zanahorias medianas",
+                " ½ cebolla fileteada",
+                " 1 rama de epazote fresco",
+                " 8 hojas de laurel chicas",
+                " 1 cucharadita de tomillo",
+                " 1 pizca de sal al gusto",
+                " 400 gramos de camarón mediano",
+                " 300 gramos de almejas",
+                " 2½ litros de agua",
+                " 2 cucharadas soperas de aceite",
+                " Aguacate",
+                " Limón",
+                " Cebolla picada",
+                " Pan blanco o tostadas"
+            ]
+        },
+        {
+            "title": "Langostinos en salsa marinera",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/2/7/8/langostinos_en_salsa_marinera_74872_600.jpg",
+            "comensales": "2",
+            "duracion": "15",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste medio",
+            "ingredientes": [
+                " 12 langostinos",
+                " 2 dientes de ajos",
+                " 1 puñado de perejil picado",
+                " 1 cucharada sopera de harina",
+                " 1 cucharada postre de pimentón dulce o picante",
+                " 2 cucharadas soperas de tomate frito",
+                " 150 mililitros de vino blanco",
+                " 150 mililitros de caldo de pescado",
+                " 1 pizca de sal",
+                " 1 chorro de aceite de oliva"
+            ]
+        },
+        {
+            "title": "Gulas con gambas al ajillo",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/1/5/8/gulas_con_gambas_al_ajillo_74851_600.jpg",
+            "comensales": "4",
+            "duracion": "30",
+            "dificultad": "Dificultad muy baja",
+            "caracteristicas": "Coste medio, Recetas para Navidad, Salteado",
+            "ingredientes": [
+                " 400 gramos de gulas",
+                " 200 gramos de gambas peladas",
+                " 3 dientes de ajos",
+                " 1 unidad de cayenas o guindillas",
+                " 1 chorro de aceite de oliva",
+                " 1 pizca de sal",
+                " 1 puñado de perejil picado"
+            ]
+        },
+        {
+            "title": "Gambones al microondas",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/9/4/8/gambones_al_microondas_74849_600.jpg",
+            "comensales": "2",
+            "duracion": "10",
+            "dificultad": "Dificultad muy baja",
+            "caracteristicas": "Coste medio, Recomendada para perder peso, Receta sin lactosa, Receta sin azúcar, Receta sin gluten, Ideal acompañar con cava, Recetas al microondas, Recetas españolas",
+            "ingredientes": [
+                " 6 gambones XL",
+                " 2 pellizcos de sal gruesa en escamas maldon",
+                " 2 cucharadas de postre de perejil picado seco",
+                " 1 cucharada postre de ajo en polvo",
+                " 1 chorro de aceite de oliva virgen extra",
+                " Limón (opcional)"
+            ]
+        },
+        {
+            "title": "Pastel de puerros y gambas",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/2/3/8/pastel_de_puerros_y_gambas_74832_600.jpg",
+            "comensales": "4",
+            "duracion": "1h 30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Recomendada para macrobióticos, Recomendada para perder peso, Receta sin azúcar, Poco picante, Recetas al horno",
+            "ingredientes": [
+                " 4 puerros",
+                " 300 gramos de gamba pelada cruda",
+                " 3 huevos",
+                " 1 pellizco de pimienta negra molida",
+                " 1 pellizco de eneldo",
+                " 200 mililitros de crema de coco o nata para cocinar",
+                " 3 pellizcos de sal",
+                " Papel sulfurizado",
+                " Molde redondo o rectangular de 20 cm"
+            ]
+        },
+        {
+            "title": "Chipirones rellenos en su tinta",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/3/6/7/chipirones_rellenos_en_su_tinta_74763_600.jpg",
+            "comensales": "3",
+            "duracion": "1h 30",
+            "dificultad": "Dificultad media",
+            "caracteristicas": "Coste barato, Recomendada para macrobióticos, Receta sin lactosa, Receta sin azúcar, Receta sin gluten, Poco picante, Estofado",
+            "ingredientes": [
+                " 20 chipirones",
+                " 1 cebolla",
+                " 1 trozo de pimiento rojo",
+                " 1 pieza de tomate casero, rallado y frito",
+                " 3 dientes de ajo",
+                " 1 cubilete de vino blanco, en mini brick",
+                " 1 cucharada postre de eneldo (opcional)",
+                " 1 pizca de pimienta negra molida",
+                " 2 vasos de caldo de pescado",
+                " 2 bolsas de tinta de calamar",
+                " Palillos para cerrar el chipirón relleno"
+            ]
+        },
+        {
+            "title": "Langostinos al whisky",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/6/2/7/langostinos_al_whisky_74726_600.jpg",
+            "comensales": "4",
+            "duracion": "30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste medio",
+            "ingredientes": [
+                " 20 langostinos",
+                " 2 dientes de ajos",
+                " 100 gramos de mantequilla",
+                " 1 limón",
+                " 60 mililitros de whisky",
+                " 1 puñado de perejil picado",
+                " 1 chorro de aceite de oliva",
+                " 1 pizca de sal"
+            ]
+        },
+        {
+            "title": "Langostinos al curry",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/4/0/7/langostinos_al_curry_74704_600.jpg",
+            "comensales": "4",
+            "duracion": "45",
+            "dificultad": "Dificultad media",
+            "caracteristicas": "Coste medio",
+            "ingredientes": [
+                " 1 kilogramo de langostinos",
+                " 200 gramos de leche de coco o crema de leche",
+                " 4 cucharadas soperas de tomate frito",
+                " 1 cucharada sopera de curry",
+                " 1 cucharada postre de jengibre",
+                " 1 unidad de cebolla",
+                " 1 chorro de aceite de oliva",
+                " 1 unidad de lima o limón",
+                " 1 puñado de cilantro o perjil"
+            ]
+        },
+        {
+            "title": "Calamares a la romana con cerveza",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/1/9/6/calamares_a_la_romana_con_cerveza_74691_600.jpg",
+            "comensales": "4",
+            "duracion": "45",
+            "dificultad": "Dificultad media",
+            "caracteristicas": "Coste barato, Receta sin lactosa, Frito, Recetas españolas",
+            "ingredientes": [
+                " 500 gramos de anillas de calamar",
+                " 200 gramos de harina de trigo",
+                " 150 mililitros de cerveza",
+                " 1 pizca de sal",
+                " 1 vaso de aceite de oliva",
+                " 1 limón"
+            ]
+        },
+        {
+            "title": "Coquinas al ajillo",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/2/6/5/coquinas_al_ajillo_74562_600.jpg",
+            "comensales": "4",
+            "duracion": "30",
+            "dificultad": "Dificultad muy baja",
+            "caracteristicas": "Coste barato, Recomendada para perder peso, Popular en Primavera-Verano, Poco picante, Ideal acompañar con vino blanco, Recetas al vapor, Recetas españolas",
+            "ingredientes": [
+                " 300 gramos de coquinas congeladas limpias o frescas",
+                " 1 rama de perejil fresco",
+                " 1 cucharadita de harina de maíz o de trigo",
+                " 2 cayenas",
+                " 6 dientes de ajo",
+                " 1 copa de brandy",
+                " 1 vaso pequeño de agua",
+                " 1 chorro de aceite de girasol o semillas"
+            ]
+        },
+        {
+            "title": "Caldereta de marisco",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/9/4/5/caldereta_de_marisco_74549_600.jpg",
+            "comensales": "4",
+            "duracion": "1h 30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste medio, Poco picante, Hervido, Recetas españolas",
+            "ingredientes": [
+                " 4 cigalas frescas",
+                " 4 carabineros fresco",
+                " 4 gambones frescos",
+                " 1 bogavante fresco",
+                " 250 gramos de almejas frescas",
+                " 250 gramos de mejillones frescos",
+                " 1 pimiento verde",
+                " 3 tomates maduros",
+                " 6 dientes de ajo",
+                " 2 rebanadas de pan seco",
+                " 1 litro de caldo de pescado o fumet",
+                " 1 cebolla",
+                " 10 almendras sin piel",
+                " 1 rama de perejil fresco",
+                " 1 cucharada sopera de sal",
+                " 1 pellizco de pimienta negra molida",
+                " 1 chorro de aceite de oliva",
+                " 1 calamar fresco",
+                " 1 cucharada sopera de pimentón dulce"
+            ]
+        },
+        {
+            "title": "Mejillones al vapor",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/8/2/5/mejillones_al_vapor_74528_600.jpg",
+            "comensales": "4",
+            "duracion": "15",
+            "dificultad": "Dificultad muy baja",
+            "caracteristicas": "Coste barato",
+            "ingredientes": [
+                " 1 kilogramo de mejillones",
+                " 1 hoja de laurel",
+                " 1 limón"
+            ]
+        },
+        {
+            "title": "Mejillones tigre",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/5/0/5/mejillones_tigre_74505_600.jpg",
+            "comensales": "5",
+            "duracion": "1h 30",
+            "dificultad": "Dificultad media",
+            "caracteristicas": "Coste barato, Salteado, Recetas españolas, Recetas gallegas",
+            "ingredientes": [
+                " 1 kilogramo de mejillones",
+                " 1 cebolla",
+                " 50 gramos de mantequilla",
+                " 50 gramos de harina de trigo",
+                " 1 pizca de sal",
+                " 500 mililitros de leche",
+                " 1 vaso de aceite para freír",
+                " 2 huevos",
+                " 200 gramos de pan rallado",
+                " 1 pizca de sal al gusto"
+            ]
+        },
+        {
+            "title": "Zamburiñas en salsa gallega",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/9/7/4/zamburinas_en_salsa_gallega_74479_600.jpg",
+            "comensales": "2",
+            "duracion": "30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste caro",
+            "ingredientes": [
+                " 8 zamburiñas",
+                " 1 trozo de cebolla",
+                " 1 diente de ajo",
+                " 30 gramos de jamón picado",
+                " 100 mililitros de vino blanco",
+                " 100 gramos de tomate frito",
+                " 1 chorro de aceite de oliva",
+                " 1 pizca de sal",
+                " 1 pizca de pimienta",
+                " 1 pizca de pimentón picante (opcional)"
+            ]
+        },
+        {
+            "title": "Mejillones con tomate",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/6/5/4/mejillones_con_tomate_74456_600.jpg",
+            "comensales": "4",
+            "duracion": "45",
+            "dificultad": "Dificultad muy baja",
+            "caracteristicas": "Coste barato, Salteado, Recetas españolas",
+            "ingredientes": [
+                " 1½ kilogramos de mejillones",
+                " 1 cebolla",
+                " 2 dientes de ajos",
+                " 300 gramos de tomate frito o triturado",
+                " 1 vaso pequeño de vino blanco",
+                " 1 cucharada sopera de harina",
+                " 1 chorro de aceite de oliva",
+                " 1 pizca de sal",
+                " 1 pizca de pimienta"
+            ]
+        },
+        {
+            "title": "Caracoles en salsa picante",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/5/6/3/caracoles_en_salsa_picante_74365_600.jpg",
+            "comensales": "4",
+            "duracion": "1h 30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Receta sin azúcar, Popular en Primavera-Verano, Picante, Ideal acompañar con vino tinto, Hervido, Recetas españolas",
+            "ingredientes": [
+                " 400 bolsas de caracoles hervidos",
+                " 1 pimiento verde",
+                " 2 dientes de ajo",
+                " 200 gramos de jamón serrano o chorizo rojo",
+                " 1 cucharadita de comino",
+                " 2 hojas de laurel",
+                " 2 chorros de aceite de oliva",
+                " 1 pellizco de sal",
+                " 1 vaso de de vino blanco",
+                " 1 vaso pequeño de tomate frito",
+                " 1 vaso pequeño de caldo de pollo o carne o pastilla concentrada",
+                " 1 cebolla",
+                " 1 cucharadita de orégano",
+                " 1 cucharadita de pimentón",
+                " 1 cucharadita de hierbabuena",
+                " 1 cucharadita de cayena molida"
+            ]
+        },
+        {
+            "title": "Almejas en salsa verde",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/9/0/1/almejas_en_salsa_verde_74109_600.jpg",
+            "comensales": "4",
+            "duracion": "45",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste medio, Salteado",
+            "ingredientes": [
+                " 500 gramos de almejas",
+                " 1 cebolla",
+                " 4 dientes de ajo",
+                " 1 puñado de perejil",
+                " 150 gramos de vino blanco",
+                " 1 cucharada sopera de harina de trigo",
+                " 4 cucharadas soperas de aceite de oliva"
+            ]
+        },
+        {
+            "title": "Berberechos a la marinera",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/2/9/0/berberechos_a_la_marinera_74092_600.jpg",
+            "comensales": "4",
+            "duracion": "30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Recomendada para macrobióticos, Recomendada para perder peso, Receta sin lactosa, Receta sin azúcar, Receta sin gluten, Ideal acompañar con vino blanco, Recetas al vapor",
+            "ingredientes": [
+                " 1 kilogramo de berberechos",
+                " 2 dientes de ajo",
+                " 1 cebolla dulce",
+                " 1 vaso pequeño de agua y vino blanco",
+                " 1 rama de perejil fresco",
+                " 4 cucharadas soperas de aceite de oliva",
+                " 1 cucharada sopera de harina de maíz"
+            ]
+        },
+        {
+            "title": "Berberechos al ajillo",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/7/8/0/berberechos_al_ajillo_74087_600.jpg",
+            "comensales": "4",
+            "duracion": "15",
+            "dificultad": "Dificultad muy baja",
+            "caracteristicas": "Coste barato, Salteado",
+            "ingredientes": [
+                " 600 gramos de berberechos frescos",
+                " 3 dientes de ajos",
+                " 1 unidad de cayena o guindilla (opcional)",
+                " 150 mililitros de vino blanco",
+                " 1 puñado de perejil picado",
+                " 1 chorro de aceite",
+                " 1 pizca de sal"
+            ]
+        },
+        {
+            "title": "Langostinos cocidos",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/0/3/0/langostinos_cocidos_74030_600.jpg",
+            "comensales": "2",
+            "duracion": "15",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Recomendada para perder peso, Ideal acompañar con cava, Hervido",
+            "ingredientes": [
+                " 8 langostinos frescos o congelados",
+                " 1 cucharada sopera de sal",
+                " Hielo en cubos",
+                " 1 litro de agua fría",
+                " 1 hoja de laurel (opcional)"
+            ]
+        },
+        {
+            "title": "Albóndigas de choco",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/2/3/9/albondigas_de_choco_73932_600.jpg",
+            "comensales": "4",
+            "duracion": "1h 30",
+            "dificultad": "Dificultad media",
+            "caracteristicas": "Coste medio",
+            "ingredientes": [
+                " 500 gramos de choco o sepia",
+                " 1 unidad de huevo",
+                " 1 diente de ajos",
+                " 1 puñado de perejil",
+                " 2 cucharadas soperas de pan rallado",
+                " 100 gramos de harina",
+                " 1 unidad de cebolla",
+                " 1 decilitro de ajo",
+                " 1 litro de caldo de pescado",
+                " 125 mililitros de vino blanco",
+                " 1 chorro de aceite de oliva",
+                " 1 pizca de sal",
+                " 1 pizca de azafrán"
+            ]
+        },
+        {
+            "title": "Cóctel de gambas con piña",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/5/1/9/coctel_de_gambas_con_pina_73915_600.jpg",
+            "comensales": "4",
+            "duracion": "30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste medio",
+            "ingredientes": [
+                " 1 bolsa de lechuga variadas",
+                " 12 gambas cocidas",
+                " 1 piña, o piña de lata al natural",
+                " 1 aguacate",
+                " 6 palitos de cangrejos",
+                " 1 bote de mayonesa",
+                " 3 cucharadas soperas de ketchup",
+                " 2 cucharadas soperas de zumo de naranja o brandy"
+            ]
+        },
+        {
+            "title": "Camarones al curry",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/8/0/9/camarones_al_curry_73908_600.jpg",
+            "comensales": "4",
+            "duracion": "45",
+            "dificultad": "Dificultad media",
+            "caracteristicas": "Coste medio, Receta sin lactosa, Receta sin azúcar",
+            "ingredientes": [
+                " 800 gramos de camarones",
+                " 400 gramos de arroz",
+                " 1 pimientos rojos",
+                " 2 cebollas",
+                " 100 gramos de crema de leche",
+                " 1 vaso pequeño de vino blanco",
+                " 2 cucharadas de postre de polvo de curry",
+                " 1 unidad de cebolla de verdeo"
+            ]
+        },
+        {
+            "title": "Gambas al cava",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/2/1/9/gambas_al_cava_73912_600.jpg",
+            "comensales": "2",
+            "duracion": "15",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste medio, Recetas para Navidad, Plancha",
+            "ingredientes": [
+                " 12 gambas",
+                " 150 mililitros de cava",
+                " 2 dientes de ajos",
+                " 1 puñado de perejil",
+                " 1 chorro de aceite",
+                " 1 pizca de sal"
+            ]
+        },
+        {
+            "title": "Gambas al pil pil",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/7/9/8/gambas_al_pil_pil_73897_600.jpg",
+            "comensales": "4",
+            "duracion": "15",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste medio",
+            "ingredientes": [
+                " 500 kilogramos de gambas peladas",
+                " 3 dientes de ajos",
+                " 2 unidades de guindillas o cayenas",
+                " 1 puñado de perejil picado",
+                " 1 vaso pequeño de aceite de oliva"
+            ]
+        },
+        {
+            "title": "Camarones a la cucaracha",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/1/1/8/camarones_a_la_cucaracha_73811_600.jpg",
+            "comensales": "4",
+            "duracion": "10",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste medio, Poco picante, Plancha, Recetas mexicanas, Recetas sinaloenses",
+            "ingredientes": [
+                " 1 kilogramo de camarones grandes",
+                " 40 gramos de mantequilla",
+                " 7 dientes de ajo en rodajas",
+                " 6 cucharadas soperas de salsa huichol tradicional",
+                " 4 piezas de limón agrio",
+                " 1 pizca de sal"
+            ]
+        },
+        {
+            "title": "Camarones embarazados",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/5/0/0/camarones_embarazados_73005_600.jpg",
+            "comensales": "5",
+            "duracion": "6h",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste medio, Picante, Plancha, Recetas mexicanas",
+            "ingredientes": [
+                " 25 piezas de camarones grandes",
+                " 4 dientes de ajo",
+                " 3 piezas de chiles pasilla desvenados",
+                " ½ pieza de cebolla blanca",
+                " 3 piezas de naranjas agrias",
+                " 1 pieza de limón",
+                " 3 piezas de jitomates",
+                " 1 pizca de sal",
+                " 8 piezas de palos para brocheta"
+            ]
+        }
+    ]
+}

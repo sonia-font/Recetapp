@@ -1,0 +1,793 @@
+{
+    "Pescado": [
+        {
+            "title": "Hamburguesas de sushi",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/8/8/1/hamburguesas_de_sushi_75188_600.jpg",
+            "comensales": "2",
+            "duracion": "15",
+            "dificultad": "Dificultad muy baja",
+            "caracteristicas": "Coste caro, Receta sin gluten, Hervido, Recetas chinas",
+            "ingredientes": [
+                " 1 taza de arroz largo para sushi",
+                " 80 centímetros cúbicos de vinagre blanco o de arroz",
+                " 30 gramos de azúcar",
+                " 10 gramos de sal",
+                " ½ aguacate (palta)",
+                " 200 gramos de salmón fresco o ahumado",
+                " 60 gramos de queso crema"
+            ]
+        },
+        {
+            "title": "Sushi maki de atún",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/9/7/1/sushi_maki_de_atun_75179_600.jpg",
+            "comensales": "4",
+            "duracion": "30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste medio, Nada picante, En frío",
+            "ingredientes": [
+                " 1 taza de arroz para sushi o de grano corto",
+                " 1½ tazas de agua (360 mililitros)",
+                " 1 chorro de vinagre de arroz",
+                " 1 pizca de sal",
+                " 1 pizca de azúcar",
+                " laminas de alga nori",
+                " 1 lomo o medallón de atún fresco",
+                " 1 bol con agua limpia",
+                " 1 Makisu (esterilla de bambú para enrollar)"
+            ]
+        },
+        {
+            "title": "Palitos de merluza",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/4/7/1/palitos_de_merluza_75174_600.jpg",
+            "comensales": "3",
+            "duracion": "30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste medio, Frito",
+            "ingredientes": [
+                " 300 gramos de filete de merluza despinado",
+                " 1 huevo",
+                " ¼ taza de harina 000",
+                " pimentón dulce o paprika",
+                " Harina de trigo (puede ser integral)",
+                " Pan rallado",
+                " 1 huevo"
+            ]
+        },
+        {
+            "title": "Salmón en salsa verde",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/7/4/1/salmon_en_salsa_verde_75147_600.jpg",
+            "comensales": "2",
+            "duracion": "30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste medio, Estofado",
+            "ingredientes": [
+                " 1 cebolla tierna",
+                " 1 diente de ajo",
+                " 1 manojo de perejil fresco",
+                " 1 vaso pequeño de vino blanco",
+                " 1 cucharada sopera de harina de trigo",
+                " 1 vaso pequeño de agua",
+                " 1 chorro de aceite de oliva",
+                " 300 gramos de salmón fresco",
+                " 1 huevo"
+            ]
+        },
+        {
+            "title": "Buñuelos de bacalao con cerveza",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/0/9/0/bunuelos_de_bacalao_con_cerveza_75090_600.jpg",
+            "comensales": "4",
+            "duracion": "45",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste medio, Recetas para Semana Santa, Frito, Recetas españolas",
+            "ingredientes": [
+                " 150 gramos de migas de bacalao",
+                " 120 gramos de harina de trigo",
+                " 100 mililitros de cerveza",
+                " 1 cucharada postre de levadura",
+                " 2 dientes de ajos",
+                " 1 puñado de perejil",
+                " 2 huevos",
+                " 1 pizca de sal",
+                " 1 vaso de aceite para freír"
+            ]
+        },
+        {
+            "title": "Buñuelos de bacalao al horno",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/7/7/0/bunuelos_de_bacalao_al_horno_75077_600.jpg",
+            "comensales": "2",
+            "duracion": "30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Recetas para Semana Santa, Ideal acompañar con vino blanco, Recetas al horno",
+            "ingredientes": [
+                " 150 gramos de bacalao desmigado",
+                " 1 huevo XL",
+                " 3 cucharadas soperas de harina de trigo",
+                " 1 cucharada postre de levadura química",
+                " 2 dientes de ajo",
+                " 10 gramos de perejil fresco",
+                " 2 cucharadas soperas de agua"
+            ]
+        },
+        {
+            "title": "Merluza en salsa verde",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/3/7/0/merluza_en_salsa_verde_75073_600.jpg",
+            "comensales": "4",
+            "duracion": "30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste medio, Recetas para Semana Santa, Recetas españolas",
+            "ingredientes": [
+                " 8 rodajas de merluza",
+                " 1 cebolla grande o 2 pequeñas",
+                " 2 dientes de ajos",
+                " 1 puñado de perejil",
+                " 150 mililitros de caldo de pescado",
+                " 100 mililitros de vino blanco",
+                " 1 cucharada postre de harina de trigo o maicena",
+                " 1 pizca de sal",
+                " 1 chorro de aceite de oliva"
+            ]
+        },
+        {
+            "title": "Tarta de atún y choclo",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/3/6/0/tarta_de_atun_y_choclo_75063_600.jpg",
+            "comensales": "4",
+            "duracion": "45",
+            "dificultad": "Dificultad media",
+            "caracteristicas": "Coste medio, Recomendada para perder peso, Popular en Pascua, Recetas al horno",
+            "ingredientes": [
+                " 240 gramos de atún al natural",
+                " 300 gramos de choclo desgranado",
+                " 1 lámina de masa de tarta",
+                " 3 cucharadas soperas de avena, harina de maíz o pan rallado",
+                " 200 centímetros cúbicos de leche descremada",
+                " 1 cucharada sopera de maicena",
+                " 1 cucharada postre de nuez moscada",
+                " ½ cucharada postre de paprika",
+                " 1 cebolla",
+                " 40 gramos de queso rallado",
+                " 1 huevo"
+            ]
+        },
+        {
+            "title": "Sardinas al horno",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/3/5/0/sardinas_al_horno_75053_600.jpg",
+            "comensales": "3",
+            "duracion": "15",
+            "dificultad": "Dificultad muy baja",
+            "caracteristicas": "Coste medio, Recomendada para perder peso, Recetas al horno",
+            "ingredientes": [
+                " 1 kilogramo de sardinas (o parrochas)",
+                " 1 paquete de sal gruesa",
+                " 1 diente de ajo picado (opcional)",
+                " 1 rama de perejil picado (opcional)",
+                " 1 limón (opcional)"
+            ]
+        },
+        {
+            "title": "Bacalao espiritual",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/8/4/0/bacalao_espiritual_75048_600.jpg",
+            "comensales": "4",
+            "duracion": "45",
+            "dificultad": "Dificultad media",
+            "caracteristicas": "Coste medio, Recetas para Semana Santa, Receta tradicional de Portugal",
+            "ingredientes": [
+                " 250 gramos de bacalao desalado",
+                " 1 zanahoria",
+                " 1 cebolla",
+                " 1 patata",
+                " 2 rodajas de pan seco",
+                " 250 mililitros de leche",
+                " 30 gramos de harina de trigo",
+                " 30 gramos de mantequilla",
+                " 1 pizca de sal",
+                " 20 gramos de queso rallado"
+            ]
+        },
+        {
+            "title": "Bacalao en sanfaina",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/7/3/0/bacalao_en_sanfaina_75037_600.jpg",
+            "comensales": "4",
+            "duracion": "1h 30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Receta sin lactosa, Receta sin azúcar, Poco picante, En sartén, Recetas españolas, Recetas catalanas",
+            "ingredientes": [
+                " 4 trozos de troncos de bacalao",
+                " 1 calabacín",
+                " 1 pimiento rojo",
+                " 1 pimiento verde",
+                " 1 berenjena",
+                " 1 cebolla dulce",
+                " 2 dientes de ajo",
+                " 400 gramos de tomate troceado sin piel",
+                " 1 cucharadita de tomillo seco",
+                " 1 cucharadita de perejil seco para decorar",
+                " 1 vaso de vino blanco",
+                " 1 cucharada postre de azúcar morena",
+                " 1 vaso de harina común para rebozar el pescado",
+                " 1 pellizco de pimienta negra molida"
+            ]
+        },
+        {
+            "title": "Marmitako de bacalao",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/0/3/0/marmitako_de_bacalao_75030_600.jpg",
+            "comensales": "3",
+            "duracion": "1h 30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Receta sin lactosa, Receta sin azúcar, Popular en Otoño-Invierno, Ideal acompañar con vino tinto reserva, Estofado, Recetas españolas, Recetas vascas",
+            "ingredientes": [
+                " 2 piezas de lomos de bacalao limpios sin espinas",
+                " 1½ piezas de pimiento rojo",
+                " 1½ piezas de pimiento verde",
+                " 3 piezas de patatas grandes",
+                " 1 litro de caldo de pescado",
+                " 1 pieza de cebolla dulce",
+                " 2 dientes de ajo",
+                " 400 mililitros de tomate a trozos sin piel",
+                " 2 hojas de laurel",
+                " 2 cucharaditas de pimentón de la vera o dulce",
+                " 1 chorro de aceite de oliva virgen extra (para sofreír)",
+                " punto de sal"
+            ]
+        },
+        {
+            "title": "Moqueca de peixe (guiso de pescado)",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/5/2/0/moqueca_de_peixe_guiso_de_pescado_75025_600.jpg",
+            "comensales": "4",
+            "duracion": "1h 30",
+            "dificultad": "Dificultad media",
+            "caracteristicas": "Coste barato, Popular en Otoño-Invierno, Poco picante, Estofado, Receta tradicional de Brasil",
+            "ingredientes": [
+                " 4 filetes de merluza limpia sin espinas",
+                " 1 pimiento rojo",
+                " 1 pimiento verde",
+                " 2 cebollas",
+                " 1 manojo de cilantro",
+                " 400 mililitros de leche de coco",
+                " 1 chorro de aceite de palma (opcional)",
+                " 3 dientes de ajo rallado",
+                " 1 limón (el jugo)",
+                " 3 tomates frescos y maduros",
+                " 2 cebollinos (la parte verde)",
+                " 2 pellizcos de pimienta negra molida",
+                " 2 pellizcos de sal"
+            ]
+        },
+        {
+            "title": "Salmón a la ribereña",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/7/0/0/salmon_a_la_riberena_75007_600.jpg",
+            "comensales": "2",
+            "duracion": "30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste medio",
+            "ingredientes": [
+                " 2 rodajas de salmón",
+                " 4 cucharadas soperas de harina",
+                " 150 mililitros de sidra o cava",
+                " 150 gramos de jamón salado",
+                " 150 mililitros de caldo de pescado",
+                " 1 pizca de sal",
+                " 1 chorro de aceite de oliva"
+            ]
+        },
+        {
+            "title": "Bacalao al pil-pil con colador",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/1/9/9/bacalao_al_pil_pil_con_colador_74991_600.jpg",
+            "comensales": "4",
+            "duracion": "30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste medio, Confitado, Recetas españolas, Recetas vascas",
+            "ingredientes": [
+                " 4 dientes de ajo",
+                " 300 mililitros de aceite de oliva",
+                " 8 guindillas",
+                " 4 lomos de bacalao (a punto de sal)"
+            ]
+        },
+        {
+            "title": "Pescado a la veracruzana",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/3/8/9/pescado_a_la_veracruzana_74983_600.jpg",
+            "comensales": "4",
+            "duracion": "45",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste medio, Nada picante, Recetas mexicanas, Recetas veracruzanas",
+            "ingredientes": [
+                " 4 filetes de pescado",
+                " 1 pieza de cebolla picada",
+                " 2 dientes de ajo cortados en rebanadas",
+                " 4 jitomates picados",
+                " 200 gramos de puré de tomate",
+                " 1 chile morrón picado",
+                " 50 gramos de alcaparras",
+                " 50 gramos de aceitunas verdes rebanadas",
+                " 1 rama de perejil fresco",
+                " 3 hojas de laurel",
+                " 2 granos de pimienta gorda",
+                " 1 pizca de sal de grano al gusto",
+                " 1 pizca de pimienta negra al gusto",
+                " 1 pizca de chile güero al gusto",
+                " 2 cucharadas soperas de aceite de oliva"
+            ]
+        },
+        {
+            "title": "Pastel de cabracho",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/3/7/9/pastel_de_cabracho_74973_600.jpg",
+            "comensales": "8",
+            "duracion": "1h 30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste medio, Recomendada para macrobióticos, Receta sin azúcar, Receta sin gluten, Recetas para Semana Santa, Poco picante, Hervido, Recetas españolas, Recetas asturianas",
+            "ingredientes": [
+                " 2 cabracho",
+                " 1 zanahoria",
+                " 1 cebolla blanca",
+                " 4 ramas de apio (solo los tallos)",
+                " 1 rama de perejil fresco",
+                " 1 cucharada postre de sal",
+                " 1 pizca de pimienta negra molida",
+                " 4 huevos",
+                " 1 vaso de nata para cocinar",
+                " 1 vaso de tomate frito casero",
+                " 1 pieza de pimiento morrón"
+            ]
+        },
+        {
+            "title": "Merluza en salsa de piquillos",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/0/4/8/merluza_en_salsa_de_piquillos_74840_600.jpg",
+            "comensales": "4",
+            "duracion": "30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste medio, Frito",
+            "ingredientes": [
+                " 1 bote de pimientos del piquillo",
+                " 4 trozos de merluza",
+                " 3 dientes de ajos",
+                " 200 mililitros de crema de leche o leche evaporada",
+                " 1 chorro de aceite",
+                " 1 pizca de sal",
+                " 2 cucharadas soperas de harina de trigo"
+            ]
+        },
+        {
+            "title": "Aborrajados de pescado",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/0/2/8/aborrajados_de_pescado_74820_600.jpg",
+            "comensales": "4",
+            "duracion": "15",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste medio, Frito, Recetas colombianas",
+            "ingredientes": [
+                " 4 filetes de bacalao u otro pescado",
+                " 4 cucharadas soperas de harina de trigo",
+                " 1 huevo",
+                " 1 cucharada postre de comino en polvo",
+                " 1 pizca de sal",
+                " 1 pizca de pimienta molida",
+                " 1 vaso de aceite de girasol",
+                " 100 mililitros de leche"
+            ]
+        },
+        {
+            "title": "Congrio frito",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/2/1/7/congrio_frito_74712_600.jpg",
+            "comensales": "2",
+            "duracion": "45",
+            "dificultad": "Dificultad media",
+            "caracteristicas": "Coste medio, Frito",
+            "ingredientes": [
+                " 400 gramos de congrio",
+                " 200 gramos de harina",
+                " 2 huevos",
+                " 350 gramos de panko",
+                " 1 cucharadita de sal marina",
+                " 1 cucharadita de pimienta",
+                " 1 diente de ajo (opcional)",
+                " 1 cucharadita de orégano",
+                " 1 chorro de agua",
+                " 300 mililitros de aceite para freír"
+            ]
+        },
+        {
+            "title": "Atún a la vizcaína",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/0/2/7/atun_a_la_vizcaina_74720_600.jpg",
+            "comensales": "6",
+            "duracion": "30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Receta sin gluten, Recetas para Navidad, Poco picante, Recetas mexicanas",
+            "ingredientes": [
+                " 4 latas de atún",
+                " 5 jitomates picados en cuadritos",
+                " 2 cucharadas soperas de aceite de oliva",
+                " 100 gramos de aceituna sin hueso rebanada",
+                " 1 pieza de cebolla picada en cuadritos",
+                " 1 diente de ajo finamente picado",
+                " 1 taza de papa en cubitos cocida",
+                " 1 rama de perejil picado",
+                " 1 pizca de tomillo",
+                " 1 pizca de mejorana",
+                " Chiles güeros al gusto",
+                " Sal al gusto",
+                " Pimienta negra molida al gusto"
+            ]
+        },
+        {
+            "title": "Tortitas de atún en salsa verde",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/0/1/7/tortitas_de_atun_en_salsa_verde_74710_600.jpg",
+            "comensales": "4",
+            "duracion": "45",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Recetas para Semana Santa, Poco picante, Recetas mexicanas",
+            "ingredientes": [
+                " 3 latas de atún",
+                " 2 huevos",
+                " 1 pizca de orégano seco",
+                " ½ cebolla finamente picada",
+                " 1 rama de cilantro picado",
+                " 1 cucharada sopera de harina de arroz",
+                " 1 pizca de sal",
+                " 500 gramos de tomatillo verde",
+                " 5 piezas de chile verde",
+                " 1 trozo de cebolla",
+                " 1 diente de ajo",
+                " 1 pizca de sal al gusto"
+            ]
+        },
+        {
+            "title": "Merluza a la romana",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/0/7/6/merluza_a_la_romana_74670_600.jpg",
+            "comensales": "4",
+            "duracion": "45",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Recetas argentinas",
+            "ingredientes": [
+                " 600 gramos de merluza despinada",
+                " 2 huevos",
+                " 250 gramos de harina 0000",
+                " 200 centímetros cúbicos de agua fria",
+                " sal",
+                " pimienta",
+                " perejil picado"
+            ]
+        },
+        {
+            "title": "Batido para pescado frito crujiente",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/2/7/5/batido_para_pescado_frito_crujiente_74572_600.jpg",
+            "comensales": "5",
+            "duracion": "30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Frito, Recetas chilenas",
+            "ingredientes": [
+                " 1 kilogramo de pescado blanco sin espinas (merluza, congrio, róbalo)",
+                " 1 taza de harina de trigo (140 gramos)",
+                " 1 taza de cerveza",
+                " 1 limón",
+                " 1 cucharadita de sal",
+                " 1 cucharadita de pimienta negra molida",
+                " 1 cucharadita de mostaza",
+                " 1 cucharadita de paprika (opcional)",
+                " 250 mililitros de aceite para freír"
+            ]
+        },
+        {
+            "title": "Pastel de merluza y gambas",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/5/8/4/pastel_de_merluza_y_gambas_74485_600.jpg",
+            "comensales": "6",
+            "duracion": "1h 30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Popular en Primavera-Verano, Recetas al horno",
+            "ingredientes": [
+                " 400 gramos de merluza",
+                " 200 gramos de gambas",
+                " 5 huevos",
+                " 250 mililitros de nata para cocinar",
+                " 4 cucharadas soperas de tomate frito",
+                " 1 pizca de sal",
+                " 1 pizca de pimienta"
+            ]
+        },
+        {
+            "title": "Albóndigas de rape",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/4/7/4/albondigas_de_rape_74474_600.jpg",
+            "comensales": "4",
+            "duracion": "1h 30",
+            "dificultad": "Dificultad media",
+            "caracteristicas": "Coste caro, Salteado",
+            "ingredientes": [
+                " 500 gramos de rape",
+                " 12 gambas",
+                " 2 dientes de ajos",
+                " 1 puñado de perejil",
+                " 1 huevo",
+                " 3 cucharadas soperas de pan rallado",
+                " 150 mililitros de vino blanco",
+                " 250 mililitros de caldo de pescado casero (con la espina del rape)",
+                " 1 pizca de azafrán",
+                " 1 vaso de aceite de oliva",
+                " 1 pizca de sal",
+                " 150 gramos de harina"
+            ]
+        },
+        {
+            "title": "Pan de cazón",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/9/7/3/pan_de_cazon_74379_600.jpg",
+            "comensales": "4",
+            "duracion": "1h 30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste medio, Popular en Primavera-Verano, Poco picante, Frito, Recetas mexicanas",
+            "ingredientes": [
+                " 500 gramos de cazón",
+                " 12 tortillas",
+                " 1 lata de frijoles refritos",
+                " 2 pimientos verdes o chiles habaneros",
+                " 1 pieza de cebolla",
+                " 1 rama de perejil",
+                " 1 taza de puré de tomate",
+                " 1 taza de caldo de pescado",
+                " 2 clavos de Olor",
+                " 1 pizca de pimienta negra molida",
+                " 1 pizca de sal de mar al gusto",
+                " 2 dientes de ajo",
+                " 2 jitomates"
+            ]
+        },
+        {
+            "title": "Merluza a la gallega",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/5/5/4/merluza_a_la_gallega_74455_600.jpg",
+            "comensales": "4",
+            "duracion": "45",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste medio, Recomendada para perder peso, Estofado, Recetas españolas, Recetas gallegas",
+            "ingredientes": [
+                " 1 merluza",
+                " 3 patatas",
+                " 1 cebolla",
+                " 2 hojas de laurel",
+                " 3 dientes de ajos",
+                " 1 cucharada postre de pimentón dulce",
+                " 1 chorro de aceite de oliva"
+            ]
+        },
+        {
+            "title": "Marmitako de bonito",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/9/0/4/marmitako_de_bonito_74409_600.jpg",
+            "comensales": "4",
+            "duracion": "45",
+            "dificultad": "Dificultad media",
+            "caracteristicas": "Coste medio, Estofado, Recetas españolas",
+            "ingredientes": [
+                " 600 gramos de bonito",
+                " 4 patatas",
+                " 1 cebolla",
+                " 2 dientes de ajo",
+                " 1 trozo de pimiento rojo",
+                " 1 trozo de pimiento verde",
+                " 4 cucharadas soperas de salsa de tomate o tomate frito",
+                " 150 mililitros de vino blanco",
+                " 1 bote de caldo de pescado",
+                " 1 cucharada sopera de pimentón dulce",
+                " 1 cucharada sopera de pimentón picante (opcional)",
+                " 1 chorro de aceite de oliva",
+                " 1 pizca de sal",
+                " 3 cucharadas soperas de harina"
+            ]
+        },
+        {
+            "title": "Cachopo de merluza",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/5/9/2/cachopo_de_merluza_74295_600.jpg",
+            "comensales": "2",
+            "duracion": "1h 30",
+            "dificultad": "Dificultad media",
+            "caracteristicas": "Coste medio, Receta sin azúcar, Frito, Recetas españolas, Recetas asturianas",
+            "ingredientes": [
+                " 4 filetes de merluza sin piel ni espinas",
+                " 4 lonchas de queso cremoso y jamón serrano",
+                " 1 huevo",
+                " 1 paquete de pan rallado",
+                " 200 gramos de harina común",
+                " 1 pellizco de sal",
+                " 3 vasos de aceite de girasol"
+            ]
+        },
+        {
+            "title": "Marmitako de atún",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/4/7/2/marmitako_de_atun_74274_600.jpg",
+            "comensales": "3",
+            "duracion": "1h 30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste medio, Recomendada para macrobióticos, Receta sin lactosa, Receta sin azúcar, Popular en Primavera-Verano, Poco picante, Ideal acompañar con vino blanco, Estofado, Recetas españolas, Recetas vascas",
+            "ingredientes": [
+                " 3 rodajas de atún fresco sin piel ni espinas",
+                " 1 puerro",
+                " 1 trozo de pimiento rojo y verde italiano",
+                " 1 taza de guisantes congelados",
+                " 2 piezas de patata",
+                " 2 dientes de ajo y cayenas secas",
+                " 1 cucharada sopera de pimiento choricero en pasta (opcional)",
+                " 2 tomates pequeños, maduros",
+                " 1 vaso pequeño de vino blanco o txakoli",
+                " 1 rama de perejil picado o seco",
+                " 2 vasos de agua o caldo de pescado",
+                " 2 pellizcos de sal",
+                " 2 chorros de aceite de oliva"
+            ]
+        },
+        {
+            "title": "Marmitako de salmón",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/3/7/2/marmitako_de_salmon_74273_600.jpg",
+            "comensales": "2",
+            "duracion": "1h 30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste medio, Recomendada para macrobióticos, Recomendada para perder peso, Receta sin lactosa, Receta sin azúcar, Nada picante, Hervido, Recetas españolas, Recetas asturianas",
+            "ingredientes": [
+                " 2 lomos de salmón sin piel ni espinas",
+                " 1 patata grande",
+                " 1 trozo de cebolla dulce",
+                " 1 diente de ajo",
+                " 1 cucharada postre de pimentón dulce y eneldo",
+                " 10 mililitros de aceite de oliva",
+                " 1 manojo de perejil picado fresco",
+                " 2 tomates tipo pera maduros",
+                " 2 pellizcos de sal",
+                " 2 vasos de agua con una pastilla de caldo de pescado disuelta",
+                " 2 cucharadas soperas de vinagre de manzana o blanco",
+                " 1 trozo de pimiento verde"
+            ]
+        },
+        {
+            "title": "Merluza al orio",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/2/4/2/merluza_al_orio_74242_600.jpg",
+            "comensales": "4",
+            "duracion": "1h 30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste medio, Poco picante, Recetas al horno, Recetas españolas, Recetas vascas",
+            "ingredientes": [
+                " 8 filetes de merluza sin piel ni espinas (gruesos)",
+                " 1 trozo de pimiento entreverado",
+                " 3 dientes de ajo",
+                " 2 patatas grandes",
+                " 1 puñado de perejil fresco",
+                " 1 vaso pequeño de vinagre de manzana",
+                " 1 cayena seca",
+                " 1 chorro de aceite de oliva virgen extra",
+                " 3 pellizcos de sal",
+                " 1 vaso de vino blanco",
+                " 1 vaso pequeño de aceite de girasol para freír"
+            ]
+        },
+        {
+            "title": "Bacalao con espinacas",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/0/1/2/bacalao_con_espinacas_74210_600.jpg",
+            "comensales": "2",
+            "duracion": "45",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste medio",
+            "ingredientes": [
+                " 2 trozos de lomo de bacalao",
+                " 1 bolsa de espinacas",
+                " 1 puñado de piñones",
+                " 1 puñado de pasas",
+                " 50 gramos de queso rallado",
+                " 1 cebolla",
+                " 4 cucharadas soperas de harina",
+                " 1 pizca de sal",
+                " 1 chorro de aceite de oliva"
+            ]
+        },
+        {
+            "title": "Pastel de bacalao",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/8/0/2/pastel_de_bacalao_74208_600.jpg",
+            "comensales": "4",
+            "duracion": "1h 30",
+            "dificultad": "Dificultad media",
+            "caracteristicas": "Coste medio, Poco picante, Recetas al horno, Receta tradicional de Portugal",
+            "ingredientes": [
+                " 8 trozos de bacalao desalado sin espinas",
+                " 2 piezas de patatas grandes",
+                " 1 trozo de pimiento rojo",
+                " 1 trozo de cebolla dulce",
+                " 2 dientes de ajo",
+                " 2 vasos de leche",
+                " 1 pellizco de nuez moscada",
+                " 1 hoja de laurel",
+                " 2 puñados de gambas peladas crudas",
+                " 3 huevos",
+                " 2 pellizcos de sal",
+                " 1 pellizco de pimienta blanca molida"
+            ]
+        },
+        {
+            "title": "Abadejo en salsa verde",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/8/9/1/abadejo_en_salsa_verde_74198_600.jpg",
+            "comensales": "4",
+            "duracion": "45",
+            "dificultad": "Dificultad media",
+            "caracteristicas": "Coste medio, Salteado",
+            "ingredientes": [
+                " 1,2 kilogramos de patatas",
+                " 1 kilogramo de abadejo",
+                " 1 cebolla de verdeo",
+                " 2 cebollas blancas",
+                " 1 copa de vino blanco",
+                " 1 cucharada postre de harina de trigo",
+                " 1 rama de perejil picado",
+                " 1 pizca de sal",
+                " 1 pizca de pimienta",
+                " 1 chorro de aceite",
+                " 3 cucharadas de postre de manteca o mantequilla",
+                " 2 dientes de ajo",
+                " 200 mililitros de caldo de pescado o verduras"
+            ]
+        },
+        {
+            "title": "Tiradito de atún",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/1/8/1/tiradito_de_atun_74181_600.jpg",
+            "comensales": "2",
+            "duracion": "10",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste medio, En frío",
+            "ingredientes": [
+                " 250 gramos de atún fresco",
+                " 1 cebolla",
+                " 1 chile serrano",
+                " 1 cucharada postre de ajonjolí tostado o sésamo tostado)",
+                " 1 cucharada postre de aceite de ajonjolí",
+                " 1 trozo de jengibre",
+                " 1 rama de cilantro",
+                " 2 limones"
+            ]
+        },
+        {
+            "title": "Salmón en hojaldre",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/4/6/1/salmon_en_hojaldre_74164_600.jpg",
+            "comensales": "2",
+            "duracion": "45",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste medio, Recetas al horno",
+            "ingredientes": [
+                " 2 trozos de salmón",
+                " 1 paquete de espinacas",
+                " 100 mililitros de nata para cocinar (crema de leche)",
+                " 20 gramos de queso rallado",
+                " 1 lámina de hojaldre rectangular",
+                " 1 pizca de sal",
+                " 1 pizca de pimienta",
+                " 1 huevo (para pintar el hojaldre)",
+                " 1 chorro de aceite de oliva"
+            ]
+        },
+        {
+            "title": "Bacalao con champiñones",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/8/4/1/bacalao_con_champinones_74148_600.jpg",
+            "comensales": "2",
+            "duracion": "45",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Recomendada para perder peso, Receta sin lactosa, Receta sin gluten, Salteado",
+            "ingredientes": [
+                " 4 filetes de bacalao fresco sin espinas",
+                " 8 champiñones portobello",
+                " 2 cucharadas de postre de harina de maíz",
+                " 2 pellizcos de sal",
+                " 1 vaso pequeño de vino blanco",
+                " 1 vaso de agua",
+                " 1 chorro de aceite de oliva virgen extra",
+                " 1 pizca de estragón",
+                " 1 pizca de tomillo",
+                " ½ puerro"
+            ]
+        },
+        {
+            "title": "Congrio en salsa verde",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/7/2/1/congrio_en_salsa_verde_74127_600.jpg",
+            "comensales": "2",
+            "duracion": "45",
+            "dificultad": "Dificultad media",
+            "caracteristicas": "Coste medio, Salteado",
+            "ingredientes": [
+                " 2 trozos de congrio",
+                " 1 vaso de vino blanco",
+                " 1 rama de perejil",
+                " 1 cebolla",
+                " 1 diente de ajo",
+                " 1 taza de aceite de oliva",
+                " 1 taza de harina de trigo (140 gramos)"
+            ]
+        }
+    ]
+}

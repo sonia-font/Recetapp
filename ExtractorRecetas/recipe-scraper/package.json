@@ -1,0 +1,15 @@
+{
+  "name": "recipe-scraper",
+  "version": "1.0.0",
+  "description": "Extractor de recetas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "author": "Soo",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^9.0.0"
+  }
+}

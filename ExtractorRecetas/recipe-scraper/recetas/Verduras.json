@@ -1,0 +1,758 @@
+{
+    "Verduras": [
+        {
+            "title": "Alambre vegetariano",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/2/1/2/alambre_vegetariano_75212_600.jpg",
+            "comensales": "4",
+            "duracion": "30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Recomendada para vegetarianos, Nada picante, Salteado, Recetas mexicanas",
+            "ingredientes": [
+                " 2 nopales medianos",
+                " 1 pimiento verde",
+                " 1 pimiento rojo",
+                " 1 chile serrano",
+                " 1 cebolla mediana",
+                " 1 taza de champiñones blancos",
+                " 1 taza de champiñones cremini",
+                " sal al gusto",
+                " aceite",
+                " Tortillas o tostadas de maíz",
+                " Salsa al gusto",
+                " Limón"
+            ]
+        },
+        {
+            "title": "Tacos dorados de zanahoria con queso",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/3/1/2/tacos_dorados_de_zanahoria_con_queso_75213_600.jpg",
+            "comensales": "4",
+            "duracion": "30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Recomendada para vegetarianos, Frito",
+            "ingredientes": [
+                " 2 zanahorias ralladas",
+                " 1 cebolla mediana",
+                " sal y pimienta al gusto",
+                " aceite vegetal",
+                " tortillas de maíz",
+                " queso manchego o el de tu preferencia",
+                " rebanadas de aguacate",
+                " crema ácida",
+                " queso fresco"
+            ]
+        },
+        {
+            "title": "Majado de yuca",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/7/9/1/majado_de_yuca_75197_600.jpg",
+            "comensales": "4",
+            "duracion": "30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Salteado, Recetas peruanas",
+            "ingredientes": [
+                " 300 gramos de yuca",
+                " 250 gramos de carne de cerdo",
+                " ¼ taza de chicha de jora",
+                " 1 cebolla roja mediana",
+                " 2 cucharadas soperas de ajo molido",
+                " 3 cucharadas soperas de pasta de ají amarilla",
+                " 1 ají amarillo",
+                " 1 puñado de cebolla china picada",
+                " 1 puñado de culantro picado",
+                " 1 pizca de sal, pimienta y comino",
+                " ¼ taza de aceite vegetal"
+            ]
+        },
+        {
+            "title": "Patatas rellenas vegetarianas",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/2/6/1/patatas_rellenas_vegetarianas_75162_600.jpg",
+            "comensales": "3",
+            "duracion": "30",
+            "dificultad": "Dificultad muy baja",
+            "caracteristicas": "Coste barato, Recomendada para veganos, Recomendada para vegetarianos, Recomendada para perder peso, Receta sin lactosa, Receta sin azúcar, Receta sin gluten, Receta sin sal, Recetas al horno",
+            "ingredientes": [
+                " 2 papas",
+                " ½ paquete de espinaca",
+                " ½ taza de hongos",
+                " Cebolla deshidratada al gusto",
+                " 30 gramos de queso fresco",
+                " 30 gramos de queso rallado",
+                " Nuez moscada al gusto",
+                " Sal y pimienta al gusto"
+            ]
+        },
+        {
+            "title": "Puerros gratinados",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/1/2/1/puerros_gratinados_75121_600.jpg",
+            "comensales": "4",
+            "duracion": "1h 30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Recomendada para niños, Hervido",
+            "ingredientes": [
+                " 4 puerros grandes",
+                " 1 cucharada postre de aceite de oliva o de mantequilla",
+                " 1 cucharada sopera de harina",
+                " 300 mililitros de leche (1¼ tazas)",
+                " 1 pizca de nuez moscada",
+                " 8 lonchas de jamón york",
+                " 8 lonchas de queso",
+                " 1 cucharada sopera de queso rallado",
+                " 1 pizca de sal"
+            ]
+        },
+        {
+            "title": "Pimientos rellenos con huevo",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/9/3/1/pimientos_rellenos_con_huevo_75139_600.jpg",
+            "comensales": "3",
+            "duracion": "30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste medio, Nada picante, Recetas al horno",
+            "ingredientes": [
+                " 2 pimientos rojos",
+                " 3 huevos",
+                " 2 morcillas"
+            ]
+        },
+        {
+            "title": "Milanesas de zapallitos",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/3/3/1/milanesas_de_zapallitos_75133_600.jpg",
+            "comensales": "3",
+            "duracion": "30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Recomendada para vegetarianos, Recomendada para perder peso, Receta sin gluten, Receta sin sal, Nada picante, Recetas al horno",
+            "ingredientes": [
+                " 1 zapallito largo grande",
+                " 1 huevo",
+                " 1 pizca de nuez moscada y pimienta",
+                " ½ taza de pan rallado",
+                " ½ taza de copos de avena",
+                " 3 cucharadas soperas de semillas"
+            ]
+        },
+        {
+            "title": "Huaraches de nopal",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/5/2/1/huaraches_de_nopal_75125_600.jpg",
+            "comensales": "3",
+            "duracion": "30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Recetas mexicanas",
+            "ingredientes": [
+                " 6 nopales medianos",
+                " 300 gramos de frijoles refritos",
+                " 500 gramos de pollo cocido desmenuzado",
+                " 1 pizca de sal y pimienta al gusto",
+                " 1 pizca de orégano",
+                " Aguacate al gusto",
+                " Queso fresco o manchego rallado al gusto",
+                " Lechuga rallada al gusto",
+                " Salsa al gusto"
+            ]
+        },
+        {
+            "title": "Guisantes a la francesa",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/3/1/1/guisantes_a_la_francesa_75113_600.jpg",
+            "comensales": "4",
+            "duracion": "45",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Salteado, Receta tradicional de Francia",
+            "ingredientes": [
+                " 1 kilogramo de guisantes (congelados o frescos)",
+                " 1 cebolla grande o 2 pequeñas",
+                " 50 gramos de mantequilla",
+                " 1 cucharada sopera de harina de trigo o maicena",
+                " 1 lechuga",
+                " 150 gramos de jamón o beicon",
+                " 1 chorro de aceite de oliva",
+                " 1 pizca de sal",
+                " 1 vaso de caldo o agua",
+                " 1 pizca de pimienta negra"
+            ]
+        },
+        {
+            "title": "Arrollado de papa",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/6/8/0/arrollado_de_papa_75086_600.jpg",
+            "comensales": "3",
+            "duracion": "30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste medio, Recomendada para perder peso, Receta sin lactosa, Receta sin gluten, Recetas al microondas, Recetas argentinas",
+            "ingredientes": [
+                " 450 gramos de papa",
+                " 1 huevo",
+                " 70 gramos de jamón cocido",
+                " 100 gramos de queso de máquina (cortado en lonchas)",
+                " 5 tomates secos",
+                " 1 cucharada postre de nuez moscada",
+                " ½ cucharada postre de pimienta",
+                " 1 cucharada postre de puré de ajo"
+            ]
+        },
+        {
+            "title": "Rocoto relleno arequipeño",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/9/0/1/rocoto_relleno_arequipeno_75109_600.jpg",
+            "comensales": "4",
+            "duracion": "45",
+            "dificultad": "Dificultad media",
+            "caracteristicas": "Coste medio, Poco picante, Recetas peruanas",
+            "ingredientes": [
+                " 6 rocotos rojos medianos",
+                " 250 gramos de carne de res",
+                " 100 gramos de queso fresco (paria)",
+                " 50 gramos de pasas",
+                " 2 huevos sancochados",
+                " ¼ taza de leche (60 mililitros)",
+                " 1 cebolla roja",
+                " 1 cucharada sopera de ajo molido",
+                " 1 cucharada sopera de pasta de ají amarillo",
+                " 1 cucharada postre de pasta de ají panca",
+                " 3 cucharadas soperas de pasta de tomate",
+                " 1 chorro de aceite vegetal",
+                " 1 pizca de sal",
+                " 1 pizca de pimienta",
+                " 1 pizca de comino",
+                " 1 pizca de orégano",
+                " ¼ taza de vinagre blanco",
+                " 1 huevo"
+            ]
+        },
+        {
+            "title": "Papas con rajas",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/4/9/0/papas_con_rajas_75094_600.jpg",
+            "comensales": "6",
+            "duracion": "30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Recomendada para vegetarianos, Nada picante, Recetas mexicanas",
+            "ingredientes": [
+                " 3 unidades de papas medianas",
+                " 1 manojo de agua",
+                " 1 pizca de sal",
+                " 2 chiles poblanos",
+                " ½ cebolla picada",
+                " 1 taza de granos de elote",
+                " 1 cucharada sopera de aceite",
+                " 1 pizca de pimienta"
+            ]
+        },
+        {
+            "title": "Fufú de plátano",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/1/3/0/fufu_de_platano_75031_600.jpg",
+            "comensales": "6",
+            "duracion": "45",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Recomendada para veganos, Recomendada para vegetarianos, Hervido, Receta tradicional de Cuba",
+            "ingredientes": [
+                " 4 plátanos verdes",
+                " 1 limón",
+                " 1 pizca de sal",
+                " 1 cebolla",
+                " 3 dientes de ajos",
+                " 3 cucharadas soperas de aceite de semillas o de manteca de cerdo",
+                " 1 pizca de pimienta negra recién molida"
+            ]
+        },
+        {
+            "title": "Fufú africano",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/2/2/0/fufu_africano_75022_600.jpg",
+            "comensales": "4",
+            "duracion": "1h 30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Recomendada para veganos, Recomendada para vegetarianos, Recomendada para perder peso, Receta sin azúcar, Hervido, Receta tradicional de Nigeria",
+            "ingredientes": [
+                " 1 yuca grande",
+                " 1 plátano verde",
+                " 1 pellizco de sal",
+                " 2 vasos de agua",
+                " 1 pizca de cúrcuma y pimentón para decorar (opcional)"
+            ]
+        },
+        {
+            "title": "Patatas a la importancia con almejas",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/0/1/0/patatas_a_la_importancia_con_almejas_75010_600.jpg",
+            "comensales": "4",
+            "duracion": "45",
+            "dificultad": "Dificultad media",
+            "caracteristicas": "Coste barato, Rehogado",
+            "ingredientes": [
+                " 3 patatas",
+                " 2 huevos",
+                " 100 gramos de harina",
+                " 1 cebolla",
+                " 3 dientes de ajos",
+                " 1 puñado de perejil picado",
+                " 100 mililitros de vino blanco",
+                " 1 litro de agua o caldo de pescado",
+                " 200 gramos de almejas",
+                " 1 chorro de aceite de oliva",
+                " 1 pizca de sal"
+            ]
+        },
+        {
+            "title": "Chayotes a la mexicana",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/2/1/0/chayotes_a_la_mexicana_75012_600.jpg",
+            "comensales": "2",
+            "duracion": "30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Recomendada para perder peso, Recetas para Semana Santa, Poco picante, Salteado, Recetas mexicanas",
+            "ingredientes": [
+                " 1 chayote",
+                " 1 jitomate",
+                " 1 cebolla chica",
+                " 2 chiles serranos",
+                " 1 cucharada sopera de mantequilla",
+                " Sal y pimienta al gusto"
+            ]
+        },
+        {
+            "title": "Alcachofas rellenas de gambas",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/6/0/0/alcachofas_rellenas_de_gambas_75006_600.jpg",
+            "comensales": "4",
+            "duracion": "1h 30",
+            "dificultad": "Dificultad media",
+            "caracteristicas": "Coste medio, Popular en Otoño-Invierno, Salteado",
+            "ingredientes": [
+                " 8 bolsas de alcachofas",
+                " 250 gramos de gambas peladas",
+                " 1 diente de ajos",
+                " 1 puñado de perejil",
+                " 1 limón",
+                " 1 chorro de aceite de oliva",
+                " 30 gramos de mantequilla",
+                " 40 gramos de harina",
+                " 300 mililitros de leche (1¼ tazas)",
+                " 100 mililitros de caldo de pescado",
+                " 1 pizca de sal",
+                " 100 gramos de queso rallado"
+            ]
+        },
+        {
+            "title": "Pimientos rellenos de morcilla",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/2/8/9/pimientos_rellenos_de_morcilla_74982_600.jpg",
+            "comensales": "4",
+            "duracion": "1h 30",
+            "dificultad": "Dificultad media",
+            "caracteristicas": "Coste barato, Receta sin azúcar, Receta sin gluten, Ideal acompañar con vino tinto joven, Recetas al horno, Recetas españolas, Recetas vascas",
+            "ingredientes": [
+                " 12 pimientos del piquillo en conserva",
+                " 3 piezas de morcilla fresca de cebolla",
+                " 1 pieza de cebolleta",
+                " 1 pieza de puerro",
+                " 3 dientes de ajo",
+                " 75 mililitros de vino blanco",
+                " 500 mililitros de caldo de verduras u hortalizas",
+                " 40 gramos de harina de maíz (⅓ taza)",
+                " 200 mililitros de crema de soja onata para cocinar",
+                " 100 mililitros de aceite de oliva",
+                " 1 cucharada postre de sal",
+                " 1 manojo de cebollino fresco ( para decorar"
+            ]
+        },
+        {
+            "title": "Alcachofas en salsa de almendras",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/3/9/9/alcachofas_en_salsa_de_almendras_74993_600.jpg",
+            "comensales": "4",
+            "duracion": "45",
+            "dificultad": "Dificultad media",
+            "caracteristicas": "Coste barato, Recomendada para vegetarianos, Recomendada para perder peso, Salteado",
+            "ingredientes": [
+                " 1 kilogramo de alcachofas",
+                " 1 cebolla pequeña",
+                " 2 cucharadas soperas de tomate triturado",
+                " 1 cucharada postre de pimentón dulce",
+                " 100 mililitros de vino blanco",
+                " 1 diente de ajo",
+                " 1 limón",
+                " 1 puñado de perejil",
+                " 2 trozos de pan del día anterior",
+                " 1 puñado de almendras crudas"
+            ]
+        },
+        {
+            "title": "Pencas de acelgas rellenas",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/0/5/9/pencas_de_acelgas_rellenas_74950_600.jpg",
+            "comensales": "4",
+            "duracion": "45",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Frito",
+            "ingredientes": [
+                " 1 manojo de acelgas con la penca ancha",
+                " 1 paquete de jamón york",
+                " 1 paquete de queso en lonchas",
+                " 150 gramos de harina",
+                " 1 huevos",
+                " 1 pizca de sal",
+                " 1 vaso de aceite de oliva"
+            ]
+        },
+        {
+            "title": "Berenjenas rellenas de bacalao",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/9/9/8/berenjenas_rellenas_de_bacalao_74899_600.jpg",
+            "comensales": "2",
+            "duracion": "45",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Recomendada para macrobióticos, Receta sin lactosa, Receta sin azúcar, Receta sin gluten, Popular en Otoño-Invierno, Poco picante, Ideal acompañar con vino blanco, Recetas al horno",
+            "ingredientes": [
+                " 1 berenjena grande",
+                " 1 pimiento rojo italiano",
+                " 1 diente de ajo",
+                " 1 cebolla pequeña",
+                " 2 pellizcos de sal",
+                " 1 pizca de pimienta negra molida",
+                " 2 piezas de lomos de bacalao sin espinas(fresco)",
+                " 1 rama de perejil fresco",
+                " 2 cucharadas soperas de cuatro quesos rallados o de tu preferencia"
+            ]
+        },
+        {
+            "title": "Alcachofas con foie",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/2/5/8/alcachofas_con_foie_74852_600.jpg",
+            "comensales": "2",
+            "duracion": "45",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Receta sin lactosa, Receta sin azúcar, Popular en Otoño-Invierno, Poco picante, Ideal acompañar con cava, Hervido",
+            "ingredientes": [
+                " 5 alcachofas gran tamaño y si no lo son, utiliza mas cantidad de alcachofas",
+                " 2 cucharadas de postre de piñones crudos o tostados",
+                " 1 rodaja de foie",
+                " 1 pieza de manzana reineta",
+                " 1 cebolleta fresca",
+                " 1 vaso pequeño de agua",
+                " 1 vaso pequeño de vino blanco dulce"
+            ]
+        },
+        {
+            "title": "Alcachofas a la montillana",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/0/5/8/alcachofas_a_la_montillana_74850_600.jpg",
+            "comensales": "2",
+            "duracion": "45",
+            "dificultad": "Dificultad media",
+            "caracteristicas": "Coste barato, Recomendada para embarazadas, Recomendada para macrobióticos, Recomendada para perder peso, Receta sin azúcar, Popular en Otoño-Invierno, Recetas al vapor",
+            "ingredientes": [
+                " 4 alcachofas bien hermosas",
+                " 1 trozo de cebolla dulce",
+                " 3 dientes de ajo",
+                " 1 pizca de cúrcuma",
+                " 1 vaso pequeño de vino blanco de Montilla-Moriles",
+                " 30 gramos de jamón serrano",
+                " 1 cucharada sopera de harina de trigo común",
+                " 3 cucharadas soperas de aceite de oliva",
+                " 1 chorro de limón",
+                " 1 rama de hierba buena fresca"
+            ]
+        },
+        {
+            "title": "Romeritos navideños",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/7/5/8/romeritos_navidenos_74857_600.jpg",
+            "comensales": "10",
+            "duracion": "1h 30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste medio, Recetas para Navidad, Recetas mexicanas",
+            "ingredientes": [
+                " 500 gramos de romeritos",
+                " 5 nopales medianos",
+                " 3 papa cocida cortada en cuadritos",
+                " 250 gramos de pasta para mole poblano",
+                " 150 gramos de camarón seco",
+                " 1 taza de pan molido",
+                " 2 huevos",
+                " 1 pizca de sal al gusto",
+                " 3 cucharadas soperas de aceite"
+            ]
+        },
+        {
+            "title": "Tomates rellenos vegetarianos",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/6/2/8/tomates_rellenos_vegetarianos_74826_600.jpg",
+            "comensales": "6",
+            "duracion": "1h 30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Recomendada para veganos, Recomendada para vegetarianos, Recomendada para perder peso, Receta sin lactosa, Receta sin gluten, Popular en Otoño-Invierno, Recetas al horno",
+            "ingredientes": [
+                " 6 tomates rama",
+                " 2 patatas",
+                " 1 calabacín",
+                " 1 cebolla grande",
+                " 1 diente de ajo",
+                " 1 cucharada postre de hierbas secas (tomillo, romero y orégano)",
+                " 6 cucharadas soperas de aceite de oliva",
+                " 1 pizca de sal",
+                " 1 pizca de pimienta negra"
+            ]
+        },
+        {
+            "title": "Patatas con bechamel",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/3/1/8/patatas_con_bechamel_74813_600.jpg",
+            "comensales": "4",
+            "duracion": "30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Recomendada para vegetarianos, Recetas al horno",
+            "ingredientes": [
+                " 6 patatas",
+                " 500 mililitros de leche",
+                " 50 gramos de mantequilla",
+                " 50 gramos de harina de trigo",
+                " 1 pizca de sal",
+                " 1 pizca de nuez moscada",
+                " 1 chorro de aceite de oliva",
+                " 30 gramos de queso rallado"
+            ]
+        },
+        {
+            "title": "Chiles jalapeños rellenos de queso",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/0/0/8/chiles_jalapenos_rellenos_de_queso_74800_600.jpg",
+            "comensales": "5",
+            "duracion": "30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Poco picante, Frito, Recetas mexicanas",
+            "ingredientes": [
+                " 10 chiles jalapeños",
+                " 300 gramos de queso de tu preferencia cortado en tiras",
+                " 3 jitomates",
+                " 1 taza de agua (240 mililitros)",
+                " ½ taza de caldo de pollo",
+                " 1 rama de epazote",
+                " 1 taza de cebolla",
+                " 1 diente de ajo",
+                " 2 huevos",
+                " ½ taza de harina de trigo (70 gramos)",
+                " ½ taza de aceite",
+                " 1 pizca de sal y pimienta al gusto"
+            ]
+        },
+        {
+            "title": "Patatas con níscalos y costillas",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/4/7/7/patatas_con_niscalos_y_costillas_74774_600.jpg",
+            "comensales": "4",
+            "duracion": "1h 30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste medio, Popular en Otoño-Invierno, Ideal acompañar con vino tinto de crianza, Estofado, Recetas españolas",
+            "ingredientes": [
+                " 2 patatas grandes",
+                " 1 kilogramo de costilla de cerdo en trozos pequeños",
+                " 1 kilogramo de níscalos frescos",
+                " 500 mililitros de caldo de carne",
+                " 1 cebolla",
+                " 4 dientes de ajo",
+                " 1 pimiento rojo",
+                " 1 rama de perejil fresco picado",
+                " 2 hojas de laurel",
+                " 1 vaso de vino blanco",
+                " 2 cucharaditas de romero",
+                " 1 pizca de pimienta negra molida",
+                " 1 vaso pequeño de aceite de oliva"
+            ]
+        },
+        {
+            "title": "Papas rellenas colombianas",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/3/4/7/papas_rellenas_colombianas_74743_600.jpg",
+            "comensales": "4",
+            "duracion": "1h 30",
+            "dificultad": "Dificultad media",
+            "caracteristicas": "Coste medio, Frito, Recetas colombianas",
+            "ingredientes": [
+                " 4 papas grandes",
+                " 250 gramos de carne molida",
+                " 1 cebolla",
+                " ½ pimentón",
+                " 3 tomates",
+                " 4 tallos de cebollín",
+                " 100 gramos de harina de trigo",
+                " ½ cucharada postre de pimienta",
+                " ½ cucharada postre de comino",
+                " 2 cucharadas de postre de cúrcuma",
+                " 4 dientes de ajo",
+                " Sal al gusto",
+                " Aceite suficiente para freír"
+            ]
+        },
+        {
+            "title": "Papas rellenas peruanas",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/7/3/7/papas_rellenas_peruanas_74737_600.jpg",
+            "comensales": "3",
+            "duracion": "1h 30",
+            "dificultad": "Dificultad media",
+            "caracteristicas": "Coste medio, Recetas peruanas",
+            "ingredientes": [
+                " 5 papas",
+                " 200 gramos de carne molida",
+                " 1 huevo duro (opcional)",
+                " 1 taza de aceitunas negras (opcional)",
+                " 1 cebolla",
+                " 2 dientes de ajo",
+                " 1 cucharadita de sal",
+                " 1 cucharadita de pimienta",
+                " 1 cucharada sopera de pasta de ají (opcional)",
+                " 1 taza de harina (140 gramos)",
+                " 3 huevos batidos"
+            ]
+        },
+        {
+            "title": "Puré de hinojo",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/3/3/7/pure_de_hinojo_74733_600.jpg",
+            "comensales": "1 comensal",
+            "duracion": "30",
+            "dificultad": "Dificultad muy baja",
+            "caracteristicas": "Coste barato, Recomendada para vegetarianos, Recomendada para perder peso, Recetas al vapor",
+            "ingredientes": [
+                " 1 hinojo",
+                " 1 cucharada sopera de aceite",
+                " sal y pimienta"
+            ]
+        },
+        {
+            "title": "Guiso de zapallo italiano",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/4/3/7/guiso_de_zapallo_italiano_74734_600.jpg",
+            "comensales": "2",
+            "duracion": "30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Recomendada para veganos, Recomendada para vegetarianos",
+            "ingredientes": [
+                " 1 unidad de zapallo mediano",
+                " 1 unidad de cebolla",
+                " 2 cucharadas soperas de aceite",
+                " 2 cucharadas soperas de mantequilla",
+                " 2 cucharadas soperas de harina",
+                " 1 taza de leche (240 mililitros)",
+                " 1 cucharadita de sal",
+                " 1 cucharadita de pimienta",
+                " 1 cucharadita de orégano (opcional)",
+                " 1 cucharadita de nuez moscada (opcional)"
+            ]
+        },
+        {
+            "title": "Aguacates rellenos de atún",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/0/3/7/aguacates_rellenos_de_atun_74730_600.jpg",
+            "comensales": "4",
+            "duracion": "30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste medio, Poco picante, Frito",
+            "ingredientes": [
+                " 4 piezas de aguacate medianos o grandes",
+                " 2 huevos batidos",
+                " 1 cucharadita de ajo en polvo",
+                " 1 cucharadita de pimienta negra molida",
+                " ½ taza de harina de trigo (70 gramos)",
+                " 1 taza de pan molido",
+                " 1 taza de aceite",
+                " 3 latas de atún",
+                " ½ pieza de cebolla morada",
+                " 1 rama de cilantro",
+                " ½ taza de chile jalapeño",
+                " 3 cucharadas soperas de mayonesa",
+                " Jugo de medio limón"
+            ]
+        },
+        {
+            "title": "Buñuelos de calabaza valencianos",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/4/2/7/bunuelos_de_calabaza_valencianos_74724_600.jpg",
+            "comensales": "6",
+            "duracion": "1h 30",
+            "dificultad": "Dificultad media",
+            "caracteristicas": "Coste barato, Recomendada para vegetarianos, Ideal acompañar con refresco, En sartén, Recetas españolas, Recetas valencianas",
+            "ingredientes": [
+                " 300 gramos de calabaza limpia y sin piel",
+                " 400 gramos de harina de trigo",
+                " 25 gramos de levadura fresca de panadería",
+                " 1 vaso de agua de la cocción de la calabaza",
+                " 1 litro de aceite de oliva o girasol para freír",
+                " 2 cucharadas soperas de azúcar blanca"
+            ]
+        },
+        {
+            "title": "Hervido valenciano",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/5/7/6/hervido_valenciano_74675_600.jpg",
+            "comensales": "2",
+            "duracion": "45",
+            "dificultad": "Dificultad muy baja",
+            "caracteristicas": "Coste barato, Recomendada para vegetarianos, Recomendada para perder peso, Popular en Otoño-Invierno, Hervido",
+            "ingredientes": [
+                " 400 gramos de judías verdes",
+                " 2 zanahorias",
+                " 1 cebolla",
+                " 2 patatas",
+                " 2 huevos",
+                " 1 chorro de aceite de oliva",
+                " 1 pizca de sal"
+            ]
+        },
+        {
+            "title": "Shakshuka israelí",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/7/4/6/shakshuka_israeli_74647_600.jpg",
+            "comensales": "4",
+            "duracion": "45",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato",
+            "ingredientes": [
+                " 2 cebollas",
+                " 2 dientes de ajos",
+                " 1 pimiento rojo",
+                " 1 pimiento verde",
+                " 1 pimiento amarillo (opcional)",
+                " 800 gramos de tomates maduros",
+                " 2 hojas de laurel",
+                " 1 cucharadita de comino en polvo",
+                " 1 cucharadita de pimentón dulce o picante",
+                " 1 pizca de pimienta",
+                " 1 pizca de sal",
+                " 1 chorro de aceite",
+                " 3 huevos",
+                " 1 cucharadita de azúcar ( opcional)"
+            ]
+        },
+        {
+            "title": "Patatas a la importancia",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/2/0/6/patatas_a_la_importancia_74602_600.jpg",
+            "comensales": "4",
+            "duracion": "45",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Receta sin lactosa, Receta sin azúcar, Popular en Otoño-Invierno, Ideal acompañar con vino blanco, Estofado, Recetas españolas",
+            "ingredientes": [
+                " 2 patata grande",
+                " 2 huevo",
+                " 2 cucharadas soperas de harina de maíz",
+                " 1 rama de perejil fresco",
+                " 2 vasos de aceite para freír",
+                " 1 litro de caldo de carne o pollo",
+                " 1 pellizco de cúrcuma o colorante alimentario",
+                " 4 dientes de ajo",
+                " 1 vaso pequeño de brandy o vino blanco",
+                " 1 pellizco de sal al punto"
+            ]
+        },
+        {
+            "title": "Pastel de papas vegetariano",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/5/8/5/pastel_de_papas_vegetariano_74585_600.jpg",
+            "comensales": "4",
+            "duracion": "45",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Recomendada para veganos, Recomendada para vegetarianos",
+            "ingredientes": [
+                " 4 papas",
+                " 1 taza de leche vegetal",
+                " 5 cucharadas soperas de aceite vegetal",
+                " 1 cucharadita de sal",
+                " 1 cucharadita de nuez moscada",
+                " 1 cucharadita de pimienta",
+                " 400 gramos de lentejas cocidas",
+                " 1 cebolla pequeña",
+                " 150 gramos de champiñones"
+            ]
+        },
+        {
+            "title": "Tortitas de espinacas con queso",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/6/6/5/tortitas_de_espinacas_con_queso_74566_600.jpg",
+            "comensales": "4",
+            "duracion": "30",
+            "dificultad": "Dificultad muy baja",
+            "caracteristicas": "Coste barato, Recomendada para vegetarianos, En sartén",
+            "ingredientes": [
+                " 200 gramos de queso manchego rallado o cualquier otro que se derrita fácil",
+                " 500 gramos de espinaca picada",
+                " ½ pieza de cebolla picada",
+                " 2 huevos",
+                " 1 pizca de ajo en polvo",
+                " 1 pizca de sal",
+                " 1 pizca de pimienta",
+                " 3 cucharadas soperas de harina",
+                " 2 cucharadas soperas de aceite vegetal",
+                " 1 litro de agua"
+            ]
+        }
+    ]
+}

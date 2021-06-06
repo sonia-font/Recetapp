@@ -1,0 +1,765 @@
+{
+    "Arroces y cereales": [
+        {
+            "title": "Arroz tres delicias con pollo",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/4/2/2/arroz_tres_delicias_con_pollo_75224_600.jpg",
+            "comensales": "4",
+            "duracion": "45",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Frito, Recetas chinas",
+            "ingredientes": [
+                " 150 gramos de arroz tipo jazmín o basmati",
+                " 3 filetes de pechuga de pollo",
+                " 2 huevos",
+                " 3 cucharadas soperas de salsa de soja",
+                " 3 cucharadas soperas de aceite de girasol",
+                " 200 gramos de guisantes cocidos",
+                " 1 limón",
+                " 1 pizca de sal",
+                " 1 pizca de azúcar",
+                " 1 diente de ajo"
+            ]
+        },
+        {
+            "title": "Arroz al horno con verduras",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/0/2/2/arroz_al_horno_con_verduras_75220_600.jpg",
+            "comensales": "4",
+            "duracion": "45",
+            "dificultad": "Dificultad media",
+            "caracteristicas": "Coste barato, Recomendada para veganos, Recomendada para vegetarianos, Recomendada para perder peso, Recetas al horno, Recetas españolas",
+            "ingredientes": [
+                " 400 gramos de arroz redondo",
+                " 2 alcachofas",
+                " 12 espárragos",
+                " 15 judías verdes",
+                " 1 trozo de pimiento verde",
+                " 1 trozo de pimiento rojo",
+                " 1 diente de ajo",
+                " 2 tomates",
+                " 1 chorro de aceite de oliva",
+                " 1,2 litros de caldo de verduras",
+                " 1 pizca de colorante o azafrán",
+                " 1 pizca de sal"
+            ]
+        },
+        {
+            "title": "Curry de verduras",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/6/7/1/curry_de_verduras_75176_600.jpg",
+            "comensales": "1 comensal",
+            "duracion": "30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste medio, Recomendada para veganos, Recomendada para vegetarianos, Recomendada para perder peso, Receta sin lactosa, Receta sin azúcar, Receta sin sal, Poco picante, Salteado",
+            "ingredientes": [
+                " ⅓ taza de arroz largo fino",
+                " 1 taza de verduras picadas (cebolla, ají amarillo o pimiento, coliflor y zanahoria)",
+                " 1 cucharada postre de garam masala",
+                " ½ cucharada postre de jengibre en polvo",
+                " 1 cucharada sopera de leche de coco"
+            ]
+        },
+        {
+            "title": "Arroz de coliflor keto",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/7/9/0/arroz_de_coliflor_keto_75097_600.jpg",
+            "comensales": "6",
+            "duracion": "15",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Recomendada para perder peso, Receta sin gluten",
+            "ingredientes": [
+                " 1 cabeza de coliflor",
+                " 1 cucharada sopera de aceite de oliva",
+                " 1 pizca de sal",
+                " ½ taza de queso mozzarella",
+                " ½ taza de champiñones en rodajas",
+                " 1 calabacín picado",
+                " 1 pizca de perejil seco"
+            ]
+        },
+        {
+            "title": "Torrejas de arroz",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/8/5/0/torrejas_de_arroz_75058_600.jpg",
+            "comensales": "3",
+            "duracion": "30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Recomendada para vegetarianos, Recomendada para perder peso, Nada picante, En sartén, Recetas argentinas",
+            "ingredientes": [
+                " 1 taza de arroz cocido (0,5 taza de arroz en crudo)",
+                " 1 huevo",
+                " 3 cucharadas soperas de harina integral",
+                " 1 cucharada postre de puré de ajo",
+                " 1 rama de cebolla de verdeo",
+                " 1 cucharada sopera de mostaza",
+                " 1 cucharada postre de pimentón ahumado o paprika",
+                " 1 cucharada postre de polvo para hornear"
+            ]
+        },
+        {
+            "title": "Arroz con bacalao y gambas",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/6/2/0/arroz_con_bacalao_y_gambas_75026_600.jpg",
+            "comensales": "3",
+            "duracion": "1h 30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Ideal acompañar con vino blanco, En sartén, Recetas españolas, Recetas valencianas",
+            "ingredientes": [
+                " 2 lomos de bacalao limpios",
+                " 1½ litros de caldo o fumet de pescado y/o marisco",
+                " 200 gramos de gambas peladas crudas",
+                " 1 trozo de pimiento rojo",
+                " 1 trozo de pimiento verde",
+                " 1 trozo de puerro",
+                " 1 cucharada postre de cúrcuma",
+                " 1 cucharada postre de ñora molida",
+                " 1 cucharada postre de pimentón",
+                " 1 taza de tomate natural triturado",
+                " 3 dientes de ajo",
+                " 1 cucharada postre de sal",
+                " 6 puñados de arroz bomba"
+            ]
+        },
+        {
+            "title": "Pastel de arroz coreano",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/4/1/0/pastel_de_arroz_coreano_75014_600.jpg",
+            "comensales": "4",
+            "duracion": "30",
+            "dificultad": "Dificultad muy baja",
+            "caracteristicas": "Coste barato, Receta sin gluten, Receta tradicional de Corea del Norte",
+            "ingredientes": [
+                " 180 gramos de harina de arroz",
+                " 100 centímetros cúbicos de agua caliente",
+                " ½ cucharadita de sal",
+                " 1 chorro de aceite de ajonjolí"
+            ]
+        },
+        {
+            "title": "Risotto de champiñones",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/9/0/9/risotto_de_champinones_74909_600.jpg",
+            "comensales": "4",
+            "duracion": "45",
+            "dificultad": "Dificultad media",
+            "caracteristicas": "Coste barato",
+            "ingredientes": [
+                " 350 gramos de arroz arborio",
+                " 150 gramos de champiñones",
+                " 100 mililitros de vino blanco",
+                " 1 trozo de cebolla",
+                " 1½ litros de caldo de verduras",
+                " 1 chorro de aceite de oliva",
+                " 1 pizca de sal",
+                " 50 gramos de queso parmesano rallado",
+                " 1 pizca de pimienta negra"
+            ]
+        },
+        {
+            "title": "Arroz con sepia y gambas",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/8/9/8/arroz_con_sepia_y_gambas_74898_600.jpg",
+            "comensales": "4",
+            "duracion": "45",
+            "dificultad": "Dificultad media",
+            "caracteristicas": "Coste medio",
+            "ingredientes": [
+                " 300 gramos de arroz redondo o bomba",
+                " 1 litro de caldo de pescado",
+                " 2 sepia",
+                " 1 pimiento verde pequeño",
+                " 2 dientes de ajo",
+                " 4 cucharadas soperas de tomate triturado o frito",
+                " 12 gambas",
+                " 1 chorro de aceite de oliva",
+                " 1 pizca de sal",
+                " 1 cucharada postre de azafrán o unas ramas de azafrán",
+                " 1 cucharada postre de pimentón dulce"
+            ]
+        },
+        {
+            "title": "Albóndigas con arroz",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/1/2/8/albondigas_con_arroz_74821_600.jpg",
+            "comensales": "4",
+            "duracion": "45",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Poco picante, Recetas mexicanas",
+            "ingredientes": [
+                " 400 gramos de carne molida de res",
+                " ½ pieza de cebolla picada finamente",
+                " 100 gramos de puré de tomate condimentado",
+                " chile chipotle al gusto",
+                " sal al gusto",
+                " pimienta al gusto",
+                " 1 huevo",
+                " 1 taza de caldo de pollo",
+                " 1 taza de agua (240 mililitros)",
+                " 1 taza de verduras de tu preferencia",
+                " 100 gramos de queso crema tipo Philadelphia (opcional)"
+            ]
+        },
+        {
+            "title": "Arroz con níscalos",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/1/7/7/arroz_con_niscalos_74771_600.jpg",
+            "comensales": "4",
+            "duracion": "1h 30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste medio, Recomendada para veganos, Recomendada para vegetarianos, Recomendada para macrobióticos, Recomendada para perder peso, Estofado",
+            "ingredientes": [
+                " 250 gramos de níscalos (robellones)",
+                " 2 vasos de arroz bomba o redondo",
+                " 1 pimiento rojo",
+                " 1 pimiento verde",
+                " 1 puerro",
+                " 3 dientes de ajo",
+                " 1 tomate grande rallado",
+                " 1 rama de perejil fresco",
+                " 1 litro de caldo de verduras o agua",
+                " 1 hoja de leurel",
+                " 1 cucharada postre de pimentón dulce",
+                " 1 cucharada postre de cúrcuma",
+                " 1 chorro de aceite de oliva",
+                " 1 pizca de sal"
+            ]
+        },
+        {
+            "title": "Arroz a banda",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/7/0/7/arroz_a_banda_74707_600.jpg",
+            "comensales": "4",
+            "duracion": "1h 30",
+            "dificultad": "Dificultad media",
+            "caracteristicas": "Coste medio, Receta sin lactosa, Receta sin azúcar, Poco picante, Ideal acompañar con vino tinto de crianza, En sartén, Recetas españolas, Recetas valencianas",
+            "ingredientes": [
+                " 700 gramos de morralla, pescado de roca y crustáceos",
+                " 1 cucharada sopera de salmorreta",
+                " 2 cucharadas de postre de sal",
+                " 2 hojas de laurel",
+                " 15 unidades de bolas de pimienta negra",
+                " 1 pellizco de azafrán en hebra o colorante alimentario",
+                " 1 taza de tomate triturado al natural o rallado",
+                " 1 unidad de cebolla dulce",
+                " 200 gramos de calamar a trozos o sepia fresca o congelada",
+                " 200 gramos de gamba pelada fresca o congelada",
+                " 8 puñados de arroz bomba o redondo (2 puñados por persona)",
+                " Salsa de alioli para acompañamiento"
+            ]
+        },
+        {
+            "title": "Buñuelos de arroz y queso",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/2/4/6/bunuelos_de_arroz_y_queso_74642_600.jpg",
+            "comensales": "4",
+            "duracion": "30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Recomendada para vegetarianos, Frito",
+            "ingredientes": [
+                " 1 taza de arroz cocido (175 gramos)",
+                " 1 zanahoria",
+                " 1 taza de queso rallado",
+                " 1 pizca de nuez moscada",
+                " 1 pizca de pimienta",
+                " 1 cucharada sopera de perejil picado",
+                " 4 huevos",
+                " 1 taza de harina leudante",
+                " 1 chorro de aceite para freír",
+                " 1 pizca de sal"
+            ]
+        },
+        {
+            "title": "Funche criollo",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/8/8/5/funche_criollo_74588_600.jpg",
+            "comensales": "4",
+            "duracion": "1h 30",
+            "dificultad": "Dificultad media",
+            "caracteristicas": "Coste medio",
+            "ingredientes": [
+                " 300 gramos de carne de cerdo",
+                " 1 pimentón rojo",
+                " 1 cebolla",
+                " 3 dientes de ajo",
+                " 2 tomate",
+                " 1 cucharadita de comino",
+                " 1 cucharadita de pimienta",
+                " 1 cucharadita de paprika",
+                " 1 cucharadita de sal",
+                " 5 ramas de perejil",
+                " 2 cucharadas soperas de alcaparras (opcional)",
+                " 150 gramos de aceitunas sin hueso (opcional)",
+                " 2 huevo duro (opcional)",
+                " 1 litro de leche",
+                " 1 litro de agua o caldo de pollo",
+                " 4 cucharadas soperas de azúcar morena",
+                " 4 huevo",
+                " 1 kilogramo de harina de maíz"
+            ]
+        },
+        {
+            "title": "Hand roll de pollo",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/0/8/5/hand_roll_de_pollo_74580_600.jpg",
+            "comensales": "4",
+            "duracion": "1h 30",
+            "dificultad": "Dificultad media",
+            "caracteristicas": "Coste medio, Hervido, Recetas chilenas",
+            "ingredientes": [
+                " 1 taza de arroz",
+                " 4 cucharadas soperas de vinagre de arroz o manzana",
+                " 2 cucharadas soperas de azúcar",
+                " 1 cucharadita de sal",
+                " 1 pechuga de pollo",
+                " 4 hojas de alga nori",
+                " 1 puñado de cebollino",
+                " 250 gramos de queso crema",
+                " 1 pizca de sal",
+                " 1 pizca de pimienta",
+                " 1 taza de harina (140 gramos)",
+                " 3 huevos",
+                " 250 gramos de panko o pan rallado",
+                " 250 mililitros de aceite para freír"
+            ]
+        },
+        {
+            "title": "Cachapas",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/6/3/5/cachapas_74536_600.jpg",
+            "comensales": "2",
+            "duracion": "30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste medio, En sartén",
+            "ingredientes": [
+                " 2 tazas de maíz desgranado",
+                " 1 taza de agua o leche",
+                " 2 cucharadas soperas de mantequilla",
+                " 2 huevo (opcional)",
+                " 4 cucharadas soperas de azúcar",
+                " 1 cucharadita de sal",
+                " 4 cucharadas soperas de harina de maíz",
+                " Queso de mano o mozzarella (opcional)"
+            ]
+        },
+        {
+            "title": "Arroz negro con sepia",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/7/0/5/arroz_negro_con_sepia_74507_600.jpg",
+            "comensales": "4",
+            "duracion": "45",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste medio, Salteado",
+            "ingredientes": [
+                " 350 gramos de arroz",
+                " 2 sepias negras con su tinta o 2 sobres de tinta",
+                " 1 pimiento verde",
+                " 2 dientes de ajos",
+                " 1 litro de caldo de pescado",
+                " 3 cucharadas soperas de tomate frito",
+                " 1 chorro de aceite",
+                " 1 pizca de sal"
+            ]
+        },
+        {
+            "title": "Arroz verde con cilantro",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/1/9/3/arroz_verde_con_cilantro_74391_600.jpg",
+            "comensales": "6",
+            "duracion": "45",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Hervido, Recetas colombianas",
+            "ingredientes": [
+                " 250 gramos de arroz o una taza grande",
+                " 1 cebolla",
+                " 2 dientes de ajo",
+                " 20 gramos de hojas de espinaca",
+                " 10 gramos de cilantro",
+                " pimentón verde",
+                " guisantes",
+                " 1½ tazas de leche (360 mililitros)",
+                " 1½ tazas de caldo de pollo o de vegetales",
+                " 2 cucharadas soperas de aceite",
+                " Sal al gusto"
+            ]
+        },
+        {
+            "title": "Arroz con verduras y gambas",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/3/0/4/arroz_con_verduras_y_gambas_74403_600.jpg",
+            "comensales": "4",
+            "duracion": "45",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato",
+            "ingredientes": [
+                " 250 gramos de arroz",
+                " 150 gramos de gambas",
+                " 1 trozo de pimiento verde",
+                " 1 trozo de pimiento rojo",
+                " 1 puñado de judías verdes",
+                " 1 zanahoria",
+                " 1 puñado de guisantes",
+                " 5 espárragos",
+                " 4 cucharadas soperas de tomate frito",
+                " 2 dientes de ajos",
+                " 1 chorro de aceite de oliva",
+                " 500 mililitros de caldo de pescado",
+                " 1 pizca de sal",
+                " 500 mililitros de agua"
+            ]
+        },
+        {
+            "title": "Paella valenciana auténtica",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/0/3/7/paella_valenciana_autentica_11730_600.jpg",
+            "comensales": "4",
+            "duracion": "1h 30",
+            "dificultad": "Dificultad media",
+            "caracteristicas": "Coste barato, Recetas españolas, Recetas valencianas",
+            "ingredientes": [
+                " 400 gramos de arroz bomba",
+                " 500 gramos de pollo",
+                " 500 gramos de conejo",
+                " 100 gramos de judías verdes",
+                " 100 gramos de garrofón",
+                " 100 gramos de tomate natural picado o triturado",
+                " 1 cucharadita de pimentón dulce",
+                " 1 cucharadita de colorante",
+                " 4 hebras de azafrán",
+                " 1 rama de romero",
+                " 1½ litros de agua",
+                " 1 chorro de aceite",
+                " 1 pizca de sal",
+                " 200 gramos de caracoles (opcional)"
+            ]
+        },
+        {
+            "title": "Arroz chaufa",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/6/6/2/arroz_chaufa_74266_600.jpg",
+            "comensales": "2",
+            "duracion": "30",
+            "dificultad": "Dificultad media",
+            "caracteristicas": "Coste medio",
+            "ingredientes": [
+                " 1 taza de arroz cocido (175 gramos)",
+                " 200 gramos de carne picada (puede ser pechuga de pollo, carne de res o de soya)",
+                " 2 huevos",
+                " 1 cucharadita de jengibre",
+                " 2 ramas de cebollita china (cebollín)",
+                " 1 pimentón",
+                " 3 cucharadas soperas de aceite de ajonjolí",
+                " 2 cucharadas de postre de salsa de soja",
+                " 1 pizca de sal"
+            ]
+        },
+        {
+            "title": "Arroz con coliflor y bacalao",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/3/8/2/arroz_con_coliflor_y_bacalao_74283_600.jpg",
+            "comensales": "2",
+            "duracion": "45",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste medio, Hervido",
+            "ingredientes": [
+                " 180 gramos de arroz",
+                " 2 trozos de bacalao desalado",
+                " 250 gramos de coliflor",
+                " 1 diente de ajo",
+                " 1 trozo de pimiento verde",
+                " 1 trozo de pimiento rojo",
+                " 100 gramos de salsa de tomate o tomate triturado",
+                " 1 pizca de azafrán",
+                " 1 litro de agua o caldo de pescado",
+                " 1 chorro de aceite de oliva",
+                " 1 pizca de sal"
+            ]
+        },
+        {
+            "title": "Maíz tostado",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/7/3/2/maiz_tostado_74237_600.jpg",
+            "comensales": "10",
+            "duracion": "10",
+            "dificultad": "Dificultad muy baja",
+            "caracteristicas": "Coste barato, Recomendada para veganos, Recomendada para vegetarianos, Recomendada para macrobióticos, Receta sin lactosa, Receta sin azúcar, En sartén, Recetas peruanas",
+            "ingredientes": [
+                " 1 paquete de maíz para tostar",
+                " 1 chorro de aceite de girasol o de semillas",
+                " 2 pellizcos de sal gruesa"
+            ]
+        },
+        {
+            "title": "Arroz caldoso con verduras",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/1/1/2/arroz_caldoso_con_verduras_74211_600.jpg",
+            "comensales": "4",
+            "duracion": "45",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Recomendada para veganos, Recomendada para vegetarianos, Recomendada para perder peso, Estofado",
+            "ingredientes": [
+                " 2 tomates",
+                " 150 gramos de judías verdes",
+                " 1 pimiento rojo pequeño",
+                " 2 dientes de ajos",
+                " 6 alcachofas",
+                " 250 gramos de arroz",
+                " 1½ mililitros de caldo de verduras",
+                " 1 pizca de sal",
+                " 1 cucharadita de pimentón dulce",
+                " 1 pizca de cúrcuma"
+            ]
+        },
+        {
+            "title": "Arroz con patatas y bacalao",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/3/6/1/arroz_con_patatas_y_bacalao_74163_600.jpg",
+            "comensales": "2",
+            "duracion": "45",
+            "dificultad": "Dificultad media",
+            "caracteristicas": "Coste medio, Hervido, Recetas españolas",
+            "ingredientes": [
+                " 2 trozos de bacalao sin espinas",
+                " 3 patatas",
+                " 1 pimiento verde",
+                " 1 cebolla pequeña",
+                " 80 gramos de arroz",
+                " 1 cucharada postre de pimentón dulce",
+                " 3 cucharadas soperas de aceite de oliva",
+                " 1 pizca de sal"
+            ]
+        },
+        {
+            "title": "Bulgur con verduras",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/4/1/1/bulgur_con_verduras_74114_600.jpg",
+            "comensales": "4",
+            "duracion": "30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste medio, Recomendada para veganos, Recomendada para vegetarianos, Recomendada para perder peso, Salteado",
+            "ingredientes": [
+                " 250 gramos de bulgur",
+                " 1 cucharada postre de comino",
+                " 1 cucharada postre de cúrcuma",
+                " 1 chorro de aceite de oliva",
+                " 1 pizca de sal",
+                " 1 pimiento verde",
+                " 1 puñado de espárragos",
+                " ½ pimiento rojo",
+                " 1 cebolla",
+                " 2 zanahorias",
+                " ½ col"
+            ]
+        },
+        {
+            "title": "Habas con arroz",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/6/0/1/habas_con_arroz_74106_600.jpg",
+            "comensales": "3",
+            "duracion": "45",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Recomendada para veganos, Recomendada para vegetarianos, En sartén, Recetas españolas, Recetas andaluzas",
+            "ingredientes": [
+                " 400 gramos de habas desgranadas",
+                " 200 gramos de arroz redondo",
+                " 1 trozo de cebolla dulce",
+                " 1 diente de ajo grande o dos pequeños",
+                " 1 cucharadita de pimentón de la vera",
+                " 1 hoja de laurel",
+                " 1 rama de hierbabuena fresca",
+                " 3 pellizcos de sal",
+                " 1 chorro de aceite de oliva virgen extra",
+                " 1 litro de agua",
+                " 2 pellizcos de cúrcuma (opcional)",
+                " 1 cucharadita de comino molido"
+            ]
+        },
+        {
+            "title": "Majadito",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/3/6/0/majadito_74063_600.jpg",
+            "comensales": "4",
+            "duracion": "45",
+            "dificultad": "Dificultad media",
+            "caracteristicas": "Coste barato, Hervido, Receta tradicional de Bolivia",
+            "ingredientes": [
+                " 500 gramos de charque",
+                " 2 tazas de arroz",
+                " 1 pimiento verde",
+                " 1 ajo",
+                " 1 pimiento rojo",
+                " 1 cebolla",
+                " 1 pizca de sal",
+                " 1 pizca de pimienta",
+                " 4 huevos",
+                " 4 plátanos"
+            ]
+        },
+        {
+            "title": "Porridge de avena",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/9/4/7/porridge_de_avena_73749_600.jpg",
+            "comensales": "1 comensal",
+            "duracion": "10",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Recomendada para veganos, Receta sin lactosa, Receta sin gluten, Hervido, Receta tradicional de Reino Unido",
+            "ingredientes": [
+                " 200 mililitros de leche de avena",
+                " 75 gramos de copos de avena finos",
+                " 1 cucharada sopera de sirope de agave",
+                " 1 cucharada postre de chips de chocolate negro",
+                " 1 cucharada postre de semillas variadas",
+                " 1 cucharada postre de granos de granada"
+            ]
+        },
+        {
+            "title": "Harina de arroz casera",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/8/2/7/harina_de_arroz_casera_73728_600.jpg",
+            "comensales": "1 comensal",
+            "duracion": "10",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato",
+            "ingredientes": [
+                " 4 tazas de arroz"
+            ]
+        },
+        {
+            "title": "Avena con leche",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/6/2/7/avena_con_leche_73726_600.jpg",
+            "comensales": "2",
+            "duracion": "10",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Recomendada para perder peso",
+            "ingredientes": [
+                " 1 taza de avena en copos",
+                " 2 tazas de leche animal o vegetal",
+                " Canela al gusto",
+                " 3 gotas de esencia de vainilla",
+                " Azúcar o miel (opcional)",
+                " Frutos secos (opcional)",
+                " Frutas (opcional)"
+            ]
+        },
+        {
+            "title": "Harina de avena casera",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/1/7/6/harina_de_avena_casera_73671_600.jpg",
+            "comensales": "1 comensal",
+            "duracion": "10",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Recomendada para veganos, Recomendada para vegetarianos, Recomendada para perder peso",
+            "ingredientes": [
+                " 100 gramos de copos de avena"
+            ]
+        },
+        {
+            "title": "Arroz con conejo y setas",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/9/8/5/arroz_con_conejo_y_setas_73589_600.jpg",
+            "comensales": "4",
+            "duracion": "45",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste medio, Salteado",
+            "ingredientes": [
+                " 350 gramos de arroz bomba",
+                " 1 conejo",
+                " 200 gramos de setas variadas",
+                " 1 pimiento verde",
+                " 2 dientes de ajos",
+                " 4 cucharadas soperas de tomate triturado",
+                " 1 pizca de azafrán",
+                " 1 litro de caldo de pollo o carne",
+                " 1 chorro de aceite",
+                " 1 pizca de sal"
+            ]
+        },
+        {
+            "title": "Arroz caldoso con conejo",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/7/0/5/arroz_caldoso_con_conejo_73507_600.jpg",
+            "comensales": "4",
+            "duracion": "45",
+            "dificultad": "Dificultad media",
+            "caracteristicas": "Coste medio",
+            "ingredientes": [
+                " 1 conejo",
+                " 400 gramos de arroz",
+                " 1 unidad de pimiento verde",
+                " 2 dientes de ajos",
+                " 2 cucharadas soperas de tomate frito",
+                " 1 cucharada postre de pimentón dulce",
+                " 1 chorro de aceite de oliva",
+                " 1 pizca de sal",
+                " 1½ litros de caldo ce pollo o carne"
+            ]
+        },
+        {
+            "title": "Paella de marisco",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/5/8/4/paella_de_marisco_73485_600.jpg",
+            "comensales": "4",
+            "duracion": "1h 30",
+            "dificultad": "Dificultad media",
+            "caracteristicas": "Coste medio",
+            "ingredientes": [
+                " 400 gramos de arroz bomba",
+                " 1 sepia o calamar",
+                " 12 mejillones",
+                " 8 gambas o langostinos",
+                " 1 pimiento verde",
+                " 2 dientes de ajos",
+                " 2 cucharadas soperas de tomate triturado o tomate fresco",
+                " 1,4 mililitros de caldo de pescado",
+                " 4 hebras de azafrán",
+                " 1 cucharada postre de colorante",
+                " 1 cucharada postre de pimentón dulce",
+                " 1 chorro de aceite",
+                " 1 pizca de sal"
+            ]
+        },
+        {
+            "title": "Arroz con porotos",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/8/6/4/arroz_con_porotos_73468_600.jpg",
+            "comensales": "4",
+            "duracion": "45",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato",
+            "ingredientes": [
+                " 1 taza de arroz",
+                " 2 tazas de agua (480 mililitros)",
+                " 2 tazas de porotos negros",
+                " 1 cebolla grande",
+                " 2 dientes de ajo",
+                " Ají en polvo al gusto",
+                " Sal y pimienta al gusto",
+                " Cilantro al gusto",
+                " Orégano al gusto",
+                " 1 cucharada sopera de vinagre blanco de vino",
+                " 1 hoja de laurel",
+                " 2 ramas de tomillo",
+                " 1 pimiento rojo"
+            ]
+        },
+        {
+            "title": "Polenta cremosa",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/9/0/4/polenta_cremosa_73409_600.jpg",
+            "comensales": "3",
+            "duracion": "15",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Popular en Otoño-Invierno",
+            "ingredientes": [
+                " 500 mililitros de agua",
+                " 500 mililitros de leche",
+                " 250 gramos de polenta",
+                " 3 cucharadas soperas de mantequilla",
+                " 50 mililitros de nata líquida",
+                " 80 gramos de queso parmesano",
+                " 1 pizca de nuez moscada",
+                " sal y pimienta"
+            ]
+        },
+        {
+            "title": "Polenta frita",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/6/0/4/polenta_frita_73406_600.jpg",
+            "comensales": "2",
+            "duracion": "30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato",
+            "ingredientes": [
+                " 250 gramos de polenta",
+                " 1 litro de agua",
+                " 25 gramos de mantequilla",
+                " Aceite",
+                " 1 rama de romero",
+                " Sal al gusto",
+                " 1 puñado de nuez moscada",
+                " Pimienta al gusto"
+            ]
+        },
+        {
+            "title": "Arroz con pollo venezolano",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/2/0/4/arroz_con_pollo_venezolano_73402_600.jpg",
+            "comensales": "2",
+            "duracion": "45",
+            "dificultad": "Dificultad media",
+            "caracteristicas": "Coste barato, Recetas venezolanas",
+            "ingredientes": [
+                " 2 pechugas de pollo",
+                " 1 cebolla",
+                " 1 pimentón",
+                " 1 tomate",
+                " 1 lata de guisantes",
+                " 1 taza de arroz",
+                " 1 pizca de sal, pimienta y ajo al gusto",
+                " 1 pizca de cúrcuma"
+            ]
+        }
+    ]
+}

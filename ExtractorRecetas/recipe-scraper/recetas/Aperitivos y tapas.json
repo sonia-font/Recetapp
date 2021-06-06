@@ -1,0 +1,768 @@
+{
+    "Aperitivos y tapas": [
+        {
+            "title": "Tortillas de harina integral",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/2/0/2/tortillas_de_harina_integral_75202_600.jpg",
+            "comensales": "4",
+            "duracion": "15",
+            "dificultad": "Dificultad muy baja",
+            "caracteristicas": "Coste barato, Recomendada para veganos, Recomendada para perder peso, Receta sin sal, Plancha, Recetas mexicanas",
+            "ingredientes": [
+                " 1 taza de harina integral (150 gramos)",
+                " ¼ taza de agua tibia",
+                " 1 cucharada sopera de aceite neutro"
+            ]
+        },
+        {
+            "title": "Tamales de verduras",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/2/8/1/tamales_de_verduras_75182_600.jpg",
+            "comensales": "8",
+            "duracion": "1h 30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Recomendada para veganos, Recomendada para vegetarianos, Nada picante, Baño María, Recetas mexicanas",
+            "ingredientes": [
+                " 400 gramos de harina de maíz nixtamalizada",
+                " 150 gramos de manteca vegetal o aceite vegetal",
+                " 1 cucharadita de polvo para hornear(levadura química)",
+                " 1 cucharadita de sal",
+                " 3 tazas de caldo de verduras o agua tibia",
+                " 2 zanahorias ralladas",
+                " ½ cebolla picada",
+                " 1 jitomate picado",
+                " 5 hojas de acelga",
+                " Hojas para tamal"
+            ]
+        },
+        {
+            "title": "Tarta de humita",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/1/7/1/tarta_de_humita_75171_600.jpg",
+            "comensales": "4",
+            "duracion": "45",
+            "dificultad": "Dificultad media",
+            "caracteristicas": "Coste barato, Recomendada para vegetarianos, Recomendada para perder peso, Receta sin sal, Recetas al horno, Recetas argentinas",
+            "ingredientes": [
+                " 1 lámina de masa para tarta integral",
+                " 340 gramos de choclo cremoso",
+                " 100 gramos de choclo en grano",
+                " 1 cebolla grande",
+                " 100 centímetros cúbicos de leche descremada",
+                " 1 huevo",
+                " 2 cucharadas soperas de avena, salvado, harina de maíz o pan rallado",
+                " 60 gramos de queso fresco",
+                " nuez moscada"
+            ]
+        },
+        {
+            "title": "Rollitos primavera con tortilla de harina",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/4/5/1/rollitos_primavera_con_tortilla_de_harina_75154_600.jpg",
+            "comensales": "3",
+            "duracion": "30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Recomendada para veganos, Recomendada para vegetarianos, Frito, Recetas mexicanas",
+            "ingredientes": [
+                " 2 zanahorias",
+                " 1 cebolla mediana",
+                " 100 gramos de germinado de soya o similar",
+                " 1 chorro de salsa de soya",
+                " 1 cucharadita de ajonjolí",
+                " 1 pizca de sal al gusto",
+                " 6 tortillas de harina",
+                " 1 chorro de aceite de girasol o similar"
+            ]
+        },
+        {
+            "title": "Tarta de ricota salada",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/2/3/1/tarta_de_ricota_salada_75132_600.jpg",
+            "comensales": "3",
+            "duracion": "45",
+            "dificultad": "Dificultad media",
+            "caracteristicas": "Coste medio, Recomendada para vegetarianos, Recomendada para perder peso, Receta sin azúcar, Receta sin sal, Nada picante, Recetas al horno",
+            "ingredientes": [
+                " 300 gramos de ricota magra",
+                " 1 huevo",
+                " 1 cebolla grande",
+                " 3 cucharadas soperas de salvado, avena o pan rallado",
+                " 3 masas de tarta integrales individuales",
+                " 1 pizca de nuez moscada",
+                " 1 pizca de pimienta"
+            ]
+        },
+        {
+            "title": "Entomatadas verdes",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/3/2/1/entomatadas_verdes_75123_600.jpg",
+            "comensales": "6",
+            "duracion": "30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Recomendada para vegetarianos, Nada picante, Hervido, Recetas mexicanas",
+            "ingredientes": [
+                " 1 kilogramo de tomate verde",
+                " 2 tazas de agua (480 mililitros)",
+                " 1 trozo de cebolla",
+                " 1 diente de ajo",
+                " 1 rama de cilantro",
+                " 1 pizca de sal al gusto",
+                " 1 cubo de caldo de pollo o verduras",
+                " Tortillas de maíz",
+                " Aceite",
+                " Queso panela al gusto",
+                " Crema ácida al gusto"
+            ]
+        },
+        {
+            "title": "Chilaquiles rojos con pollo",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/6/9/0/chilaquiles_rojos_con_pollo_75096_600.jpg",
+            "comensales": "6",
+            "duracion": "30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Poco picante, Recetas mexicanas",
+            "ingredientes": [
+                " 4 jitomates",
+                " 5 chiles guajillos limpios",
+                " 1 chile serrano",
+                " 1 diente de ajo",
+                " 1 trozo de cebolla",
+                " 1 rama de epazote",
+                " 1 cucharada sopera de aceite",
+                " 1 cubo de caldo de pollo",
+                " Sal al gusto",
+                " Totopos de maíz",
+                " 500 gramos de pollo desmenuzado",
+                " Queso fresco al gusto",
+                " Crema al gusto"
+            ]
+        },
+        {
+            "title": "Empanada gallega de atún",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/8/7/0/empanada_gallega_de_atun_75078_600.jpg",
+            "comensales": "6",
+            "duracion": "45",
+            "dificultad": "Dificultad muy baja",
+            "caracteristicas": "Coste barato, Recetas al horno, Recetas españolas, Recetas gallegas",
+            "ingredientes": [
+                " 1 cebolla tierna",
+                " 1 pimiento rojo",
+                " 300 gramos de tomate triturado natural",
+                " 3 latas de atún en conserva",
+                " 2 masas frescas de empanada",
+                " 1 huevo",
+                " 2 cucharadas soperas de aceite de oliva"
+            ]
+        },
+        {
+            "title": "Pepihuates",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/7/6/0/pepihuates_75067_600.jpg",
+            "comensales": "4",
+            "duracion": "15",
+            "dificultad": "Dificultad muy baja",
+            "caracteristicas": "Coste barato, Popular en Primavera-Verano, Poco picante, En frío, Recetas mexicanas",
+            "ingredientes": [
+                " 200 gramos de cacahuate japonés",
+                " 1 pepino",
+                " ½ jícama (opcional)",
+                " 1 limón al gusto",
+                " 1 pizca de sal al gusto",
+                " 1 chile piquín al gusto",
+                " 320 mililitros de jugo de tomate condimentado (clamato)",
+                " 100 gramos de dulce de tamarindo"
+            ]
+        },
+        {
+            "title": "Pupusas salvadoreñas",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/2/4/0/pupusas_salvadorenas_75042_600.jpg",
+            "comensales": "6",
+            "duracion": "45",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste medio, Nada picante, Receta tradicional de El Salvador",
+            "ingredientes": [
+                " 250 gramos de frijoles cocidos",
+                " 1 trozo de cebolla",
+                " 1 diente de ajo",
+                " 2 cucharadas soperas de aceite",
+                " 200 gramos de queso mozzarella",
+                " 300 gramos de chicharrón de cerdo",
+                " 2 piezas de jitoamates",
+                " ½ unidad de cebolla",
+                " 1 chile verde",
+                " 2 cucharadas soperas de aceite",
+                " sal al gusto",
+                " 500 gramos de harina de maíz",
+                " 1½ tazas de agua (360 mililitros)",
+                " 1 taza de col blanca picada",
+                " 2 piezas de zanahoria rallada",
+                " 1 cebolla morada en juliana",
+                " ½ taza de vinagre blanco",
+                " 1 pizca de orégano seco"
+            ]
+        },
+        {
+            "title": "Tacos de tuétano",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/4/4/0/tacos_de_tuetano_75044_600.jpg",
+            "comensales": "4",
+            "duracion": "30",
+            "dificultad": "Dificultad muy baja",
+            "caracteristicas": "Coste medio, Recetas mexicanas",
+            "ingredientes": [
+                " 1 kilogramo de hueso de tuétano de res en canoa",
+                " 4 dientes de ajo picados finamente",
+                " 2 cucharadas soperas de aceite de oliva",
+                " 1 pizca de perejil seco",
+                " 1 pieza de orégano seco",
+                " 1 pizca de sal de grano",
+                " Tortillas de maíz",
+                " Frijoles refritos",
+                " Cilantro picado",
+                " Aguacate",
+                " Salsa al gusto"
+            ]
+        },
+        {
+            "title": "Chalupas estilo Hidalgo",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/5/1/0/chalupas_estilo_hidalgo_75015_600.jpg",
+            "comensales": "5",
+            "duracion": "45",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Popular en Otras fiestas, Poco picante, Recetas mexicanas",
+            "ingredientes": [
+                " 500 gramos de tortilla de maíz chalupera o taquera",
+                " 5 papas medianas",
+                " 200 gramos de pechuga de pollo deshebrada",
+                " 1 pizca de sal al gusto",
+                " 1 chorro de aceite o manteca de cerdo al gusto",
+                " 1 puñado de lechuga picada finamente",
+                " 1 rábano rebanado al gusto",
+                " 1 puñado de queso blanco rallado al gusto",
+                " 5 tomatillos verdes",
+                " 2 chiles serranos",
+                " 1 trozo de cebolla blanca",
+                " 1 diente de ajo"
+            ]
+        },
+        {
+            "title": "Croquetas de Heura",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/3/0/0/croquetas_de_heura_75003_600.jpg",
+            "comensales": "4",
+            "duracion": "1h 30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Recomendada para veganos, Recomendada para vegetarianos, Receta sin lactosa, Frito",
+            "ingredientes": [
+                " 250 gramos de Heura con especias",
+                " 1 cebolla mediana",
+                " 40 gramos de harina todo uso",
+                " 500 mililitros de leche de soja o de avena",
+                " 200 gramos de pan rallado",
+                " 1 vaso de aceite para freír",
+                " 1 pizca de sal"
+            ]
+        },
+        {
+            "title": "Nachos con frijoles",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/4/8/9/nachos_con_frijoles_74984_600.jpg",
+            "comensales": "5",
+            "duracion": "30",
+            "dificultad": "Dificultad muy baja",
+            "caracteristicas": "Coste barato, Recomendada para vegetarianos, Receta sin lactosa, Poco picante, Recetas mexicanas",
+            "ingredientes": [
+                " Totopos de maíz horneados",
+                " 1 taza de frijoles negros o bayos cocidos enteros",
+                " 1 jitomate",
+                " 1 chile jalapeño",
+                " 1 aguacate",
+                " 1 rama de cilantro",
+                " 3 papas medianas",
+                " 2 zanahorias medianas",
+                " 1 diente de ajo",
+                " ½ limón",
+                " ½ cucharadita de comino en polvo",
+                " ¼ cucharadita de pimienta negra molida",
+                " 2 tazas de agua (480 mililitros)",
+                " Sal al gusto"
+            ]
+        },
+        {
+            "title": "Empanadas mallorquinas",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/9/6/9/empanadas_mallorquinas_74969_600.jpg",
+            "comensales": "4",
+            "duracion": "1h 30",
+            "dificultad": "Dificultad media",
+            "caracteristicas": "Coste barato, Receta sin lactosa, Receta sin azúcar, Poco picante, Recetas españolas",
+            "ingredientes": [
+                " 1 pechuga cortada a trozos medianos",
+                " 1 cucharada postre de sobrasada (cucharada cumplida)",
+                " 1 paquete de panceta a tiras o (cuatro lonchas cortadas)",
+                " 1 lata pequeña de guisantes cocidos",
+                " 1 cucharada postre de pimentón de la vera o normal",
+                " 1 chorro de aceite de oliva virgen extra",
+                " 300 gramos de harina de trigo común",
+                " 1 vaso de agua natural",
+                " 5 cucharadas soperas de aceite de oliva virgen extra",
+                " 2 cucharadas de postre de manteca de cerdo",
+                " 2 pellizcos de sal"
+            ]
+        },
+        {
+            "title": "Cocarrois",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/8/6/9/cocarrois_74968_600.jpg",
+            "comensales": "9",
+            "duracion": "1h 30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Recomendada para vegetarianos, Receta sin lactosa, Receta sin azúcar, Poco picante, Ideal acompañar con cerveza, Recetas al horno, Recetas españolas",
+            "ingredientes": [
+                " 3 cucharadas de postre de manteca de cerdo",
+                " 1 vaso pequeño de aceite de oliva virgen extra",
+                " 1 vaso pequeño de agua templada",
+                " 1 pizca de sal",
+                " 1 pieza de coliflor",
+                " 1 manojo de acelgas frescas",
+                " 1 chorro de aceite de oliva",
+                " 1 cucharada sopera de pimentón de la vera o normal",
+                " 1 puñado de pasas",
+                " 1 puñado de piñones",
+                " 1 cebolleta fresca",
+                " 250 gramos de harina de trigo",
+                " 250 gramos de harina de espelta"
+            ]
+        },
+        {
+            "title": "Sopes de papa con chorizo",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/9/2/9/sopes_de_papa_con_chorizo_74929_600.jpg",
+            "comensales": "8",
+            "duracion": "45",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Frito, Recetas mexicanas",
+            "ingredientes": [
+                " 600 gramos de harina de maíz (5 tazas)",
+                " 2 tazas de agua tibia",
+                " 1 cucharadita de polvo para hornear (levadura química)",
+                " ½ cucharadita de sal",
+                " 500 gramos de papa",
+                " 250 gramos de chorizo",
+                " 1 pizca de sal",
+                " 1 cucharada sopera de aceite",
+                " repollo o lechuga",
+                " rebanadas de rábano",
+                " salsa al gusto",
+                " frijoles refritos"
+            ]
+        },
+        {
+            "title": "Masa para sopes",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/8/2/9/masa_para_sopes_74928_600.jpg",
+            "comensales": "8",
+            "duracion": "30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Frito, Recetas mexicanas",
+            "ingredientes": [
+                " 600 gramos de harina de maíz (5 tazas)",
+                " 2 tazas de agua tibia",
+                " 1 cucharadita de polvo para hornear (levadura química)",
+                " ½ cucharadita de sal"
+            ]
+        },
+        {
+            "title": "Ceviche de nopal",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/2/2/9/ceviche_de_nopal_74922_600.jpg",
+            "comensales": "10",
+            "duracion": "30",
+            "dificultad": "Dificultad muy baja",
+            "caracteristicas": "Coste barato, Recomendada para perder peso, Poco picante, Recetas mexicanas",
+            "ingredientes": [
+                " 5 nopales medianos",
+                " 200 gramos de pescado cortado en cubos (puede ser atún o sierra)",
+                " ½ cebolla blanca",
+                " 1 jitomate",
+                " 1 rama de cilantro",
+                " 1 chile serrano",
+                " 5 limones",
+                " 1 taza de agua (240 mililitros)",
+                " 1 pizca de sal al gusto"
+            ]
+        },
+        {
+            "title": "Tlayudas de Oaxaca",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/5/9/8/tlayudas_de_oaxaca_74895_600.jpg",
+            "comensales": "10",
+            "duracion": "30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, En sartén, Recetas mexicanas",
+            "ingredientes": [
+                " 1 kilogramo de masa de maíz",
+                " 300 gramos de frijoles refritos",
+                " 500 gramos de queso oaxaca o quesillo",
+                " Lechuga picada finamente",
+                " Chorizo o cecina cocinada",
+                " Aguacate al gusto",
+                " Rebanadas de jitomate al gusto",
+                " Salsa al gusto"
+            ]
+        },
+        {
+            "title": "Tlacoyos hidalguenses",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/1/7/8/tlacoyos_hidalguenses_74871_600.jpg",
+            "comensales": "4",
+            "duracion": "45",
+            "dificultad": "Dificultad media",
+            "caracteristicas": "Coste barato, Poco picante, Recetas mexicanas",
+            "ingredientes": [
+                " 700 gramos de harina de maíz",
+                " 2 tazas de agua (480 mililitros)",
+                " 400 gramos de frijoles refritos",
+                " 1 pizca de sal",
+                " 1 trozo de cebolla pequeño",
+                " 1 cucharada sopera de aceite",
+                " 1 kilogramo de tomatillo verde",
+                " 3 chiles serranos",
+                " 1 trozo de cebolla",
+                " 1 diente de ajo",
+                " Cebolla picada",
+                " Queso fresco",
+                " Crema acida",
+                " Rábano en rodajas"
+            ]
+        },
+        {
+            "title": "Tamales de ceniza",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/6/5/8/tamales_de_ceniza_74856_600.jpg",
+            "comensales": "10",
+            "duracion": "1h 30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Receta sin gluten, Recetas al vapor, Recetas mexicanas",
+            "ingredientes": [
+                " 2 kilogramos de harina de maiz nixtamalizado",
+                " 3 tazas de agua tibia",
+                " 1 cucharada sopera de sal fina",
+                " 1 cucharadita de polvo para hornear (levadura química)",
+                " 250 gramos de manteca vegetal o manteca de cerdo",
+                " 25 hojas de acelga"
+            ]
+        },
+        {
+            "title": "Níscalos a la plancha",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/0/3/8/niscalos_a_la_plancha_74830_600.jpg",
+            "comensales": "4",
+            "duracion": "10",
+            "dificultad": "Dificultad muy baja",
+            "caracteristicas": "Coste medio, Recomendada para macrobióticos, Receta sin lactosa, Receta sin azúcar, Receta sin gluten, Popular en Otoño-Invierno, Ideal acompañar con vino blanco, Plancha, Recetas españolas",
+            "ingredientes": [
+                " 300 gramos de níscalos o robellón",
+                " 4 dientes de ajo",
+                " 200 gramos de jamón serrano",
+                " 1 chorro de aceite de oliva virgen extra",
+                " 1 pellizco de sal en escamas (el jamón aportará suficiente sal)"
+            ]
+        },
+        {
+            "title": "Níscalos al ajillo",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/4/2/8/niscalos_al_ajillo_74824_600.jpg",
+            "comensales": "4",
+            "duracion": "15",
+            "dificultad": "Dificultad muy baja",
+            "caracteristicas": "Coste medio, Recomendada para veganos, Recomendada para vegetarianos, Recomendada para perder peso, Receta sin lactosa, Receta sin gluten, Popular en Otoño-Invierno, Salteado, Recetas españolas",
+            "ingredientes": [
+                " 400 gramos de níscalos",
+                " 3 dientes de ajos",
+                " 1 rama de perejil",
+                " 2 cucharadas soperas de aceite de oliva",
+                " 1 pizca de sal",
+                " 1 pizca de pimienta"
+            ]
+        },
+        {
+            "title": "Esquites con tuétano",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/3/0/8/esquites_con_tuetano_74803_600.jpg",
+            "comensales": "8",
+            "duracion": "1h 30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Poco picante, Hervido, Recetas mexicanas",
+            "ingredientes": [
+                " 5 piezas de elote",
+                " 1 rama de epazote",
+                " 1 chile serrano",
+                " 1½ cucharadas soperas de mantequilla",
+                " 500 gramos de hueso de tuétano de res",
+                " 1 diente de ajo",
+                " 1 pizca de orégano",
+                " 1 pizca de sal al gusto"
+            ]
+        },
+        {
+            "title": "Croquetas de calabaza",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/7/1/7/croquetas_de_calabaza_74717_600.jpg",
+            "comensales": "4",
+            "duracion": "45",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Recomendada para vegetarianos, Receta sin azúcar, Poco picante, Frito",
+            "ingredientes": [
+                " 300 gramos de calabaza sin piel ni semillas",
+                " 1 diente de ajo",
+                " 1 trozo de cebolla",
+                " 1 pellizco de nuez moscada",
+                " 1 pizca de pimienta negra recién molida",
+                " 1 pizca de sal al punto",
+                " 2 cucharadas soperas de harina común",
+                " 1 litro de leche semidesnatada",
+                " 1 litro de aceite de girasol para freír",
+                " 1 chorro de aceite para sofrito",
+                " 1 huevo",
+                " 1 paquete de pan rallado con ajo y perejil"
+            ]
+        },
+        {
+            "title": "Anticuchos vegetarianos",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/4/1/7/anticuchos_vegetarianos_74714_600.jpg",
+            "comensales": "2",
+            "duracion": "30",
+            "dificultad": "Dificultad muy baja",
+            "caracteristicas": "Coste medio, Recomendada para veganos, Recomendada para vegetarianos, Receta sin gluten",
+            "ingredientes": [
+                " 2 mazorcas de maíz",
+                " 6 sobres de pequeñas de brócoli",
+                " 150 gramos de champiñones",
+                " 1 cebolla mediana",
+                " 1 pimentón verde",
+                " 1 pimentón rojo",
+                " 200 gramos de proteína vegetal",
+                " 1 cucharadita de orégano",
+                " 2 cucharadas soperas de aceite de oliva",
+                " 1 cucharadita de merkén o pimienta",
+                " 1 cucharadita de sal",
+                " 1 sobre de kétchup (opcional)",
+                " 1 limón (opcional)"
+            ]
+        },
+        {
+            "title": "Tamales de elote dulces",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/2/0/7/tamales_de_elote_dulces_74702_600.jpg",
+            "comensales": "10",
+            "duracion": "1h 30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Baño María, Recetas mexicanas",
+            "ingredientes": [
+                " 8 mazorcas de maíz (con hoja)",
+                " 1 lata de leche condensada (397 g)",
+                " 1 pizca de sal"
+            ]
+        },
+        {
+            "title": "Tamales de dulce",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/8/8/6/tamales_de_dulce_74688_600.jpg",
+            "comensales": "8",
+            "duracion": "1h 30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Popular en Otras fiestas, Baño María, Recetas mexicanas",
+            "ingredientes": [
+                " 500 gramos de harina para tamal",
+                " 1 cucharada sopera de polvo para hornear",
+                " 1 cucharada sopera de sal",
+                " 250 gramos de manteca vegetal o manteca de cerdo",
+                " 1 lata de leche condensada",
+                " 50 gramos de azúcar (¼ taza)",
+                " 100 mililitros de leche",
+                " 2 gotas de colorante vegetal rojo",
+                " Hojas para tamal",
+                " Pasas (opcional)"
+            ]
+        },
+        {
+            "title": "Enchiladas suizas rojas",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/0/8/6/enchiladas_suizas_rojas_74680_600.jpg",
+            "comensales": "4",
+            "duracion": "45",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Nada picante, Recetas mexicanas",
+            "ingredientes": [
+                " 1 pechuga de pollo",
+                " 2 bolitas de pimienta negra",
+                " 2 bolitas de pimienta gorda",
+                " 1 diente de ajo",
+                " 1 jitomate",
+                " 1 chile morrón rojo",
+                " 125 mililitros de caldo de pollo",
+                " ½ barra de queso crema",
+                " 1 taza de media crema",
+                " 8 rebanadas de queso tipo americano o manchego",
+                " 1 chile chipotle (opcional)",
+                " 1 pizca de sal al gusto",
+                " 1 paquete de tortillas de maíz"
+            ]
+        },
+        {
+            "title": "Croquetas de pollo y queso",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/4/5/6/croquetas_de_pollo_y_queso_74654_600.jpg",
+            "comensales": "6",
+            "duracion": "45",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Frito",
+            "ingredientes": [
+                " 400 gramos de pechuga de pollo cocida o asada",
+                " 1 paquete de pan rallado",
+                " 125 gramos de queso rallado (mozzarella o parmesano)",
+                " 1 pieza de cebolla",
+                " 1 taza de harina común (140 gramos)",
+                " 3 vasos de agua o caldo de pollo",
+                " 2 pellizcos de orégano",
+                " 1 pizca de sal",
+                " 2 huevos",
+                " 500 mililitros de aceite para freír",
+                " 2 pellizcos de pimienta negra",
+                " 2 pellizcos de pimentón de la vera"
+            ]
+        },
+        {
+            "title": "Dolmas turcas (hojas de parra rellenas)",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/0/5/6/dolmas_turcas_hojas_de_parra_rellenas_74650_600.jpg",
+            "comensales": "4",
+            "duracion": "1h 30",
+            "dificultad": "Dificultad media",
+            "caracteristicas": "Coste barato, Receta sin lactosa, Receta sin azúcar, Receta sin gluten, Poco picante, Recetas al vapor, Receta tradicional de Turquía",
+            "ingredientes": [
+                " 20 hojas de parra",
+                " 2 limones",
+                " 400 gramos de carne de vaca o cordero molida",
+                " 2 cucharadas de postre de piñones",
+                " 1 cucharada sopera de uvas pasas sin hueso",
+                " 1 taza de bulgur grueso o arroz basmati",
+                " 1 trozo de cebolla",
+                " 1 diente de ajo",
+                " 1 puñado de hojas de hierbabuena",
+                " 2 pellizcos de sal y pimienta negra molida al gusto"
+            ]
+        },
+        {
+            "title": "Chiles en vinagre o escabeche",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/2/3/6/chiles_en_vinagre_o_escabeche_74632_600.jpg",
+            "comensales": "10",
+            "duracion": "45",
+            "dificultad": "Dificultad muy baja",
+            "caracteristicas": "Coste barato, Picante, Recetas mexicanas",
+            "ingredientes": [
+                " 500 gramos de chiles jalapeños o cuaresmeños",
+                " 1 pieza de cebolla mediana",
+                " 4 dientes de ajo pelados",
+                " 175 mililitros de vinagre blanco",
+                " 2 piezas de zanahoria mediana",
+                " 4 hojas de laurel",
+                " 1 pizca de tomillo",
+                " 3 piezas de pimienta gorda",
+                " 1 pizca de sal",
+                " 125 mililitros de aceite de oliva"
+            ]
+        },
+        {
+            "title": "Sopes de picadillo",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/8/2/6/sopes_de_picadillo_74628_600.jpg",
+            "comensales": "6",
+            "duracion": "45",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Salteado, Recetas mexicanas",
+            "ingredientes": [
+                " 500 gramos de harina de maiz",
+                " 1 cucharadita de sal",
+                " 30 gramos de manteca vegetal o manteca de cerdo",
+                " 2 tazas de agua (480 mililitros)",
+                " 1 chorro de aceite vegetal",
+                " 300 gramos de carne molida",
+                " ½ taza de chícharo",
+                " ½ taza de zanahoria picada",
+                " ½ taza de papa picada",
+                " 3 jitomates medianos",
+                " 1 trozo de cebolla",
+                " 1 diente de ajo",
+                " 1 pizca de chile chipotle al gusto (opcional)",
+                " 1 pizca de sal y pimienta al gusto",
+                " ½ taza de frijoles refritos"
+            ]
+        },
+        {
+            "title": "Rosca de tamal",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/6/0/6/rosca_de_tamal_74606_600.jpg",
+            "comensales": "15",
+            "duracion": "1h 30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Poco picante, Baño María, Recetas mexicanas",
+            "ingredientes": [
+                " 250 gramos de manteca vegetal o manteca de cerdo",
+                " 2 tazas de caldo de pollo",
+                " 750 gramos de harina para tamales",
+                " 1 cucharada sopera de polvo para hornear (levadura química)",
+                " 1 cucharada sopera de sal",
+                " 5 hojas de tamal",
+                " 1 molde para rosca",
+                " 1 kilogramo de tomate verde o tomatillo",
+                " 1 cebolla mediana",
+                " 1 rama de cilantro fresco",
+                " 1 pechuga de pollo cocida y deshebrada",
+                " 7 piezas de chile serrano",
+                " 2 tazas de caldo de pollo",
+                " 150 gramos de queso fresco cortado en tiras",
+                " ½ taza de elote en grano",
+                " 1 pizca de sal",
+                " 1 pizca de pimienta",
+                " 1 cucharada sopera de aceite",
+                " 1 pizca de crema ácida al gusto",
+                " 1 pizca de queso fresco al gusto",
+                " 1 pizca de cilantro para decorar",
+                " 1 puñado de elote en grano para decorar"
+            ]
+        },
+        {
+            "title": "Masa para quesadillas fritas",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/1/0/6/masa_para_quesadillas_fritas_74601_600.jpg",
+            "comensales": "4",
+            "duracion": "45",
+            "dificultad": "Dificultad media",
+            "caracteristicas": "Coste barato, Frito, Recetas mexicanas",
+            "ingredientes": [
+                " 2 tazas de harina de maíz (240 gramos)",
+                " 1 cucharada sopera de polvo para hornear",
+                " 2 tazas de agua tibia",
+                " 1 cucharada sopera de harina de trigo o harina de arroz",
+                " 1 cucharada sopera de aceite vegetal o manteca",
+                " sal al gusto",
+                " ½ litro de de aceite",
+                " Queso rallado o deshebrado",
+                " Guisado de tu preferencia",
+                " Lechuga",
+                " Queso fresco",
+                " Salsa picante casera"
+            ]
+        },
+        {
+            "title": "Croquetas de champiñones",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/4/4/5/croquetas_de_champinones_74544_600.jpg",
+            "comensales": "4",
+            "duracion": "45",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Recomendada para vegetarianos",
+            "ingredientes": [
+                " 200 gramos de champiñones",
+                " 1 diente de ajos",
+                " 1 puñado de perejil",
+                " 50 gramos de mantequilla",
+                " 50 gramos de harina de trigo",
+                " 500 mililitros de leche",
+                " 1 pizca de sal",
+                " 1 vaso de aceite para freír",
+                " 2 huevos",
+                " 1 paquete de pan rallado",
+                " 1 pizca de pimienta o nuez moscada"
+            ]
+        },
+        {
+            "title": "Salchipapas",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/8/3/5/salchipapas_74538_600.jpg",
+            "comensales": "2",
+            "duracion": "15",
+            "dificultad": "Dificultad muy baja",
+            "caracteristicas": "Coste barato",
+            "ingredientes": [
+                " 2 unidades de papas medianas",
+                " 3 unidades de salchichas",
+                " 1 cucharada sopera de mostaza",
+                " 1 cucharada postre de ketchup",
+                " 1 pizca de sal",
+                " 1 pizca de pimienta",
+                " 250 mililitros de aceite para freír"
+            ]
+        }
+    ]
+}

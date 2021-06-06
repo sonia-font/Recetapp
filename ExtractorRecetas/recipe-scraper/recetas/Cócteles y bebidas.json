@@ -1,0 +1,483 @@
+{
+    "Cócteles y bebidas": [
+        {
+            "title": "Chicha morada",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/0/0/2/chicha_morada_75200_600.jpg",
+            "comensales": "6",
+            "duracion": "1h 30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste medio, Hervido, Recetas peruanas",
+            "ingredientes": [
+                " 1 kilogramo de maíz morado",
+                " 2 manzanas verdes de agua",
+                " 1 membrillo grande",
+                " ¼ piña",
+                " 4 ramas de canela",
+                " 6 clavos de olor",
+                " ½ taza de zumo de limón",
+                " 8 litros de agua",
+                " Azúcar"
+            ]
+        },
+        {
+            "title": "Atole de guayaba con masa",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/9/8/8/atole_de_guayaba_con_masa_74889_600.jpg",
+            "comensales": "10",
+            "duracion": "30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Popular en Otoño-Invierno, Recetas mexicanas",
+            "ingredientes": [
+                " 500 gramos de guayaba",
+                " 250 gramos de masa de maíz",
+                " 1 rama de canela",
+                " 2 litros de agua",
+                " 250 gramos de piloncillo"
+            ]
+        },
+        {
+            "title": "Agua de frutas estilo La Michoacana",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/8/1/8/agua_de_frutas_estilo_la_michoacana_74818_600.jpg",
+            "comensales": "10",
+            "duracion": "15",
+            "dificultad": "Dificultad muy baja",
+            "caracteristicas": "Coste barato, Recetas mexicanas",
+            "ingredientes": [
+                " 1½ litros de agua",
+                " 1 lata de leche condensada",
+                " 1 lata de leche evaporada",
+                " 1 cucharada sopera de esencia de vainilla",
+                " hielo al gusto",
+                " 500 gramos de fresas",
+                " 1 pieza de plátano",
+                " 4 guayabas",
+                " 2 manzanas",
+                " colorante vegetal rojo (opcional)"
+            ]
+        },
+        {
+            "title": "Agua de guanábana",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/2/0/8/agua_de_guanabana_74802_600.jpg",
+            "comensales": "2",
+            "duracion": "10",
+            "dificultad": "Dificultad muy baja",
+            "caracteristicas": "Coste medio",
+            "ingredientes": [
+                " 2 guanábana mediana",
+                " 3 cucharadas soperas de leche en polvo",
+                " 500 mililitros de agua",
+                " 8 cubos de hielo",
+                " 1 chorro de vainilla (opcional)",
+                " 1 cucharada sopera de endulzante (opcional)"
+            ]
+        },
+        {
+            "title": "Torito de cacahuate",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/1/6/7/torito_de_cacahuate_74761_600.jpg",
+            "comensales": "5",
+            "duracion": "10",
+            "dificultad": "Dificultad muy baja",
+            "caracteristicas": "Coste medio, Ideal acompañar con licor, En frío, Recetas mexicanas, Recetas veracruzanas",
+            "ingredientes": [
+                " 50 gramos de cacahuate",
+                " 4 cucharadas soperas de crema de cacahuate",
+                " 1 lata de leche condensada",
+                " 250 mililitros de leche evaporada",
+                " 2 cucharadas soperas de extracto de vainilla",
+                " 250 mililitros de licor de caña o ron blanco",
+                " Hielo al gusto"
+            ]
+        },
+        {
+            "title": "Michelada de mango",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/4/5/7/michelada_de_mango_74754_600.jpg",
+            "comensales": "2",
+            "duracion": "10",
+            "dificultad": "Dificultad muy baja",
+            "caracteristicas": "Coste barato, Ideal acompañar con cerveza, Recetas mexicanas",
+            "ingredientes": [
+                " 1 botella de cerveza de tu gusto",
+                " ½ taza de chile en polvo",
+                " 1 limón",
+                " 1 taza de mango picado en cubos",
+                " ½ taza de jugo de tomate con sazonador (CLAMATO)",
+                " Sal",
+                " Chamoy (opcional)"
+            ]
+        },
+        {
+            "title": "Agua de tuna",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/7/9/6/agua_de_tuna_74697_600.jpg",
+            "comensales": "5",
+            "duracion": "15",
+            "dificultad": "Dificultad muy baja",
+            "caracteristicas": "Coste barato, Recomendada para perder peso, Recetas mexicanas",
+            "ingredientes": [
+                " 5 piezas de tuna blanca o verde",
+                " 125 gramos de azúcar (o cantidad de necesaria de edulcorante)",
+                " 2 limones",
+                " 1½ litros de agua",
+                " Hielo al gusto"
+            ]
+        },
+        {
+            "title": "Jugo de betabel con zanahoria",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/1/8/6/jugo_de_betabel_con_zanahoria_74681_600.jpg",
+            "comensales": "2",
+            "duracion": "10",
+            "dificultad": "Dificultad muy baja",
+            "caracteristicas": "Coste barato, Recomendada para perder peso, Receta sin azúcar, Ideal acompañar con zumo natural",
+            "ingredientes": [
+                " 5 piezas de zanahoria",
+                " 4 piezas de betabel grande",
+                " 125 mililitros de agua o jugo de naranja"
+            ]
+        },
+        {
+            "title": "Terremoto chileno",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/4/3/6/terremoto_chileno_74634_600.jpg",
+            "comensales": "2",
+            "duracion": "10",
+            "dificultad": "Dificultad muy baja",
+            "caracteristicas": "Coste medio, Popular en Otras fiestas, Recetas chilenas",
+            "ingredientes": [
+                " 6 cucharadas soperas de helado de piña",
+                " 2 cucharadas soperas de granadina",
+                " 4 tazas de pisco"
+            ]
+        },
+        {
+            "title": "Atole de pinole",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/3/9/5/atole_de_pinole_74593_600.jpg",
+            "comensales": "6",
+            "duracion": "30",
+            "dificultad": "Dificultad muy baja",
+            "caracteristicas": "Coste barato, Receta sin gluten, Popular en Otoño-Invierno, Hervido, Recetas mexicanas",
+            "ingredientes": [
+                " 1½ litros de agua",
+                " 200 gramos de piloncillo",
+                " 1 taza de pinole",
+                " ½ cucharadita de sal",
+                " 125 gramos de chocolate en tableta o polvo",
+                " 1 taza de agua fría"
+            ]
+        },
+        {
+            "title": "Agua de horchata con fresa",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/3/6/5/agua_de_horchata_con_fresa_74563_600.jpg",
+            "comensales": "8",
+            "duracion": "2h 30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Popular en Primavera-Verano, En frío, Recetas mexicanas",
+            "ingredientes": [
+                " 400 gramos de arroz blanco",
+                " 300 mililitros de leche evaporada",
+                " 2 tazas de agua (480 mililitros)",
+                " 1 rama de canela",
+                " 1½ tazas de fresas",
+                " 1 lata de leche condensada",
+                " 1 cucharadita de esencia de vainilla",
+                " 1 puñado de hielo al gusto",
+                " 1 pizca de canela en polvo"
+            ]
+        },
+        {
+            "title": "Champurrado de galleta",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/8/7/5/champurrado_de_galleta_74578_600.jpg",
+            "comensales": "5",
+            "duracion": "30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Recomendada para niños, Popular en Otoño-Invierno, Recetas mexicanas",
+            "ingredientes": [
+                " 1 paquete de galletas tipo María",
+                " 1 litro de leche",
+                " 2 tazas de agua (480 mililitros)",
+                " 1 lata de leche evaporada",
+                " 1 rama de canela",
+                " 1 cucharadita de esencia de vainilla",
+                " 50 gramos de piloncillo o el endulzante que quieras"
+            ]
+        },
+        {
+            "title": "Agua de Jamaica con canela y jengibre",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/6/7/5/agua_de_jamaica_con_canela_y_jengibre_74576_600.jpg",
+            "comensales": "6",
+            "duracion": "15",
+            "dificultad": "Dificultad muy baja",
+            "caracteristicas": "Coste barato, Recomendada para perder peso, Receta sin azúcar, Hervido, Recetas mexicanas",
+            "ingredientes": [
+                " 350 gramos de flor de Jamaica",
+                " 1 rama de canela",
+                " 1 trozo de jengibre",
+                " 2 litros de agua"
+            ]
+        },
+        {
+            "title": "Agua de tamarindo",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/5/6/5/agua_de_tamarindo_74565_600.jpg",
+            "comensales": "6",
+            "duracion": "15",
+            "dificultad": "Dificultad muy baja",
+            "caracteristicas": "Coste barato, Hervido, Recetas mexicanas",
+            "ingredientes": [
+                " 20 tamarindos secos",
+                " 250 gramos de azúcar (1¼ tazas)",
+                " 2 litros de agua"
+            ]
+        },
+        {
+            "title": "Café affogato",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/1/2/5/cafe_affogato_74521_600.jpg",
+            "comensales": "4",
+            "duracion": "15",
+            "dificultad": "Dificultad muy baja",
+            "caracteristicas": "Coste barato",
+            "ingredientes": [
+                " 4 tazas de café espresso",
+                " 1 tarro de helado de vainilla o nata",
+                " 1 copa de licor",
+                " 1 puñado de nueces, galletas o cacao"
+            ]
+        },
+        {
+            "title": "Agua de horchata con avena",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/6/6/4/agua_de_horchata_con_avena_74466_600.jpg",
+            "comensales": "8",
+            "duracion": "30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Recomendada para vegetarianos, Receta sin gluten, Popular en Primavera-Verano, En frío, Recetas mexicanas",
+            "ingredientes": [
+                " 100 gramos de copos de avena (1 taza)",
+                " 2 litros de agua",
+                " 200 mililitros de leche condensada",
+                " 200 mililitros de leche evaporada",
+                " 1 cucharada sopera de extracto de vainilla",
+                " 1 cucharada postre de canela molida"
+            ]
+        },
+        {
+            "title": "Horchata de almendras",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/4/0/4/horchata_de_almendras_74404_600.jpg",
+            "comensales": "4",
+            "duracion": "8h",
+            "dificultad": "Dificultad muy baja",
+            "caracteristicas": "Coste barato",
+            "ingredientes": [
+                " 200 gramos de almendras crudas",
+                " 1 litro de agua",
+                " 100 gramos de azúcar (½ taza)",
+                " 1 rama de canela",
+                " 1 trozo de piel de limón",
+                " 1 cucharada postre de canela en polvo"
+            ]
+        },
+        {
+            "title": "Agua de sábila",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/2/9/3/agua_de_sabila_74392_600.jpg",
+            "comensales": "1 comensal",
+            "duracion": "15",
+            "dificultad": "Dificultad media",
+            "caracteristicas": "Coste barato, Ideal acompañar con zumo natural",
+            "ingredientes": [
+                " 1 hoja de sábila",
+                " 1 limón",
+                " endulzante de tu preferencia",
+                " 300 mililitros de agua potable"
+            ]
+        },
+        {
+            "title": "Agua de horchata",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/5/7/3/agua_de_horchata_74375_600.jpg",
+            "comensales": "6",
+            "duracion": "1h 30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Recomendada para vegetarianos, Receta sin gluten, Popular en Primavera-Verano, En frío",
+            "ingredientes": [
+                " 250 gramos de arroz",
+                " 2 litros de agua",
+                " 3 ramas de canela",
+                " 400 gramos de leche condensada"
+            ]
+        },
+        {
+            "title": "Agua de alcachofa",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/4/5/3/agua_de_alcachofa_74354_600.jpg",
+            "comensales": "2",
+            "duracion": "45",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato",
+            "ingredientes": [
+                " 2 alcachofas",
+                " 3 litros de agua",
+                " 1 limón",
+                " 10 hojas de menta (opcional)"
+            ]
+        },
+        {
+            "title": "Agua de cebada",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/3/5/3/agua_de_cebada_74353_600.jpg",
+            "comensales": "2",
+            "duracion": "45",
+            "dificultad": "Dificultad muy baja",
+            "caracteristicas": "Coste barato",
+            "ingredientes": [
+                " 200 gramos de cebada tostada",
+                " 2 litros de agua",
+                " 1 rama de canela",
+                " 1 limón (opcional)",
+                " 4 cucharadas soperas de azúcar (edulcorante, sucralosa o panela)"
+            ]
+        },
+        {
+            "title": "Café dalgona",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/3/6/2/cafe_dalgona_74263_600.jpg",
+            "comensales": "1 comensal",
+            "duracion": "15",
+            "dificultad": "Dificultad muy baja",
+            "caracteristicas": "Coste barato",
+            "ingredientes": [
+                " 2 cucharadas soperas de café instantáneo",
+                " 2 cucharadas soperas de azúcar",
+                " 2 cucharadas soperas de agua caliente",
+                " 1 vaso de leche de cualquier tipo",
+                " Hielo"
+            ]
+        },
+        {
+            "title": "Chicha andina",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/4/8/0/chicha_andina_74084_600.jpg",
+            "comensales": "5",
+            "duracion": "30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste medio, Hervido, Recetas venezolanas",
+            "ingredientes": [
+                " 500 mililitros de agua",
+                " 250 gramos de cáscara de piña",
+                " 190 gramos de papelón rallado",
+                " 2 ramas de canela",
+                " 5 clavos de olor",
+                " 120 gramos de crema de arroz",
+                " 4 tazas de agua (960 mililitros)"
+            ]
+        },
+        {
+            "title": "Suero de leche casero",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/5/6/0/suero_de_leche_casero_74065_600.jpg",
+            "comensales": "2",
+            "duracion": "10",
+            "dificultad": "Dificultad muy baja",
+            "caracteristicas": "Coste barato, Recomendada para deportistas, Recomendada para vegetarianos, Recomendada para macrobióticos, Sin cocción",
+            "ingredientes": [
+                " 1 vaso de leche entera",
+                " Jugo de medio limón"
+            ]
+        },
+        {
+            "title": "Té de hierbabuena para adelgazar",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/3/2/0/te_de_hierbabuena_para_adelgazar_74023_600.jpg",
+            "comensales": "1 comensal",
+            "duracion": "10",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato",
+            "ingredientes": [
+                " 5 hojas de hierbabuena",
+                " 1 taza de agua (240 mililitros)",
+                " 1 pastilla de estevia"
+            ]
+        },
+        {
+            "title": "Té de cúrcuma y jengibre",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/8/8/9/te_de_curcuma_y_jengibre_73988_600.jpg",
+            "comensales": "1 comensal",
+            "duracion": "10",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Recomendada para perder peso, Receta sin azúcar, Hervido",
+            "ingredientes": [
+                " 250 mililitros de agua",
+                " 1 rodaja de jengibre",
+                " 1 rodaja de cúrcuma o 1 cucharadita de cúrcuma en polvo",
+                " ½ limón (opcional)",
+                " 1 rama de canela (opcional)"
+            ]
+        },
+        {
+            "title": "Michelada con camarones",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/7/7/7/michelada_con_camarones_73777_600.jpg",
+            "comensales": "4",
+            "duracion": "10",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Popular en Primavera-Verano, Poco picante, En sartén, Recetas mexicanas",
+            "ingredientes": [
+                " 1 lata de cerveza rubia a morena",
+                " 1 cucharada postre de salsa inglesa o salsa Worcestershire",
+                " 1 limón",
+                " 200 centímetros cúbicos de jugo de tomate",
+                " 200 gramos de camarones",
+                " 2 ramas de apio",
+                " sal al gusto",
+                " pimienta al gusto",
+                " hielo",
+                " ají picante al gusto"
+            ]
+        },
+        {
+            "title": "Té de perejil para adelgazar",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/0/5/5/te_de_perejil_para_adelgazar_73550_600.jpg",
+            "comensales": "2",
+            "duracion": "30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Recomendada para perder peso, Hervido",
+            "ingredientes": [
+                " 500 mililitros de agua",
+                " 2 ramas de perejil (si consigues un trozos de raíz mejor)",
+                " 1 limón",
+                " Piña",
+                " Miel",
+                " Canela"
+            ]
+        },
+        {
+            "title": "Té de manzanilla para adelgazar",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/6/6/6/te_de_manzanilla_para_adelgazar_73666_600.jpg",
+            "comensales": "5",
+            "duracion": "10",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato",
+            "ingredientes": [
+                " 1 litro de agua",
+                " 1 puñado de flores de manzanilla",
+                " miel (opcional)"
+            ]
+        },
+        {
+            "title": "Daiquiri de durazno",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/1/2/3/daiquiri_de_durazno_73321_600.jpg",
+            "comensales": "1 comensal",
+            "duracion": "10",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato",
+            "ingredientes": [
+                " 45 mililitros de ron blanco cubano",
+                " 1 durazno",
+                " 1 cucharada sopera de jugo de limón",
+                " 2 cucharaditas de azúcar",
+                " 1 vaso de hielo"
+            ]
+        },
+        {
+            "title": "Caipirinha de kiwi",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/6/9/2/caipirinha_de_kiwi_73296_600.jpg",
+            "comensales": "3",
+            "duracion": "15",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste medio, Receta tradicional de Brasil",
+            "ingredientes": [
+                " 150 mililitros de cachaça",
+                " 2 limas o limones verdes",
+                " 2 kiwis",
+                " 2 cucharadas soperas de azúcar",
+                " 1 puñado de hielo picado",
+                " 1 puñado de hojas de menta"
+            ]
+        }
+    ]
+}

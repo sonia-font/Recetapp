@@ -1,0 +1,765 @@
+{
+    "Ensaladas": [
+        {
+            "title": "Empedrat",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/5/2/2/empedrat_75225_600.jpg",
+            "comensales": "4",
+            "duracion": "30",
+            "dificultad": "Dificultad muy baja",
+            "caracteristicas": "Coste barato, Popular en Primavera-Verano, Sin cocción, Recetas españolas, Recetas catalanas",
+            "ingredientes": [
+                " 1 bote de alubias cocidas en conserva (unos 400 g)",
+                " 2 huevos",
+                " 1 trozo de pimiento verde",
+                " 1 trozo de pimiento rojo",
+                " 1 cebolleta fresca pequeña",
+                " 14 aceitunas negras sin hueso",
+                " 3 tiras de bacalao desalado",
+                " 5 cucharadas soperas de aceite de oliva",
+                " 2 cucharadas de postre de vinagre de Jerez",
+                " 2 pizcas de sal"
+            ]
+        },
+        {
+            "title": "Ensalada de col andaluza",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/9/5/1/ensalada_de_col_andaluza_75159_600.jpg",
+            "comensales": "4",
+            "duracion": "30",
+            "dificultad": "Dificultad muy baja",
+            "caracteristicas": "Coste barato",
+            "ingredientes": [
+                " 1 col",
+                " 3 dientes de ajos",
+                " 1 cucharada sopera de pimentón dulce",
+                " 1 cucharada sopera de vinagre",
+                " 1 chorro de aceite de oliva",
+                " 1 pizca de sal"
+            ]
+        },
+        {
+            "title": "Ensalada de quinoa roja",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/9/3/0/ensalada_de_quinoa_roja_75039_600.jpg",
+            "comensales": "4",
+            "duracion": "15",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Recomendada para deportistas, Recomendada para vegetarianos",
+            "ingredientes": [
+                " 1 taza de quinoa roja",
+                " 2 tazas de agua (480 mililitros)",
+                " 2 manzanas rojas",
+                " 4 hojas de lechuga o espinaca",
+                " 60 gramos de arándanos",
+                " 60 gramos de nueces o cacahuates",
+                " 60 gramos de almendra fileteada",
+                " 60 gramos de queso parmesano o queso de cabra",
+                " Aceite de oliva al gusto"
+            ]
+        },
+        {
+            "title": "Ensalada de arroz y garbanzos",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/7/6/8/ensalada_de_arroz_y_garbanzos_74867_600.jpg",
+            "comensales": "4",
+            "duracion": "15",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Recomendada para vegetarianos, Hervido",
+            "ingredientes": [
+                " 120 gramos de arroz (la variedad que más te guste)",
+                " 150 gramos de garbanzos cocidos de bote",
+                " 1 brócoli",
+                " 1 puñado de frutos secos al gusto",
+                " 100 gramos de lechuga o cualquier hoja verde",
+                " 1 zanahorias",
+                " 1 pizca de sal al gusto",
+                " 1 chorro de aceite de oliva",
+                " 1 pizca de perejil picado al gusto (orégano, albahaca u otra especia aromática)"
+            ]
+        },
+        {
+            "title": "Ensalada de aguacate y naranja",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/7/8/6/ensalada_de_aguacate_y_naranja_74687_600.jpg",
+            "comensales": "2",
+            "duracion": "10",
+            "dificultad": "Dificultad muy baja",
+            "caracteristicas": "Coste barato, Recomendada para vegetarianos, Recomendada para perder peso",
+            "ingredientes": [
+                " 2 aguacates Hass",
+                " 1 naranja",
+                " 2 mandarinas (opcional)",
+                " 6 tomates cherry",
+                " 1 trozo de calabacín",
+                " 100 gramos de hojas verdes variadas (lechuga, rúcula, canónigos...)",
+                " 60 gramos de quinoa (opcional)",
+                " 1 puñado de frutos secos (pipas, almendras, nueces...)",
+                " 1 naranja",
+                " ½ limón",
+                " 2 cucharadas soperas de mostaza Dijon",
+                " 1 pizca de pimienta",
+                " 1 pizca de sal",
+                " 1 chorro de aceite"
+            ]
+        },
+        {
+            "title": "Ensalada de burrata con tomate, rúcula y pesto",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/8/6/6/ensalada_de_burrata_con_tomate_rucula_y_pesto_74668_600.jpg",
+            "comensales": "4",
+            "duracion": "15",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste medio, Popular en Primavera-Verano, Sin cocción, Recetas italianas",
+            "ingredientes": [
+                " 1 manojo de albahaca",
+                " 25 gramos de piñones",
+                " 25 gramos de oarmesano rallado",
+                " 1 diente de ajo pequeño",
+                " 50 mililitros de aceite de oliva",
+                " 50 gramos de rúcula",
+                " 1 aguacate",
+                " 8 tomates cherry",
+                " 50 gramos de salmón ahumado",
+                " 1 burrata",
+                " 1 pellizco de piñones"
+            ]
+        },
+        {
+            "title": "Pipirrana malagueña",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/2/2/6/pipirrana_malaguena_74622_600.jpg",
+            "comensales": "4",
+            "duracion": "15",
+            "dificultad": "Dificultad muy baja",
+            "caracteristicas": "Coste barato, Popular en Primavera-Verano, Recetas españolas, Recetas andaluzas",
+            "ingredientes": [
+                " 2 tomates",
+                " 1 pimiento rojo",
+                " 1 pimiento verde",
+                " 1 pimiento amarillo",
+                " 1 cebolla",
+                " 200 gramos de langostinos y/o pulpo cocido",
+                " 1 chorro de aceite de oliva",
+                " 1 chorro de vinagre de vino",
+                " 1 pizca de sal"
+            ]
+        },
+        {
+            "title": "Ensalada de coditos con atún",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/9/9/5/ensalada_de_coditos_con_atun_74599_600.jpg",
+            "comensales": "6",
+            "duracion": "30",
+            "dificultad": "Dificultad muy baja",
+            "caracteristicas": "Coste barato, Poco picante, En frío, Recetas mexicanas",
+            "ingredientes": [
+                " 190 gramos de pasta de coditos",
+                " 210 gramos de atún",
+                " 1 lata de elote",
+                " 1 jitomate picado en cuadritos",
+                " 1 zanahoria rallada",
+                " 2 cucharadas soperas de chile en vinagre picado",
+                " ½ taza de mayonesa",
+                " 1 cucharadita de mostaza amarilla",
+                " 1 cucharadita de mostaza de Dijon (opcional)",
+                " 1 pizca de sal y pimienta al gusto"
+            ]
+        },
+        {
+            "title": "Ensalada de coditos con pollo",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/2/9/5/ensalada_de_coditos_con_pollo_74592_600.jpg",
+            "comensales": "6",
+            "duracion": "30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, En frío, Recetas mexicanas",
+            "ingredientes": [
+                " 200 gramos de pasta de coditos",
+                " ½ taza de zanahoria pelada y rallada",
+                " ½ taza de apio picado en cuadritos",
+                " ½ taza de pollo deshebrado",
+                " ½ taza de pimiento rojo cortado en cuadritos",
+                " 2 cucharadas soperas de chile jalapeño picado en cuadritos",
+                " 125 gramos de mayonesa",
+                " 3 cucharadas soperas de leche",
+                " 1 cucharadita de mostaza amarilla",
+                " 3 cucharadas soperas de crema ácida",
+                " 1 cucharadita de mostaza de Dijon (opcional)"
+            ]
+        },
+        {
+            "title": "Moje manchego",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/1/4/5/moje_manchego_74541_600.jpg",
+            "comensales": "4",
+            "duracion": "30",
+            "dificultad": "Dificultad muy baja",
+            "caracteristicas": "Coste barato, Recomendada para perder peso, Popular en Primavera-Verano, Ideal acompañar con vino tinto, Sin cocción, Recetas españolas",
+            "ingredientes": [
+                " 1 lata de tomate natural troceado",
+                " 1 cebolla morada",
+                " 2 huevos cocidos",
+                " 2 latas de atún al natural",
+                " 1 lata de aceitunas verdes sin hueso o negras",
+                " 50 mililitros de aceite de oliva virgen extra",
+                " 1 chorro de vinagre de manzana",
+                " 3 pellizcos de sal",
+                " 3 pimientos morrones"
+            ]
+        },
+        {
+            "title": "Ensalada de pulpo",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/5/2/5/ensalada_de_pulpo_74525_600.jpg",
+            "comensales": "2",
+            "duracion": "15",
+            "dificultad": "Dificultad muy baja",
+            "caracteristicas": "Coste medio",
+            "ingredientes": [
+                " 1 aguacate",
+                " 1 paquete de pulpo cocido",
+                " 10 langostinos cocidos",
+                " 2 cogollos de lechuga",
+                " 1 trozo de pimiento verde",
+                " 1 trozo de pimiento rojo",
+                " 1 cebolla tierna",
+                " 1 bote de aceitunas",
+                " 1 chorro de aceite de oliva",
+                " 1 unidad de limón",
+                " 1 pizca de sal",
+                " 1 cucharada postre de pimentón dulce o picante"
+            ]
+        },
+        {
+            "title": "Pipirrana murciana",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/3/2/5/pipirrana_murciana_74523_600.jpg",
+            "comensales": "4",
+            "duracion": "15",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Popular en Primavera-Verano, Plancha, Recetas españolas",
+            "ingredientes": [
+                " 2 ñoras",
+                " 300 gramos de bacalao desalado sin piel ni espinas",
+                " 2 cebollas tiernas",
+                " 1 pimiento rojo",
+                " 150 gramos de aceitunas negras sin hueso",
+                " 1 cucharadita de sal",
+                " 1 cucharada sopera de aceite de oliva",
+                " 1 cucharada sopera de vinagre de vino"
+            ]
+        },
+        {
+            "title": "Pipirrana de Jaén",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/0/2/5/pipirrana_de_jaen_74520_600.jpg",
+            "comensales": "4",
+            "duracion": "15",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Popular en Primavera-Verano",
+            "ingredientes": [
+                " 4 tomates para ensalada",
+                " 1 pimiento verde",
+                " 2 huevos duros",
+                " 2 latas de atún",
+                " 1 chorro de aceite de oliva",
+                " 1 pizca de sal",
+                " 1 diente de ajo"
+            ]
+        },
+        {
+            "title": "Ensalada de alubias rojas con quinoa",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/3/1/5/ensalada_de_alubias_rojas_con_quinoa_74513_600.jpg",
+            "comensales": "4",
+            "duracion": "45",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Recomendada para veganos, Recomendada para vegetarianos, Recomendada para macrobióticos, Recomendada para perder peso, Receta sin lactosa, Receta sin azúcar, Receta sin gluten, Nada picante, Hervido",
+            "ingredientes": [
+                " 1 bote de alubias rojas cocidas (200 g)",
+                " 1 trozo de pimiento rojo",
+                " 1 tomate para ensalada",
+                " 100 gramos de quinoa",
+                " 1 aguacate",
+                " 1 cucharadita de comino molido, sal",
+                " 1 pellizco de pimienta negra molida",
+                " 1 cucharadita de mostaza dulce (americana)",
+                " 1 trozo de pimiento verde",
+                " 1 trozo de cebolla (opcional)"
+            ]
+        },
+        {
+            "title": "Tabulé",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/0/1/5/tabule_74510_600.jpg",
+            "comensales": "4",
+            "duracion": "30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Receta tradicional de Líbano",
+            "ingredientes": [
+                " 200 gramos de bulgur",
+                " 400 mililitros de agua",
+                " 2 tomates",
+                " 1 pepinos",
+                " 1 cebolla o cebolleta",
+                " 1 puñado de hierbabuena",
+                " 1 chorro de aceite de oliva",
+                " 1 pizca de sal",
+                " 1 manojo de perejil",
+                " 1 cucharada sopera de mantequilla"
+            ]
+        },
+        {
+            "title": "Ensalada mexicana de pollo",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/2/8/4/ensalada_mexicana_de_pollo_74482_600.jpg",
+            "comensales": "6",
+            "duracion": "45",
+            "dificultad": "Dificultad muy baja",
+            "caracteristicas": "Coste barato, Hervido, Recetas mexicanas",
+            "ingredientes": [
+                " 500 granos de pechuga de pollo",
+                " 240 gramos de verduras variadas",
+                " 6 cucharadas soperas de mayonesa",
+                " 6 cucharadas soperas de crema agria",
+                " 1 pizca de sal",
+                " 1 pizca de pimienta negra"
+            ]
+        },
+        {
+            "title": "Zorongollo extremeño",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/2/4/4/zorongollo_extremeno_74442_600.jpg",
+            "comensales": "4",
+            "duracion": "30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Recomendada para veganos, Recomendada para vegetarianos, Recomendada para macrobióticos, Recomendada para perder peso, Popular en Primavera-Verano, Nada picante, Ideal acompañar con vino tinto, Recetas al horno, Recetas españolas",
+            "ingredientes": [
+                " 2 pimientos rojos grandes",
+                " 3 tomates pera grandes",
+                " 3 dientes de ajo",
+                " 1 cebolleta",
+                " 1 chorro de aceite de oliva",
+                " 2 pellizcos de sal",
+                " 1 chorro de vinagre blanco"
+            ]
+        },
+        {
+            "title": "Ensalada aragonesa",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/5/3/4/ensalada_aragonesa_74435_600.jpg",
+            "comensales": "4",
+            "duracion": "30",
+            "dificultad": "Dificultad muy baja",
+            "caracteristicas": "Coste barato, Recomendada para embarazadas, Recomendada para macrobióticos, Recomendada para perder peso, Receta sin lactosa, Receta sin azúcar, Sin cocción, Recetas españolas",
+            "ingredientes": [
+                " 1 patata",
+                " 1 cebolleta",
+                " 1 trozo de cebolleta",
+                " 2 dientes de ajo",
+                " 1 bolsa de ensalada variada o gourmet",
+                " 2 tomate de pera",
+                " 50 gramos de migas de bacalao desalado",
+                " 1 lata de atún en escabeche",
+                " 2 huevos",
+                " 12 aceitunas verdes y negras (si son de Aragón mejor)",
+                " 1 puñado de habichuelas blancas cocidas",
+                " 2 chorros de vinagre, aceite de oliva virgen extra , sal"
+            ]
+        },
+        {
+            "title": "Ensalada de aguacate y tomate",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/0/4/4/ensalada_de_aguacate_y_tomate_74440_600.jpg",
+            "comensales": "4",
+            "duracion": "15",
+            "dificultad": "Dificultad muy baja",
+            "caracteristicas": "Coste barato, Popular en Primavera-Verano",
+            "ingredientes": [
+                " 4 tomates",
+                " 3 aguacates",
+                " 2 cebollas tiernas",
+                " 1 trozo de queso (feta, de cabra...)",
+                " 2 latas de anchoas",
+                " 2 limón",
+                " 1 chorro de aceite de oliva",
+                " 1 pizca de pimienta",
+                " 1 pizca de sal"
+            ]
+        },
+        {
+            "title": "Ensalada con salsa de yogur",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/4/2/1/ensalada_con_salsa_de_yogur_74124_600.jpg",
+            "comensales": "2",
+            "duracion": "15",
+            "dificultad": "Dificultad muy baja",
+            "caracteristicas": "Coste barato, Recomendada para vegetarianos, En frío",
+            "ingredientes": [
+                " 1 bolsa de lechuga variada",
+                " 1 zanahoria",
+                " 1 cebolla",
+                " 3 rábanos",
+                " 1 puñado de nueces",
+                " 1 trozo de queso griego",
+                " 1 yogur griego",
+                " 1 limón",
+                " 1 cucharada postre de ajo molido",
+                " 1 puñado de perejil picado",
+                " 1 pizca de sal",
+                " 1 chorro de aceite de oliva (opcional)"
+            ]
+        },
+        {
+            "title": "Ensalada de wakame",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/8/9/0/ensalada_de_wakame_74098_600.jpg",
+            "comensales": "2",
+            "duracion": "15",
+            "dificultad": "Dificultad muy baja",
+            "caracteristicas": "Coste medio, Recomendada para veganos, Recomendada para vegetarianos, Recomendada para perder peso, Sin cocción",
+            "ingredientes": [
+                " 1 paquete de algas wakame (50 g aprox.)",
+                " 1 pepino",
+                " 1 manojo de tomates cherry",
+                " 1 cebolla",
+                " 4 rábanos",
+                " 1 chorro de aceite de oliva",
+                " 1 pizca de sal",
+                " 1 chorro de vinagre balsámico"
+            ]
+        },
+        {
+            "title": "Ensalada de camarones y aguacate",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/9/4/3/ensalada_de_camarones_y_aguacate_73349_600.jpg",
+            "comensales": "2",
+            "duracion": "15",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste medio, Hervido",
+            "ingredientes": [
+                " 100 gramos de camarones cocidos o crudos",
+                " 2 aguacates",
+                " 1 manojo de tomates cherry",
+                " 100 gramos de lechuga",
+                " 2 rodajas de piña",
+                " Mayonesa al gusto",
+                " 1 chorro de jugo de limón (opcional)",
+                " 1 mango (opcional)"
+            ]
+        },
+        {
+            "title": "Ensalada de frutas con azúcar y limón",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/5/6/9/ensalada_de_frutas_con_azucar_y_limon_73965_600.jpg",
+            "comensales": "4",
+            "duracion": "15",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste medio",
+            "ingredientes": [
+                " 150 mililitros de agua",
+                " 100 gramos de azúcar (½ taza)",
+                " 1 limón (su zumo)",
+                " 1 mango",
+                " 2 kiwi",
+                " 1 naranja grande",
+                " 2 plátanos (o una banana grande)"
+            ]
+        },
+        {
+            "title": "Ensalada de lentejas y quinoa",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/3/6/9/ensalada_de_lentejas_y_quinoa_73963_600.jpg",
+            "comensales": "2",
+            "duracion": "30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato",
+            "ingredientes": [
+                " 100 gramos de quinoa",
+                " 100 gramos de lentejas",
+                " 1 tomate rojo",
+                " 1 aguacate",
+                " 1 loncha de queso mozzarella",
+                " 1 diente de ajo",
+                " Aceite de oliva",
+                " Vinagre balsámico"
+            ]
+        },
+        {
+            "title": "Ensalada de quinoa y pollo",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/1/5/9/ensalada_de_quinoa_y_pollo_73951_600.jpg",
+            "comensales": "4",
+            "duracion": "45",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Recomendada para perder peso, Hervido",
+            "ingredientes": [
+                " 2 pechugas de pollo",
+                " 1 taza de quinoa (unos 150 g)",
+                " 3 hojas de laurel",
+                " 100 gramos de maíz cocido",
+                " 50 gramos de granos de granada",
+                " 1 pizca de sal",
+                " 1 pizca de aceite de oliva",
+                " 1 pizca de vinagre balsámico"
+            ]
+        },
+        {
+            "title": "Ensalada de garbanzos con bacalao",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/1/1/6/ensalada_de_garbanzos_con_bacalao_73611_600.jpg",
+            "comensales": "2",
+            "duracion": "15",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Recomendada para perder peso",
+            "ingredientes": [
+                " 1 bote de garbanzos cocidos",
+                " 1 trozo de bacalao desalado",
+                " 1 cebolla",
+                " 1 trozo de pimiento verde",
+                " 1 rama de tomates cherry",
+                " 1 bote de aceitunas negras",
+                " 1 chorro de aceite de oliva",
+                " 1 chorro de vinagre",
+                " 1 cucharada postre de pimentón dulce o picante",
+                " 1 pizca de sal"
+            ]
+        },
+        {
+            "title": "Xatonada o xató",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/4/8/5/xatonada_o_xato_73584_600.jpg",
+            "comensales": "4",
+            "duracion": "2h 30",
+            "dificultad": "Dificultad alta",
+            "caracteristicas": "Coste barato, Recetas españolas",
+            "ingredientes": [
+                " 1 puñado de almendras sin piel",
+                " 1 puñado de avellanas sin piel",
+                " 5 boquerones en vinagre",
+                " 1 pieza de bacalao desalado",
+                " 1 ñora",
+                " 1 diente de ajo",
+                " 10 olivas partidas",
+                " 1 escarola",
+                " 3 rebanadas de pan",
+                " 1 taza de vinagre de vino blanco",
+                " 1 lata de bonito en conserva o atún",
+                " 1 vaso pequeño de aceite de oliva",
+                " 1 pellizco de sal"
+            ]
+        },
+        {
+            "title": "Salpicón de marisco",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/2/8/4/salpicon_de_marisco_73482_600.jpg",
+            "comensales": "2",
+            "duracion": "30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste medio",
+            "ingredientes": [
+                " 1 pata de pulpo cocida",
+                " 6 gambas cocidas",
+                " 3 palitos de cangrejo",
+                " 1 trozo de pimiento rojo",
+                " 1 trozo de pimiento verde",
+                " 1 trozo de cebolla tierna",
+                " 1 chorro de aceite de oliva",
+                " 3 cucharadas soperas de vinagre",
+                " 1 cucharada postre de pimentón dulce o picante",
+                " 1 pizca de sal"
+            ]
+        },
+        {
+            "title": "Ensalada de espinacas y mango",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/0/0/3/ensalada_de_espinacas_y_mango_73300_600.jpg",
+            "comensales": "2",
+            "duracion": "15",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato",
+            "ingredientes": [
+                " 2 pechugas de pollo a la plancha",
+                " 1 mango",
+                " 1 manojo de espinacas",
+                " 1 cebolla morada",
+                " 2 puñados de nueces",
+                " Aceite de oliva al gusto",
+                " Sal y pimienta al gusto"
+            ]
+        },
+        {
+            "title": "Tartar de tomate y aguacate",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/4/9/9/tartar_de_tomate_y_aguacate_72994_600.jpg",
+            "comensales": "2",
+            "duracion": "15",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato",
+            "ingredientes": [
+                " 2 tomates",
+                " 1 aguacate",
+                " 1 cebolleta o cebolla",
+                " 1 limón o lima",
+                " 1 chorro de aceite de oliva",
+                " 1 pizca de sal",
+                " 1 chorro de vinagre balsámico"
+            ]
+        },
+        {
+            "title": "Ensaladilla rusa original",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/5/3/8/ensaladilla_rusa_original_72835_600.jpg",
+            "comensales": "3",
+            "duracion": "15",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato",
+            "ingredientes": [
+                " 2 patatas medianas",
+                " 2 zanahorias medianas",
+                " 2 latas de atún al natural",
+                " 1 pechuga de pollo fileteada",
+                " 1 puñado de guisantes",
+                " 2 huevos",
+                " 1 huevo",
+                " 100 mililitros de aceite de oliva"
+            ]
+        },
+        {
+            "title": "Ensalada de papa con manzana",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/8/7/8/ensalada_de_papa_con_manzana_72878_600.jpg",
+            "comensales": "4",
+            "duracion": "45",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Recomendada para vegetarianos, Popular en Primavera-Verano, Hervido",
+            "ingredientes": [
+                " 4 papas (patatas) medianas",
+                " 2 manzanas",
+                " 2 cebolletas frescas",
+                " 2 yogures griegos azucarados (250 ml)",
+                " 4 tallos de cebollino fresco",
+                " 1 pizca de sal"
+            ]
+        },
+        {
+            "title": "Ensalada de aguacate y mango",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/8/6/8/ensalada_de_aguacate_y_mango_72868_600.jpg",
+            "comensales": "2",
+            "duracion": "15",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Recomendada para vegetarianos, Receta sin azúcar, Popular en Primavera-Verano",
+            "ingredientes": [
+                " 1 aguacate o palta",
+                " 1 mango",
+                " 1 manojo de lechugas variadas",
+                " 1 trozo de queso fresco",
+                " 1 pepino",
+                " 1 chorro de aceite",
+                " 1 chorro de vinagre balsámico o de Módena",
+                " 1 pizca de sal"
+            ]
+        },
+        {
+            "title": "Ensalada de aguacate y salmón",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/5/2/8/ensalada_de_aguacate_y_salmon_72825_600.jpg",
+            "comensales": "4",
+            "duracion": "15",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste medio, Recomendada para perder peso, En frío",
+            "ingredientes": [
+                " 2 aguacates",
+                " 1 paquete de salmón ahumado (100 g)",
+                " 1 cebolla",
+                " 1 puñado de nueces",
+                " 1 paquete de queso feta",
+                " 1 pizca de sal",
+                " 1 lechuga",
+                " 1 chorro de aceite de oliva",
+                " 1 chorro de vinagre",
+                " 1 pizca de pimienta",
+                " 1 limón",
+                " 1 bote de aceitunas"
+            ]
+        },
+        {
+            "title": "Ensalada de coliflor fría",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/8/0/8/ensalada_de_coliflor_fria_72808_600.jpg",
+            "comensales": "4",
+            "duracion": "30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Hervido",
+            "ingredientes": [
+                " 1 coliflor",
+                " 2 zanahorias",
+                " 1 cebolla morada",
+                " 4 cucharadas soperas de mayonesa",
+                " perejil picado",
+                " pimienta negra",
+                " sal",
+                " 1 huevo",
+                " 1 chorro de aceite de oliva"
+            ]
+        },
+        {
+            "title": "Ensalada griega de pepino tradicional",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/9/1/2/ensalada_griega_de_pepino_tradicional_72219_600.jpg",
+            "comensales": "4",
+            "duracion": "1h 30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Recomendada para veganos, Recomendada para vegetarianos, Receta sin lactosa",
+            "ingredientes": [
+                " 1 pepino",
+                " 1/2 pimiento verde",
+                " 1/2 cebolla roja",
+                " 1 puñado de aceitunas negras sin hueso",
+                " 1/2 pimiento rojo",
+                " 10 tomates cherry o 2 tomates",
+                " 1 queso feta (puede ser vegano)",
+                " 1 cucharadita de orégano",
+                " 1 chorro de aceite de oliva",
+                " 1 pizca de pimienta negra",
+                " 1/2 cucharadita de sal",
+                " 50 gramos de harina de garbanzos",
+                " 200 ml de agua",
+                " 1 cucharada de copos de avena",
+                " 1 cucharadita de aceite de oliva",
+                " 1 cucharadita de zumo de limón",
+                " 1/4 cucharadita de sal",
+                " 1/2 cucharadita de tomillo",
+                " 1/2 cucharadita de orégano",
+                " 2 cucharadas de levadura de cerveza"
+            ]
+        },
+        {
+            "title": "Esqueixada de bacalao fácil y rápida",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/4/4/0/esqueixada_de_bacalao_facil_y_rapida_72044_600.jpg",
+            "comensales": "2",
+            "duracion": "10",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste medio, Sin cocción, Recetas españolas, Recetas catalanas",
+            "ingredientes": [
+                " 200 gramos de bacalao desalado",
+                " 3 tomates",
+                " 1 cebolla tierna",
+                " 1 bote de aceitunas negras de Aragón o muertas",
+                " 1 chorro de aceite de oliva",
+                " 1 chorro de vinagre",
+                " 1 pizca de pimienta",
+                " 1 pizca de sal (opcional)"
+            ]
+        },
+        {
+            "title": "Ensalada César venezolana",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/4/1/7/ensalada_cesar_venezolana_70714_600.jpg",
+            "comensales": "11",
+            "duracion": "15",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste medio, Sin cocción, Recetas venezolanas",
+            "ingredientes": [
+                " 1 lechuga criolla grande",
+                " 3 dientes de ajo",
+                " 2 tazas de picatostes",
+                " 4 huevos cocidos cortados pequeños (opcional)",
+                " ½ taza de queso parmesano rallado",
+                " 2 latas de anchoas pequeñas",
+                " 1 chorro de aceite (para dorar los picatostes)",
+                " 5 cucharadas soperas de aceite de oliva",
+                " 4 cucharadas soperas de vinagre o zumo de limón",
+                " 1 gramo de sal"
+            ]
+        },
+        {
+            "title": "Ensalada de judiones",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/8/9/6/ensalada_de_judiones_70698_600.jpg",
+            "comensales": "2",
+            "duracion": "2h 30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Recomendada para veganos, Recomendada para vegetarianos, Hervido",
+            "ingredientes": [
+                " 1 taza de judiones",
+                " 1 pepino",
+                " ½ cebolla roja",
+                " 1 mango",
+                " 3 rodajas de piña",
+                " ¼ bote de apio en tiras",
+                " 8 tomates cherry",
+                " 2 cucharadas soperas de cilantro picado",
+                " 1 mango",
+                " 1 diente de ajo",
+                " 1 pizca de sal",
+                " 1 chorro de vinagre de manzana",
+                " 1 chorro de aceite"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,762 @@
+{
+    "Pan y bollería": [
+        {
+            "title": "Pan de Telera",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/6/2/2/pan_de_telera_75226_600.jpg",
+            "comensales": "4",
+            "duracion": "2h 30",
+            "dificultad": "Dificultad media",
+            "caracteristicas": "Coste barato, Recomendada para veganos, Recomendada para vegetarianos, Recetas al horno",
+            "ingredientes": [
+                " 225 mililitros de agua tibia",
+                " 100 gramos de masa madre",
+                " 4 gramos de levadura seca",
+                " 1 cucharada sopera de zumo de limón",
+                " 500 gramos de harina de trigo",
+                " 10 gramos de sal"
+            ]
+        },
+        {
+            "title": "Pan de yuca",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/2/2/2/pan_de_yuca_75222_600.jpg",
+            "comensales": "6",
+            "duracion": "30",
+            "dificultad": "Dificultad media",
+            "caracteristicas": "Coste medio, Recomendada para vegetarianos, Receta sin azúcar, Receta sin gluten, Recetas al horno",
+            "ingredientes": [
+                " 50 centímetros cúbicos de leche",
+                " 50 centímetros cúbicos de aceite de maíz",
+                " 25 centímetros cúbicos de agua",
+                " 2 huevos",
+                " 100 gramos de almidón de yuca",
+                " 100 gramos de queso semiduro"
+            ]
+        },
+        {
+            "title": "Tortilla wrap hack",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/9/2/2/tortilla_wrap_hack_75229_600.jpg",
+            "comensales": "1 comensal",
+            "duracion": "10",
+            "dificultad": "Dificultad muy baja",
+            "caracteristicas": "Coste barato, Recomendada para veganos, Recomendada para vegetarianos, Recomendada para perder peso, Receta sin lactosa, Receta sin azúcar, Receta sin sal, Plancha",
+            "ingredientes": [
+                " 1 tortilla de trigo",
+                " 1 huevo",
+                " 30 gramos de panceta",
+                " 30 gramos de queso crema"
+            ]
+        },
+        {
+            "title": "Masa de pizza saludable",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/6/9/1/masa_de_pizza_saludable_75196_600.jpg",
+            "comensales": "8",
+            "duracion": "30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Recomendada para vegetarianos, Recomendada para perder peso, Receta sin azúcar, Receta sin sal, Nada picante, Recetas al horno",
+            "ingredientes": [
+                " 200 gramos de harina integral (1⅓ tazas)",
+                " 30 gramos de leche en polvo descremada",
+                " 10 gramos de levadura seca",
+                " 2 cucharadas soperas de aceite neutro",
+                " ¼ taza de agua tibia",
+                " 1 cucharadita de polvo de hornear",
+                " ½ cucharadita de bicarbonato de sodio"
+            ]
+        },
+        {
+            "title": "Bizcochuelo sin azúcar",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/9/1/2/bizcochuelo_sin_azucar_75219_600.jpg",
+            "comensales": "4",
+            "duracion": "1h 30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Recomendada para vegetarianos, Recomendada para perder peso, Receta sin lactosa, Receta sin azúcar, Receta sin sal, Recetas al horno",
+            "ingredientes": [
+                " 2 huevos",
+                " 80 gramos de harina integral",
+                " 1 cucharada postre de polvo de hornear",
+                " 2 cucharadas de postre de esencia de vainilla",
+                " ½ cucharada postre de bicarbonato de sodio",
+                " 5 sobres de edulcorante para cocinar"
+            ]
+        },
+        {
+            "title": "Pancitos rellenos",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/7/7/1/pancitos_rellenos_75177_600.jpg",
+            "comensales": "4",
+            "duracion": "45",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Recomendada para vegetarianos, Recomendada para perder peso, Receta sin sal, Plancha, Recetas argentinas",
+            "ingredientes": [
+                " 125 gramos de harina 000",
+                " 1250 gramos de harina integral (8⅓ tazas)",
+                " 3 gramos de levadura seca",
+                " 150 centímetros cúbicos de agua tibia",
+                " sal",
+                " 1 cebolla grande",
+                " 50 gramos de hojas de espinaca",
+                " 1 pizca de nuez moscada",
+                " 60 gramos de queso fresco"
+            ]
+        },
+        {
+            "title": "Alfajores de coco",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/4/9/1/alfajores_de_coco_75194_600.jpg",
+            "comensales": "4",
+            "duracion": "15",
+            "dificultad": "Dificultad muy baja",
+            "caracteristicas": "Coste medio, Recomendada para vegetarianos, Receta sin lactosa, Receta sin gluten, Recetas argentinas",
+            "ingredientes": [
+                " 75 gramos de coco rallado (¾ taza)",
+                " 50 gramos de azúcar (¼ taza)",
+                " ½ cucharada postre de esencia de vainilla",
+                " ½ huevo",
+                " 15 centímetros cúbicos de aceite neutro",
+                " Dulce de leche o mermelada (cantidad necesaria)"
+            ]
+        },
+        {
+            "title": "Galletas de granola",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/8/7/1/galletas_de_granola_75178_600.jpg",
+            "comensales": "2",
+            "duracion": "30",
+            "dificultad": "Dificultad muy baja",
+            "caracteristicas": "Coste medio, Recomendada para vegetarianos, Recomendada para perder peso, Receta sin lactosa, Receta sin azúcar, Receta sin gluten, Recetas al horno",
+            "ingredientes": [
+                " 120 gramos de avena o salvado de avena",
+                " 1 cucharada sopera de polvo de hornear",
+                " 1 huevo",
+                " 1 cucharada sopera de harina integral",
+                " 10 gramos de pasas de uva",
+                " Edulcorante a gusto"
+            ]
+        },
+        {
+            "title": "Carrot cake integral",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/9/8/1/carrot_cake_integral_75189_600.jpg",
+            "comensales": "4",
+            "duracion": "45",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Recomendada para vegetarianos, Recomendada para perder peso, Recetas al horno",
+            "ingredientes": [
+                " 1 zanahoria",
+                " 125 gramos de harina 000",
+                " 125 gramos de harina integral",
+                " 1 pizca de nuez moscada",
+                " 1 cucharada sopera de canela",
+                " ½ cucharada postre de bicarbonato de sodio",
+                " 1 cucharada postre de polvo de hornear",
+                " ½ taza de nueces y pasas de uva",
+                " ½ naranja",
+                " 1 huevo",
+                " ¼ taza de azúcar mascabado",
+                " ¼ taza de aceite neutro",
+                " 2 cucharadas soperas de queso crema light (descremado)",
+                " ½ cucharada postre de esencia de vainilla",
+                " 1 gota de edulcorante"
+            ]
+        },
+        {
+            "title": "Tortitas negras integrales",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/9/6/1/tortitas_negras_integrales_75169_600.jpg",
+            "comensales": "3",
+            "duracion": "6h",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Recetas argentinas",
+            "ingredientes": [
+                " 85 gramos de harina 000",
+                " 85 gramos de harina integral",
+                " 50 centímetros cúbicos de agua",
+                " 50 centímetros cúbicos de leche descremada",
+                " 1 cucharada postre de esencia de vainilla",
+                " 1 cucharada postre de miel",
+                " ½ yema de huevo",
+                " 27 gramos de manteca",
+                " 5 gramos de levadura en polvo",
+                " 30 gramos de azúcar mascabado",
+                " 5 gramos de harina 000",
+                " sal"
+            ]
+        },
+        {
+            "title": "Talitas de queso",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/0/7/1/talitas_de_queso_75170_600.jpg",
+            "comensales": "4",
+            "duracion": "30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Recomendada para veganos, Recomendada para vegetarianos, Recomendada para perder peso, Receta sin gluten, Receta sin sal, Recetas al horno",
+            "ingredientes": [
+                " 125 gramos de harina integral",
+                " 125 gramos de harina 000",
+                " 2 cucharadas de postre de aceite neutro",
+                " 20 gramos de queso rallado",
+                " 125 gramos de agua tibia",
+                " 1 pizca de cebolla deshidratada",
+                " 1 pizca de orégano",
+                " 1 pizca de pimienta",
+                " 1 pizca de sal"
+            ]
+        },
+        {
+            "title": "Cakesicles o paletas de pastel",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/9/4/1/cakesicles_o_paletas_de_pastel_75149_600.jpg",
+            "comensales": "6",
+            "duracion": "1h 30",
+            "dificultad": "Dificultad media",
+            "caracteristicas": "Coste barato, Recomendada para niños, Sin cocción",
+            "ingredientes": [
+                " 1 trozo de bizcocho (pueden ser magdalenas, sobaos, etc.)",
+                " 5 cucharadas soperas de queso crema tipo Philadelphia",
+                " 5 cucharadas soperas de mermelada de naranja (o de cualquier otro sabor)",
+                " 400 gramos de chocolate blanco",
+                " 4 gotas de colorante alimenticio rosa y amarillo",
+                " 1 cucharada sopera de sprinkles variados"
+            ]
+        },
+        {
+            "title": "Pan de payés",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/0/0/1/pan_de_payes_75100_600.jpg",
+            "comensales": "4",
+            "duracion": "4h",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Recetas al horno, Recetas españolas, Recetas catalanas",
+            "ingredientes": [
+                " 1 kilogramo de harina de trigo",
+                " 15 gramos de sal",
+                " 600 mililitros de agua (2½ tazas)",
+                " 14 gramos de levadura seca de panadería"
+            ]
+        },
+        {
+            "title": "Pepas de avena",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/5/6/0/pepas_de_avena_75065_600.jpg",
+            "comensales": "3",
+            "duracion": "30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Recomendada para vegetarianos, Recomendada para perder peso, Receta sin lactosa, Receta sin azúcar, Recetas al horno, Recetas argentinas",
+            "ingredientes": [
+                " 1½ tazas de copos de avena",
+                " 3 cucharadas soperas de harina integral",
+                " 1 huevo",
+                " 1 naranja",
+                " 2 cucharadas soperas de aceite de girasol",
+                " 4 gotas de edulcorante"
+            ]
+        },
+        {
+            "title": "Torrijas rellenas de chocolate",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/9/6/0/torrijas_rellenas_de_chocolate_75069_600.jpg",
+            "comensales": "5",
+            "duracion": "45",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Recomendada para niños, Recetas para Semana Santa, Frito, Recetas españolas",
+            "ingredientes": [
+                " 1 barra de pan",
+                " 500 mililitros de leche",
+                " 100 gramos de chocolate negro",
+                " 100 mililitros de nata (crema de leche)",
+                " 2 huevos",
+                " 1 naranja"
+            ]
+        },
+        {
+            "title": "Bollitos de queso",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/6/6/0/bollitos_de_queso_75066_600.jpg",
+            "comensales": "4",
+            "duracion": "1h 30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste medio, Recomendada para vegetarianos, Popular en Otras fiestas, Recetas al horno",
+            "ingredientes": [
+                " 350 gramos de harina de trigo (2½ tazas)",
+                " 1 pizca de sal",
+                " 30 gramos de azúcar",
+                " 150 mililitros de leche tibia",
+                " 8 gramos de levadura seca",
+                " 180 gramos de queso crema",
+                " 90 gramos de mantequilla derretida",
+                " 1 huevo",
+                " 1 yema de huevo",
+                " Ajonjolí al gusto"
+            ]
+        },
+        {
+            "title": "Medialunas integrales",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/0/6/0/medialunas_integrales_75060_600.jpg",
+            "comensales": "4",
+            "duracion": "6h",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Recomendada para perder peso, Receta sin azúcar, Receta sin sal, Nada picante, Recetas al horno, Recetas argentinas",
+            "ingredientes": [
+                " 170 gramos de harina integral",
+                " 170 gramos de harina 000",
+                " 125 centímetros cúbicos de agua",
+                " 125 centímetros cúbicos de leche descremada",
+                " 5 gramos de levadura seca",
+                " 1 cucharada postre de esencia de vainilla",
+                " 1 cucharada postre de miel",
+                " 1 huevo",
+                " 55 gramos de manteca",
+                " 1 pizca de sal",
+                " 5 cucharadas soperas de agua",
+                " 5 cucharadas soperas de azúcar",
+                " 1 cucharada postre de miel",
+                " 1 cucharada postre de mermelada de naranja"
+            ]
+        },
+        {
+            "title": "Galletas marineras integrales",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/9/5/0/galletas_marineras_integrales_75059_600.jpg",
+            "comensales": "4",
+            "duracion": "15",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Recomendada para veganos, Recomendada para vegetarianos, Recomendada para perder peso, Receta sin lactosa, Receta sin azúcar, Receta sin sal, Recetas al horno, Recetas argentinas",
+            "ingredientes": [
+                " 125 gramos de harina integral",
+                " 125 gramos de harina 000",
+                " 20 centímetros cúbicos de aceite neutro",
+                " 1 pizca de sal",
+                " 125 centímetros cúbicos de agua",
+                " Harina de maíz c/n"
+            ]
+        },
+        {
+            "title": "Torrijas sin azúcar",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/0/4/0/torrijas_sin_azucar_75040_600.jpg",
+            "comensales": "8",
+            "duracion": "30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Receta sin azúcar, Recetas para Semana Santa, En sartén, Recetas españolas",
+            "ingredientes": [
+                " 1 litro de leche desnatada",
+                " 1 limón",
+                " 7 gramos de stevia (o tu edulcorante preferido)",
+                " 1 cucharada sopera de esencia de vainilla",
+                " 1 barra de pan",
+                " 3 huevos L",
+                " 2 cucharadas soperas de aceite de oliva",
+                " 1 cucharada postre de canela molida"
+            ]
+        },
+        {
+            "title": "Torrijas de calabaza",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/1/4/0/torrijas_de_calabaza_75041_600.jpg",
+            "comensales": "8",
+            "duracion": "45",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Recetas para Semana Santa, En sartén, Recetas españolas",
+            "ingredientes": [
+                " 300 gramos de puré de calabaza",
+                " 225 mililitros de leche",
+                " 1 huevo",
+                " 6 cucharadas soperas de azúcar",
+                " 250 gramos de harina",
+                " 1 cucharada sopera de levadura en polvo",
+                " 125 mililitros de aceite de oliva",
+                " 1 cucharada postre de canela molida"
+            ]
+        },
+        {
+            "title": "Capirotada de tres leches",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/8/3/0/capirotada_de_tres_leches_75038_600.jpg",
+            "comensales": "5",
+            "duracion": "30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Recetas para Semana Santa, Recetas mexicanas",
+            "ingredientes": [
+                " 5 piezas de pan bolillo frío",
+                " 45 gramos de mantequilla",
+                " 3 tazas de leche (720 mililitros)",
+                " 1 rama de canela",
+                " 2 cucharadas soperas de esencia de vainilla",
+                " 50 gramos de piloncillo",
+                " 2 cucharadas soperas de fécula de maíz",
+                " 1 lata de leche evaporada (360 g)",
+                " 1 lata de leche condensada (380 g)",
+                " 50 gramos de pasitas",
+                " 50 gramos de almendra fileteada",
+                " 50 gramos de coco rallado (½ taza)"
+            ]
+        },
+        {
+            "title": "Torrijas de chocolate",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/8/2/0/torrijas_de_chocolate_75028_600.jpg",
+            "comensales": "4",
+            "duracion": "45",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Recetas para Semana Santa, Frito, Recetas españolas",
+            "ingredientes": [
+                " 1 litro de leche",
+                " 2 ramas de canela",
+                " 3 cucharadas soperas de azúcar",
+                " 1 barra de pan para torrijas",
+                " 100 gramos de azúcar (½ taza)",
+                " 1 cucharada postre de canela en polvo",
+                " 200 gramos de chocolate para fundir",
+                " 3 cucharadas soperas de leche",
+                " 2 huevos",
+                " 2 vasos de aceite de girasol para freír"
+            ]
+        },
+        {
+            "title": "Torrijas con natillas",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/4/2/0/torrijas_con_natillas_75024_600.jpg",
+            "comensales": "4",
+            "duracion": "1h 30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Recetas para Semana Santa, Recetas españolas",
+            "ingredientes": [
+                " 1 litro de leche",
+                " 3 yemas de huevo",
+                " 40 gramos de harina de maíz (maicena)",
+                " 80 gramos de azúcar",
+                " 1 cucharada postre de esencia de vainilla",
+                " 8 rebanadas de pan para torrijas",
+                " 100 gramos de azúcar (½ taza)",
+                " 2 cucharadas de postre de canela en polvo",
+                " 1 vaso de aceite de girasol para freír",
+                " 2 huevos"
+            ]
+        },
+        {
+            "title": "Torrijas con Baileys",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/3/2/0/torrijas_con_baileys_75023_600.jpg",
+            "comensales": "6",
+            "duracion": "45",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Recomendada para vegetarianos, Receta sin sal, Recetas para Semana Santa, En sartén, Recetas españolas",
+            "ingredientes": [
+                " 6 rodajas de pan del día anterior",
+                " 2 vasos de leche",
+                " 1 vaso pequeño de Baileys o crema de whisky",
+                " 1 cucharada postre de estevia o endulzante de tu gusto",
+                " 1 rama de canela en rama",
+                " 3 pellizcos de canela en polvo para decorar por encima",
+                " 1 cucharada sopera de azúcar blanca o estevia para decorar por encima",
+                " 1 huevo L",
+                " 2 vasos de aceite suave o de girasol"
+            ]
+        },
+        {
+            "title": "Torrijas sin canela",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/0/2/0/torrijas_sin_canela_75020_600.jpg",
+            "comensales": "6",
+            "duracion": "1h 30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Receta sin sal, Recetas para Semana Santa, Ideal acompañar con zumo natural, En sartén, Recetas españolas",
+            "ingredientes": [
+                " 7 rodajas de pan del día anterior",
+                " 2 huevos M",
+                " 3 vasos de leche semidesnatada",
+                " 1 cucharada sopera de miel, de flores o de tu preferencia",
+                " 1 cucharada postre de vainilla en esencia",
+                " 1 pizca de piel de limón y mandarina",
+                " 3 anís estrellado",
+                " 3 vasos de aceite de girasol u oliva suave",
+                " 1 vaso pequeño de azúcar corriente stevia, para espolvorear las torrijas"
+            ]
+        },
+        {
+            "title": "Ponquesitos de chocolate",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/2/0/0/ponquesitos_de_chocolate_75002_600.jpg",
+            "comensales": "6",
+            "duracion": "45",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Recomendada para niños, Ideal acompañar con zumo natural, Recetas al horno, Recetas venezolanas",
+            "ingredientes": [
+                " 2 huevos L",
+                " 1 vaso pequeño de leche semi desnatada",
+                " 1 vaso de aceite de girasol o suave",
+                " 1 vaso de azúcar blanca",
+                " 6 cucharadas de postre de cacao en polvo puro o 70% de cacao",
+                " 250 gramos de harina con leudante incorporado especial para repostería"
+            ]
+        },
+        {
+            "title": "Casadielles o casadiellas",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/8/9/9/casadielles_o_casadiellas_74998_600.jpg",
+            "comensales": "6",
+            "duracion": "45",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Recomendada para vegetarianos, Receta sin sal, Popular en Carnaval, Nada picante, Ideal acompañar con refresco, Frito, Recetas españolas, Recetas asturianas",
+            "ingredientes": [
+                " 1 lámina de masa fresca de hojaldre o masa casera",
+                " 200 gramos de nueces peladas naturales",
+                " 125 gramos de azúcar blanca (o cualquier sustituto del azúcar)",
+                " 4 cucharadas soperas de leche entera o semi",
+                " 125 mililitros de anís dulce",
+                " decora con azúcar glass mezclada con azúcar granulada blanca",
+                " 3 vasos de aceite suave para freír"
+            ]
+        },
+        {
+            "title": "Manteconchas",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/2/9/9/manteconchas_74992_600.jpg",
+            "comensales": "20",
+            "duracion": "1h 30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste medio, Recetas al horno, Recetas mexicanas",
+            "ingredientes": [
+                " 400 gramos de harina de trigo",
+                " 150 gramos de azúcar estandár",
+                " ½ cucharadita de sal",
+                " 150 mililitros de leche tibia",
+                " 11 gramos de levadura seca",
+                " 1 cucharada postre de esencia de vainilla",
+                " 2 huevos",
+                " 110 gramos de mantequilla sin sal",
+                " 20 piezas de capacillos",
+                " 1 molde para cupcakes",
+                " Aceite en aerosol o mantequilla",
+                " 100 gramos de harina de trigo",
+                " 100 gramos de azúcar glass",
+                " 110 gramos de mantequilla",
+                " 15 gramos de cocoa en polvo (opcional)",
+                " Colorantes vegetales en gel"
+            ]
+        },
+        {
+            "title": "Galletas con malvaviscos",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/2/6/9/galletas_con_malvaviscos_74962_600.jpg",
+            "comensales": "15",
+            "duracion": "30",
+            "dificultad": "Dificultad muy baja",
+            "caracteristicas": "Coste barato, Recomendada para niños, Recetas al microondas",
+            "ingredientes": [
+                " 200 gramos de galleta Oreo de vainilla o tipo María",
+                " 150 gramos de malvaviscos",
+                " 45 gramos de mantequilla o margarina sin sal",
+                " 1 tableta de chocolate para derretir (opcional)"
+            ]
+        },
+        {
+            "title": "Pan candeal o pan sobao",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/4/6/9/pan_candeal_o_pan_sobao_74964_600.jpg",
+            "comensales": "6",
+            "duracion": "1h 30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Recomendada para veganos, Recomendada para vegetarianos, Recomendada para macrobióticos, Receta sin lactosa, Receta sin azúcar, Recetas al horno, Recetas españolas",
+            "ingredientes": [
+                " 300 gramos de harina candeal o harina de trigo floja común",
+                " 200 gramos de harina de trigo de gran fuerza",
+                " 250 mililitros de de agua templada",
+                " 25 gramos de levadura fresca de panadero",
+                " 1 cucharada postre de sal"
+            ]
+        },
+        {
+            "title": "Panqué de nata",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/9/5/9/panque_de_nata_74959_600.jpg",
+            "comensales": "5",
+            "duracion": "1h 30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Recetas al horno",
+            "ingredientes": [
+                " 1 taza de nata",
+                " 1 taza de harina todo uso",
+                " ½ taza de azúcar (100 gramos)",
+                " 2 huevos",
+                " 1 cucharada sopera de polvo para hornear",
+                " 1 pizca de sal",
+                " azúcar glass (opcional)"
+            ]
+        },
+        {
+            "title": "Panqué de nuez",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/7/5/9/panque_de_nuez_74957_600.jpg",
+            "comensales": "5",
+            "duracion": "1h 30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste medio, Recomendada para niños, Recetas al horno, Recetas mexicanas",
+            "ingredientes": [
+                " 50 gramos de nuez troceada",
+                " 1 taza de harina todo uso",
+                " 20 gramos de azúcar",
+                " 1 cucharada sopera de polvo para hornear (levadura química)",
+                " 1 pizca de sal",
+                " ½ cucharadita de nuez moscada",
+                " 280 gramos de leche condensada",
+                " 2 huevos",
+                " 90 gramos de mantequilla sin sal",
+                " 1 cucharada sopera de saborizante de nuez o esencia de vainilla"
+            ]
+        },
+        {
+            "title": "Panqué de chocolate",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/8/5/9/panque_de_chocolate_74958_600.jpg",
+            "comensales": "5",
+            "duracion": "1h 30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste medio, Recetas al horno",
+            "ingredientes": [
+                " 1 taza de harina todo uso",
+                " ½ taza de cacao en polvo sin azúcar",
+                " ½ taza de azúcar (100 gramos)",
+                " 1½ cucharadas de postre de polvo para hornear",
+                " 1 pizca de sal",
+                " ½ taza de aceite o mantequilla",
+                " 2 huevos",
+                " 250 mililitros de leche",
+                " 1 cucharada sopera de esencia de vainilla",
+                " Chispas de chocolate (opcional)"
+            ]
+        },
+        {
+            "title": "Galletas Oreo caseras",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/2/4/9/galletas_oreo_caseras_74942_600.jpg",
+            "comensales": "15",
+            "duracion": "45",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste medio, Recomendada para niños, Recetas al horno",
+            "ingredientes": [
+                " 1½ tazas de harina de trigo (210 gramos)",
+                " 200 gramos de cacao en polvo",
+                " 1 pizca de sal",
+                " 1 cucharadita de bicarbonato de sodio",
+                " 110 gramos de mantequilla sin sal",
+                " 2 huevos",
+                " 180 gramos de azúcar",
+                " 60 gramos de mantequilla sin sal",
+                " 1½ tazas de azúcar glas",
+                " 1 cucharadita de esencia de vainilla"
+            ]
+        },
+        {
+            "title": "Bizcocho de naranja y yogur",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/8/3/9/bizcocho_de_naranja_y_yogur_74938_600.jpg",
+            "comensales": "6",
+            "duracion": "45",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato",
+            "ingredientes": [
+                " 2 naranjas",
+                " 1 yogur natural (125 gr.) o yogur griego",
+                " 4 huevos",
+                " 250 gramos de azúcar (1¼ tazas)",
+                " 250 gramos de harina de trigo común",
+                " 1 sobre de levadura",
+                " 125 mililitros de aceite de girasol",
+                " 2 cucharadas soperas de azúcar glass"
+            ]
+        },
+        {
+            "title": "Macarons de chocolate",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/4/3/9/macarons_de_chocolate_74934_600.jpg",
+            "comensales": "10",
+            "duracion": "2h 30",
+            "dificultad": "Dificultad alta",
+            "caracteristicas": "Coste barato, Receta sin gluten, Recetas al horno, Receta tradicional de Francia",
+            "ingredientes": [
+                " 150 gramos de almendra molida",
+                " 150 gramos de azúcar glas",
+                " 20 gramos de cacao en polvo sin azúcar",
+                " 40 mililitros de agua mineral",
+                " 150 gramos de azúcar granulada",
+                " 3 claras de huevo (sobre 110 g)",
+                " 250 gramos de chocolate negro",
+                " 200 mililitros de nata líquida (crema de leche)",
+                " 75 gramos de mantequilla sin sal"
+            ]
+        },
+        {
+            "title": "Pan de plátano macho",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/1/2/9/pan_de_platano_macho_74921_600.jpg",
+            "comensales": "10",
+            "duracion": "1h 30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Recetas al horno",
+            "ingredientes": [
+                " 3 plátanos machos",
+                " 1½ barras de mantequilla sin sal",
+                " 125 gramos de azúcar",
+                " 4 huevos",
+                " 1 cucharada sopera de esencia de vainilla",
+                " 375 gramos de harina de trigo o avena",
+                " 1 cucharada sopera de polvo para hornear (levadura química)",
+                " 1 cucharadita de bicarbonato de sodio",
+                " 1 pizca de sal"
+            ]
+        },
+        {
+            "title": "Pan frito chino",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/0/1/9/pan_frito_chino_74910_600.jpg",
+            "comensales": "8",
+            "duracion": "1h 30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Recomendada para vegetarianos, Recetas al vapor, Recetas chinas",
+            "ingredientes": [
+                " 300 gramos de harina de fuerza (gran fuerza 0)",
+                " 150 mililitros de agua",
+                " 1 pizca de sal",
+                " 20 gramos de azúcar",
+                " 1 cucharada sopera de aceite de oliva suave",
+                " 1 sobre de levadura seca de panadería",
+                " 1 cucharada sopera de mantequilla fundida (para pincelar)",
+                " 2 vasos de aceite de oliva suave o girasol"
+            ]
+        },
+        {
+            "title": "Roscón de Reyes sin gluten",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/5/8/8/roscon_de_reyes_sin_gluten_74885_600.jpg",
+            "comensales": "10",
+            "duracion": "2h 30",
+            "dificultad": "Dificultad muy alta",
+            "caracteristicas": "Coste caro, Popular en Otras fiestas, Recetas al horno, Recetas españolas",
+            "ingredientes": [
+                " 2 tazas de almidón de maíz o maicena",
+                " 1 taza de harina de arroz",
+                " 1 taza de azúcar (200 gramos)",
+                " 2 cucharadas soperas de psyllium",
+                " 2 cucharadas soperas de goma xantana",
+                " ½ taza de mantequilla (112½ gramos)",
+                " 2 cucharadas de postre de sal",
+                " 1½ cucharadas soperas de levadura seca",
+                " 100 mililitros de leche",
+                " 50 mililitros de ron o algún licor",
+                " Almendras fileteadas",
+                " Frutas confitadas",
+                " Cerezas en almíbar"
+            ]
+        },
+        {
+            "title": "Roscón de reyes con masa madre",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/6/7/8/roscon_de_reyes_con_masa_madre_74876_600.jpg",
+            "comensales": "10",
+            "duracion": "4h",
+            "dificultad": "Dificultad media",
+            "caracteristicas": "Coste caro, Recetas para Navidad, Recetas al horno",
+            "ingredientes": [
+                " 52 gramos de leche entera",
+                " 7½ gramos de levadura fresca o 3 g de la seca",
+                " 1 cucharada postre de azúcar",
+                " 100 gramos de harina todo uso",
+                " la masa madre",
+                " 45 gramos de leche entera",
+                " 55 gramos de mantequilla",
+                " 1 huevo grande",
+                " 15 gramos de levadura fresca o 5 g de levadura seca",
+                " 20 gramos de agua de azahar",
+                " 340 gramos de harina todo uso",
+                " 120 gramos de azúcar glas",
+                " ½ cucharada postre de rayadura de limón",
+                " ½ cucharada postre de rayadura de naranja",
+                " ¼ cucharada postre de sal",
+                " 100 gramos de azúcar remojada en gotas de agua de azahar"
+            ]
+        },
+        {
+            "title": "Lenguas de gato",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/7/7/8/lenguas_de_gato_74877_600.jpg",
+            "comensales": "5",
+            "duracion": "45",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste medio, Recetas al horno",
+            "ingredientes": [
+                " 150 gramos de mantequilla",
+                " 150 gramos de azúcar glass",
+                " 4 claras de huevos grandes",
+                " 150 gramos de harina todo uso",
+                " 1 cucharada sopera de extracto de vainilla",
+                " 200 gramos de chocolate de cobertura"
+            ]
+        }
+    ]
+}

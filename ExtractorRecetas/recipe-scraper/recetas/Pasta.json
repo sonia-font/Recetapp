@@ -1,0 +1,776 @@
+{
+    "Pasta": [
+        {
+            "title": "Chow mein",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/1/2/2/chow_mein_75221_600.jpg",
+            "comensales": "2",
+            "duracion": "30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste medio, Recomendada para perder peso, Receta sin lactosa, Receta sin azúcar, Receta sin sal, Nada picante, Hervido, Recetas chinas",
+            "ingredientes": [
+                " 400 gramos de brócoli",
+                " 200 gramos de langostinos",
+                " 140 gramos de pasta seca",
+                " 2 dientes de ajo"
+            ]
+        },
+        {
+            "title": "Pizza keto de pollo",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/6/0/2/pizza_keto_de_pollo_75206_600.jpg",
+            "comensales": "2",
+            "duracion": "15",
+            "dificultad": "Dificultad muy baja",
+            "caracteristicas": "Coste barato, Recomendada para perder peso, Receta sin gluten, Receta sin sal, Nada picante, Recetas al horno",
+            "ingredientes": [
+                " 1 pechuga de pollo",
+                " 1 huevo",
+                " 1 cucharada sopera de orégano o hierbas provenzales",
+                " 50 centímetros cúbicos de salsa de tomate",
+                " 50 gramos de queso fresco o mozzarella"
+            ]
+        },
+        {
+            "title": "Pastel azteca verde",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/4/8/1/pastel_azteca_verde_75184_600.jpg",
+            "comensales": "6",
+            "duracion": "45",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Poco picante, Recetas al horno, Recetas mexicanas",
+            "ingredientes": [
+                " Tortillas de maíz frías",
+                " 1 kilogramo de tomate verde",
+                " 1 trozo de cebolla",
+                " 1 chile poblano",
+                " 4 chiles serranos",
+                " 1 diente de ajo",
+                " 1 rama de cilantro",
+                " 2 tazas de pollo desmenuzado",
+                " 1 taza de granos de elote",
+                " 1 taza de queso manchego",
+                " 1 pizca de sal al gusto"
+            ]
+        },
+        {
+            "title": "Pastel azteca de mole",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/3/8/1/pastel_azteca_de_mole_75183_600.jpg",
+            "comensales": "6",
+            "duracion": "45",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Recetas al horno, Recetas mexicanas",
+            "ingredientes": [
+                " Tortillas de maíz frías",
+                " 2 tazas de pollo desmenuzado",
+                " 1 taza de queso manchego rallado",
+                " 2 tazas de mole",
+                " 50 gramos de chocolate de mesa",
+                " 1 pizca de sal al gusto",
+                " 1 cebolla cortada en rodajas"
+            ]
+        },
+        {
+            "title": "Ñoquis de papa con maicena",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/2/7/1/noquis_de_papa_con_maicena_75172_600.jpg",
+            "comensales": "1 comensal",
+            "duracion": "30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Recomendada para vegetarianos, Recomendada para perder peso, Receta sin lactosa, Receta sin gluten, Receta sin sal, Hervido, Recetas argentinas",
+            "ingredientes": [
+                " 260 gramos de puré de papa",
+                " 50 gramos de maicena",
+                " ½ huevo",
+                " 1 pizca de nuez moscada"
+            ]
+        },
+        {
+            "title": "Ñoquis de calabaza con harina integral",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/1/6/1/noquis_de_calabaza_con_harina_integral_75161_600.jpg",
+            "comensales": "3",
+            "duracion": "1h 30",
+            "dificultad": "Dificultad media",
+            "caracteristicas": "Coste barato, Recomendada para vegetarianos, Recomendada para perder peso, Receta sin lactosa, Receta sin azúcar, Receta sin sal, Hervido",
+            "ingredientes": [
+                " 500 gramos de calabaza",
+                " 1 ajo",
+                " 1 huevo",
+                " 200 gramos de harina integral (1⅓ tazas)",
+                " nuez moscada, romero, pimienta",
+                " 1 cucharada sopera de mostaza"
+            ]
+        },
+        {
+            "title": "Pasta al pesto rojo",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/5/4/1/pasta_al_pesto_rojo_75145_600.jpg",
+            "comensales": "2",
+            "duracion": "30",
+            "dificultad": "Dificultad muy baja",
+            "caracteristicas": "Coste barato, Hervido, Recetas italianas",
+            "ingredientes": [
+                " 190 gramos de pasta",
+                " 400 gramos de tomates secos en aceite",
+                " 1 diente de ajo",
+                " 20 gramos de albahaca fresca",
+                " 15 gramos de piñones",
+                " 40 gramos de parmesano rallado",
+                " 1 chorro de aceite de oliva virgen extra"
+            ]
+        },
+        {
+            "title": "Fideuá de carne",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/2/1/1/fideua_de_carne_75112_600.jpg",
+            "comensales": "4",
+            "duracion": "45",
+            "dificultad": "Dificultad media",
+            "caracteristicas": "Coste barato, Popular en Primavera-Verano, Recetas españolas",
+            "ingredientes": [
+                " 350 gramos de fideos nº2 o para fideuá",
+                " 1 cebolla mediana",
+                " 1 pimiento verde",
+                " 2 dientes de ajos",
+                " 600 gramos de costillas de cerdo",
+                " 200 gramos de tomate triturado",
+                " 1 litro de caldo de carne o agua",
+                " 1 chorro de aceite de oliva",
+                " 1 pizca de sal",
+                " 1 cucharada postre de pimentón dulce"
+            ]
+        },
+        {
+            "title": "Fideuá de pollo",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/3/0/1/fideua_de_pollo_75103_600.jpg",
+            "comensales": "3",
+            "duracion": "45",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Ideal acompañar con vino rosado, En sartén, Recetas españolas, Recetas valencianas",
+            "ingredientes": [
+                " 1 pechuga de pollo",
+                " 1 taza de fideos del nº 3 o 4",
+                " 1 pimiento verde italiano",
+                " 1 cebolla dulce",
+                " 3 dientes de ajo",
+                " 3 vasos de agua o caldo de pollo",
+                " 2 cucharadas soperas de tomate triturado",
+                " 1 cucharadita de sal",
+                " 1 pellizco de pimienta negra molida",
+                " 1 vaso pequeño de vino blanco",
+                " 1 cucharadita de cúrcuma o azafrán"
+            ]
+        },
+        {
+            "title": "Ñoquis de zapallo",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/2/5/0/noquis_de_zapallo_75052_600.jpg",
+            "comensales": "2",
+            "duracion": "45",
+            "dificultad": "Dificultad muy baja",
+            "caracteristicas": "Coste barato, Recomendada para vegetarianos, Popular en Otoño-Invierno, Ideal acompañar con vino blanco, Hervido, Recetas italianas",
+            "ingredientes": [
+                " 1 huevo",
+                " 350 gramos de harina 000",
+                " 1 pizca de sal al gusto",
+                " 1 pizca de pimienta al gusto",
+                " 2 tazas de puré de zapallo (cabutia)",
+                " 1 cebolla mediana",
+                " 2 tomates medianos",
+                " 1 cucharada sopera de aceite de oliva",
+                " 1 diente de ajo",
+                " 1 puñado de queso rallado"
+            ]
+        },
+        {
+            "title": "Masa de pizza con harina de arroz",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/0/8/9/masa_de_pizza_con_harina_de_arroz_74980_600.jpg",
+            "comensales": "2",
+            "duracion": "45",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Recomendada para perder peso, Receta sin gluten, Recetas al horno",
+            "ingredientes": [
+                " 300 gramos de harina de arroz",
+                " 1 cucharada postre de sal",
+                " 125 mililitros de agua natural",
+                " 13 gramos de levadura fresca o 4 gramos de levadura seca",
+                " 25 mililitros de aceite de oliva"
+            ]
+        },
+        {
+            "title": "Pad thai de gambas",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/6/6/9/pad_thai_de_gambas_74966_600.jpg",
+            "comensales": "3",
+            "duracion": "1h 30",
+            "dificultad": "Dificultad media",
+            "caracteristicas": "Coste medio, Recomendada para macrobióticos, Receta sin lactosa, Receta sin azúcar, Poco picante, Salteado, Receta tradicional de Tailandia",
+            "ingredientes": [
+                " 1 pimiento rojo",
+                " 1 cebolla dulce",
+                " 2 piezas de zanahoria",
+                " 1 cucharada sopera de salsa de pescado",
+                " 1 cucharada sopera de salsa de tamarindo",
+                " 1 rodaja de jengibre rallado",
+                " 2 piezas de limas",
+                " 250 gramos de noodles de arroz",
+                " 6 piezas de gambón o gamba",
+                " 3 ramas de cilantro fresco",
+                " 3 huevos",
+                " 1 puñado de cacahuete pelados y troceados",
+                " 1 taza de tófu tierno"
+            ]
+        },
+        {
+            "title": "Pizza de patata",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/6/9/7/pizza_de_patata_74796_600.jpg",
+            "comensales": "4",
+            "duracion": "30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Receta sin gluten, Recetas al horno",
+            "ingredientes": [
+                " 1 patata grande",
+                " 3 cucharadas soperas de parmesano rallado",
+                " 125 gramos de tomate frito",
+                " 200 gramos de champiñones laminados",
+                " 1 bola de Mozzarella",
+                " 1 huevo L",
+                " 2 lonchas de jamón serrano",
+                " 1 pizca de sal",
+                " 1 cucharadita de orégano seco (opcional)"
+            ]
+        },
+        {
+            "title": "Pizza de avena",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/9/9/7/pizza_de_avena_74799_600.jpg",
+            "comensales": "4",
+            "duracion": "30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste medio, Recomendada para vegetarianos, Recetas al horno",
+            "ingredientes": [
+                " 600 gramos de avena en copos u hojuelas",
+                " 1 taza de agua caliente",
+                " 1 cucharada sopera de queso parmesano (opcional)",
+                " 1 pizca de sal",
+                " 1 cucharadita de levadura",
+                " 1 cucharada sopera de aceite de oliva",
+                " 300 gramos de tomate triturado",
+                " 1 cucharada sopera de sazonador de hierbas italianas",
+                " ½ taza de champiñones",
+                " ½ taza de elote en grano (maíz)",
+                " 1 pimiento rojo",
+                " 1 pimiento verde",
+                " 1 taza de queso mozzarella rallado"
+            ]
+        },
+        {
+            "title": "Masa de pizza con cerveza",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/0/6/7/masa_de_pizza_con_cerveza_74760_600.jpg",
+            "comensales": "2",
+            "duracion": "45",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato",
+            "ingredientes": [
+                " 250 gramos de harina",
+                " 125 mililitros de cerveza",
+                " 2 cucharadas soperas de aceite de oliva",
+                " 1 pizca de sal"
+            ]
+        },
+        {
+            "title": "Ñoquis sin TACC",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/2/5/7/noquis_sin_tacc_74752_600.jpg",
+            "comensales": "4",
+            "duracion": "1h 30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Recomendada para veganos, Recomendada para vegetarianos, Receta sin lactosa, Receta sin gluten, Hervido",
+            "ingredientes": [
+                " 4 patatas medianas",
+                " 2 cucharadas soperas de aceite de oliva",
+                " 1 cucharada postre de sal",
+                " 1 pizca de pimienta negra recién molida",
+                " 175 gramos de harina de maíz"
+            ]
+        },
+        {
+            "title": "Espaguetis con pesto siciliano y endibia",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/8/2/7/espaguetis_con_pesto_siciliano_y_endibia_74728_600.jpg",
+            "comensales": "2",
+            "duracion": "1h 30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste medio, Recomendada para vegetarianos, Recetas italianas",
+            "ingredientes": [
+                " 200 gramos de espaguetis",
+                " 25 gramos de albahaca fresca",
+                " 25 gramos de piñones",
+                " 1 pizca de orégano seco",
+                " Sal al gusto",
+                " 1 pizca de azúcar",
+                " 1 guindilla pequeña",
+                " 2 dientes de ajo",
+                " 1 chorro de aceite de oliva",
+                " 1 vuelta y media de molinillo de pimienta",
+                " 75 gramos de queso parmesano rallado",
+                " 1 endibia",
+                " 75 gramos de tomate Orlando Clásico"
+            ]
+        },
+        {
+            "title": "Raviolis de calabaza",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/3/2/7/raviolis_de_calabaza_74723_600.jpg",
+            "comensales": "3",
+            "duracion": "1h 30",
+            "dificultad": "Dificultad media",
+            "caracteristicas": "Coste barato, Recomendada para vegetarianos, Receta sin azúcar, Hervido, Recetas italianas",
+            "ingredientes": [
+                " 1 hoja de masa fresca para cocer (debe estar fría)",
+                " 150 gramos de queso ricotta",
+                " 300 gramos de calabaza pelada y limpia",
+                " 200 mililitros de crema de coco para cocinar o nata",
+                " 100 gramos de queso parmesano rallado",
+                " 50 gramos de quesos variados (4 quesos)",
+                " 1 pizca de orégano",
+                " 1 pizca de pimienta negra molida",
+                " 1 rama de albahaca fresca",
+                " 1 pellizco de nuez moscada en polvo",
+                " 1 pellizco de cebolla en polvo",
+                " 1 chorro de aceite de oliva",
+                " Sal al gusto"
+            ]
+        },
+        {
+            "title": "Lasaña de calabaza",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/8/1/7/lasana_de_calabaza_74718_600.jpg",
+            "comensales": "4",
+            "duracion": "1h 30",
+            "dificultad": "Dificultad media",
+            "caracteristicas": "Coste barato, Recomendada para vegetarianos, Receta sin azúcar, Poco picante, Ideal acompañar con vino rosado, Recetas al horno, Recetas italianas",
+            "ingredientes": [
+                " 300 gramos de calabaza",
+                " 1 trozo de cebolla dulce",
+                " 2 dientes de ajo",
+                " 1 puerro",
+                " 1 pellizco de orégano",
+                " 1 pellizco de nuez moscada",
+                " 1 cucharadita de sal",
+                " 1 pizca de pimienta negra molida",
+                " 2 cucharadas soperas de harina común",
+                " 3 vasos de leche semidesnatada",
+                " 6 hojas de albahaca fresca",
+                " 1 taza de parmesano rallado",
+                " 3 cucharadas soperas de 4 quesos rallados (opcional)",
+                " 8 láminas de lasaña",
+                " 2 cucharadas soperas de queso ricotta",
+                " 2 pellizcos de pimentón dulce de la vera o ahumado"
+            ]
+        },
+        {
+            "title": "Espagueti rojo con crema",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/7/2/6/espagueti_rojo_con_crema_74627_600.jpg",
+            "comensales": "5",
+            "duracion": "30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Nada picante",
+            "ingredientes": [
+                " 200 gramos de espagueti",
+                " 2 cucharadas soperas de mantequilla sin sal",
+                " 1 lata de media crema",
+                " 5 piezas de jitomates medianos",
+                " 1 trozo de cebolla",
+                " 1 diente de ajo",
+                " 1 cubo de consomé de pollo",
+                " 1 pizca de hierbas italianas (opcional)",
+                " 1 cucharadita de queso fresco",
+                " 1 cucharadita de crema ácida o agria"
+            ]
+        },
+        {
+            "title": "Spätzle o spaetzle",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/9/0/6/spatzle_o_spaetzle_74609_600.jpg",
+            "comensales": "5",
+            "duracion": "30",
+            "dificultad": "Dificultad muy baja",
+            "caracteristicas": "Coste barato, Receta tradicional de Alemania",
+            "ingredientes": [
+                " 600 gramos de harina 0000",
+                " 1 huevo",
+                " 1 pizca de sal",
+                " agua tibia"
+            ]
+        },
+        {
+            "title": "Ñoquis de calabaza sin harina",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/3/4/5/noquis_de_calabaza_sin_harina_74543_600.jpg",
+            "comensales": "4",
+            "duracion": "1h 30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato",
+            "ingredientes": [
+                " 500 gramos de zapallo cabutia",
+                " 1 huevo",
+                " 2 cucharaditas de sal",
+                " pimienta",
+                " 1 cucharadita de nuez moscada",
+                " aceite de oliva",
+                " agua",
+                " 150 harina de trigo sarraceno",
+                " 150 harina de arroz"
+            ]
+        },
+        {
+            "title": "Espaguetis a la amatriciana",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/1/1/5/espaguetis_a_la_amatriciana_74511_600.jpg",
+            "comensales": "2",
+            "duracion": "45",
+            "dificultad": "Dificultad media",
+            "caracteristicas": "Coste barato, Receta sin lactosa, Poco picante, Ideal acompañar con vino rosado, En sartén, Recetas italianas",
+            "ingredientes": [
+                " 2 tomates grandes y maduros",
+                " 150 gramos de guanciale o panceta de cerdo",
+                " 1 trozo de chile verde o ají",
+                " 1 cucharada sopera de azúcar morena o blanca",
+                " 1 cucharadita de sal y pimienta negra recién molida",
+                " 1 chorro de aceite de oliva",
+                " 2 manojos de tallarines",
+                " 3 cucharadas soperas de queso curado de oveja ( rallado)"
+            ]
+        },
+        {
+            "title": "Pizza de camarones",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/8/5/4/pizza_de_camarones_74458_600.jpg",
+            "comensales": "4",
+            "duracion": "1h 30",
+            "dificultad": "Dificultad media",
+            "caracteristicas": "Coste barato, Receta sin lactosa, Receta sin azúcar, Poco picante, Recetas al horno, Recetas italianas",
+            "ingredientes": [
+                " 300 gramos de harina de fuerza (gran fuerza 0)",
+                " 1 vaso de agua tibia",
+                " 1 paquete de levadura seca para pan",
+                " 1 cucharadita de sal",
+                " 2 cucharadas soperas de aceite de oliva suave",
+                " 20 camarón fresco",
+                " 2 piezas de tomate pera",
+                " 1 taza de tomate frito",
+                " 1 pieza de cebolleta tierna",
+                " 1 cucharada postre de orégano",
+                " 1 pieza de pimiento morrón a tiras",
+                " 10 champiñones",
+                " 4 cucharadas soperas de queso parmesano",
+                " 4 lonchas de queso cremoso de barra",
+                " 1 cucharada postre de albahaca",
+                " Pimienta al gusto"
+            ]
+        },
+        {
+            "title": "Focaccia rellena",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/3/1/4/focaccia_rellena_74413_600.jpg",
+            "comensales": "6",
+            "duracion": "1h 30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste medio, Recetas al horno, Recetas italianas",
+            "ingredientes": [
+                " 500 gramos de harina 0000",
+                " 25 gramos de levadura fresca",
+                " 4 cucharadas soperas de aceite de oliva",
+                " 1 cucharada postre de sal",
+                " 300 centímetros cúbicos de agua tibia",
+                " 150 gramos de queso mozzarella",
+                " 150 gramos de queso cremoso",
+                " tomates cherry",
+                " aceitunas negras",
+                " albahaca"
+            ]
+        },
+        {
+            "title": "Canelones de verano",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/2/0/4/canelones_de_verano_74402_600.jpg",
+            "comensales": "4",
+            "duracion": "45",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato",
+            "ingredientes": [
+                " 16 placas de canelones",
+                " 3 latas de atún en aceite o al natural",
+                " 4 huevos",
+                " 1 cebolla tierna",
+                " 100 gramos de tomate frito",
+                " 1 bote de aceitunas",
+                " 1 bote de mayonesa"
+            ]
+        },
+        {
+            "title": "Pasticho de plátano",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/9/8/3/pasticho_de_platano_74389_600.jpg",
+            "comensales": "4",
+            "duracion": "1h 30",
+            "dificultad": "Dificultad media",
+            "caracteristicas": "Coste caro, Recetas al horno",
+            "ingredientes": [
+                " 5 plátanos no muy maduros",
+                " 200 gramos de queso blanco o mozzarella",
+                " 50 gramos de queso parmesano",
+                " Aceite suficiente para freír",
+                " 250 gramos de carne molida",
+                " 1 cebolla",
+                " 1 pimentón",
+                " 1 rama de cebollín grande",
+                " 5 tomates grandes muy maduros",
+                " 3 dientes de ajo",
+                " 1 pizca de pimienta",
+                " 1 pizca de comino",
+                " 1 pizca de orégano",
+                " sal al gusto",
+                " 3 cucharadas soperas de aceite vegetal",
+                " 600 mililitros de leche líquida entera",
+                " 50 gramos de mantequilla o margarina",
+                " 50 gramos de harina de trigo ya tamizada",
+                " 1 pizca de nuez moscada",
+                " sal al gusto"
+            ]
+        },
+        {
+            "title": "Pizza en microondas",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/0/3/3/pizza_en_microondas_74330_600.jpg",
+            "comensales": "2",
+            "duracion": "1h 30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Recetas al microondas, Recetas italianas",
+            "ingredientes": [
+                " 300 gramos de harina de fuerza (gran fuerza 0)",
+                " 60 mililitros de aceite de oliva",
+                " 120 mililitros de agua tibia",
+                " 1 sobre de levadura seca de panadero",
+                " 1 cucharadita de sal"
+            ]
+        },
+        {
+            "title": "Fideuá de Gandia",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/7/7/2/fideua_de_gandia_74277_600.jpg",
+            "comensales": "4",
+            "duracion": "30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste medio, Receta sin lactosa, Receta sin gluten, Hervido, Recetas españolas",
+            "ingredientes": [
+                " 400 gramos de rape",
+                " 1 cebolla pequeña",
+                " 2 dientes de ajo",
+                " 4 cigalas",
+                " 4 gambas",
+                " 150 gramos de tomate triturado",
+                " 400 gramos de fideos del número 4",
+                " 1500 mililitros de caldo de pescado",
+                " 2 cucharadas de postre de pimentón dulce",
+                " 1 pizca de sal",
+                " 4 cucharadas soperas de aceite de oliva"
+            ]
+        },
+        {
+            "title": "Fideuá de marisco",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/3/5/2/fideua_de_marisco_74253_600.jpg",
+            "comensales": "4",
+            "duracion": "45",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste medio, Hervido, Recetas españolas",
+            "ingredientes": [
+                " 400 gramos de fideos del nº 2",
+                " 8 gambas",
+                " 1 puñado de gambas peladas (pueden ser congeladas)",
+                " 1 sepia",
+                " 300 gramos de mejillones",
+                " 200 gramos de tomate triturado o 2 tomates",
+                " 2 dientes de ajos",
+                " 2 cucharadas soperas de tomate frito",
+                " 1 vaso pequeño de aceite de oliva",
+                " 1 bolsa de espinas de pescado fresco",
+                " 4 cáscaras de gambas (opcional)",
+                " 2 dientes de ajos",
+                " 2 cucharadas soperas de pimiento choricero o ñora",
+                " 4 hebras de azafrán",
+                " 1½ litros de agua",
+                " 1 puñado de sal",
+                " 1 vaso pequeño de aceite de girasol",
+                " 1 huevo",
+                " 1 diente de ajo",
+                " 1 pizca de sal"
+            ]
+        },
+        {
+            "title": "Pizza de bacon",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/0/6/1/pizza_de_bacon_74160_600.jpg",
+            "comensales": "2",
+            "duracion": "2h 30",
+            "dificultad": "Dificultad media",
+            "caracteristicas": "Coste barato, Receta sin azúcar, Poco picante, Recetas italianas",
+            "ingredientes": [
+                " 300 gramos de harina de fuerza",
+                " 1 vaso de leche tibia",
+                " 1 cucharadita de sal",
+                " 8 lonchas de bacon",
+                " 1 taza de tomate casero triturado",
+                " 200 gramos de queso rallado semicurado",
+                " 1 cucharadita de orégano",
+                " 1 pellizco de pimienta (opcional)",
+                " 1 cucharadita de ajo en polvo",
+                " 1 cucharadita de cebolla en polvo"
+            ]
+        },
+        {
+            "title": "Pizza de pepperoni",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/2/5/1/pizza_de_pepperoni_74152_600.jpg",
+            "comensales": "2",
+            "duracion": "2h 30",
+            "dificultad": "Dificultad media",
+            "caracteristicas": "Coste barato, Receta sin azúcar, Poco picante, Recetas al horno, Recetas italianas",
+            "ingredientes": [
+                " 300 gramos de harina de fuerza",
+                " 1 vaso de leche, mitad será para diluirla con levadura",
+                " 15 gramos de levadura fresca de panadero",
+                " 2 pellizcos de sal",
+                " 1 pimiento verde italiano",
+                " 1 cebolla dulce",
+                " 300 gramos de pepperoni",
+                " 2 pellizcos de orégano y pimienta",
+                " 1 vaso de tomate triturado",
+                " 1 pieza de queso cheddar rallado"
+            ]
+        },
+        {
+            "title": "Lasaña sin horno",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/2/4/1/lasana_sin_horno_74142_600.jpg",
+            "comensales": "3",
+            "duracion": "1h 30",
+            "dificultad": "Dificultad media",
+            "caracteristicas": "Coste medio, Receta sin lactosa, Receta sin azúcar, Poco picante, En sartén, Recetas italianas",
+            "ingredientes": [
+                " 6 laminas de lasaña",
+                " 500 gramos de carne picada mixta (pollo y ternera)",
+                " 300 gramos de tomate triturado o tamizado",
+                " 200 gramos de queso cheddar semicurado para rallar",
+                " 1 cebolla morada o la que quieras",
+                " 2 dientes de ajo",
+                " 1 cucharada postre de orégano y romero",
+                " 1 vaso pequeño de vino blanco",
+                " 1 lata pequeña de pimiento morrón",
+                " 1 brick de crema de nata o soja",
+                " 1 pellizco de ají molido (opcional) y sal al punto",
+                " 1 chorro de aceite de oliva"
+            ]
+        },
+        {
+            "title": "Canelones de marisco",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/4/4/0/canelones_de_marisco_74044_600.jpg",
+            "comensales": "2",
+            "duracion": "1h 30",
+            "dificultad": "Dificultad media",
+            "caracteristicas": "Coste medio, Receta sin azúcar, Poco picante, Recetas al horno",
+            "ingredientes": [
+                " 300 gramos de gambas peladas crudas (frescas o congeladas)",
+                " 150 gramos de aros de calmar",
+                " 1 pimiento amarillo",
+                " 1 cebolla",
+                " 2 cucharadas soperas de harina de trigo común",
+                " 1 litro de caldo de marisco o pescado",
+                " 1 pellizco de sal, pimienta, nuez moscada y perejil seco",
+                " 2 chorros de aceite de girasol o semillas",
+                " 6 láminas de pasta para canelones",
+                " 5 cucharadas soperas de queso manchego semicurado rallado (o mozzarella)"
+            ]
+        },
+        {
+            "title": "Canelones de bacalao",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/1/3/0/canelones_de_bacalao_74031_600.jpg",
+            "comensales": "2",
+            "duracion": "1h 30",
+            "dificultad": "Dificultad media",
+            "caracteristicas": "Coste barato, Receta sin azúcar, Poco picante, Rehogado",
+            "ingredientes": [
+                " 6 láminas de placas de canelón",
+                " 1 pimiento verde",
+                " 4 setas",
+                " 1 cebolla",
+                " 1 pimiento morrón",
+                " 5 cucharadas soperas de tomate casero triturado",
+                " 250 gramos de bacalao desalado",
+                " 1 chorro de aceite de oliva",
+                " 1 cucharada sopera de pimiento choricero",
+                " 2 cucharadas soperas de harina",
+                " 3 cucharadas soperas de aceite de oliva",
+                " 2 vasos de leche",
+                " 3 cucharadas soperas de aceite de oliva",
+                " 1 pellizco de nuez moscada",
+                " 1 pellizco de pimienta molida"
+            ]
+        },
+        {
+            "title": "Lasaña de brócoli",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/6/2/0/lasana_de_brocoli_74026_600.jpg",
+            "comensales": "2",
+            "duracion": "30",
+            "dificultad": "Dificultad media",
+            "caracteristicas": "Coste barato, Recomendada para vegetarianos",
+            "ingredientes": [
+                " 1 paquete de láminas de pasta para lasaña",
+                " 1 brócoli",
+                " 1 cebolla",
+                " 2 dientes de ajo",
+                " 2 cucharadas soperas de queso crema, requesón o ricotta",
+                " 2 tomates",
+                " 2 cucharadas soperas de salsa de tomate triturado (opcional)",
+                " 1 pizca de sal",
+                " 1 pizca de pimienta",
+                " 250 mililitros de leche",
+                " 4 cucharadas soperas de harina de trigo",
+                " ½ cebolla picada (opcional)",
+                " 1 pizca de nuez moscada",
+                " 1 pizca de sal"
+            ]
+        },
+        {
+            "title": "Tallarines con huevo",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/8/0/0/tallarines_con_huevo_74008_600.jpg",
+            "comensales": "2",
+            "duracion": "15",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato",
+            "ingredientes": [
+                " 200 gramos de tallarines cocidos",
+                " 4 huevos",
+                " 1 taza de jamón serrano o tocino",
+                " 1 diente de ajo",
+                " 1 chorro de leche o nata",
+                " 1 pizca de sal y pimienta",
+                " 1 taza de queso rallado (opcional)"
+            ]
+        },
+        {
+            "title": "Pizza de calabacín",
+            "imagen": "https://t2.rg.ltmcdn.com/es/images/3/8/9/pizza_de_calabacin_73983_600.jpg",
+            "comensales": "2",
+            "duracion": "1h 30",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Recomendada para vegetarianos, Recomendada para macrobióticos, Receta sin azúcar, Nada picante, Recetas al horno",
+            "ingredientes": [
+                " 2 calabacines medianos",
+                " 1 huevo",
+                " 5 cucharadas soperas de harina de trigo",
+                " 1 taza de queso parmesano rallado",
+                " 1 pizca de ajo en polvo, sal",
+                " 3 rodajas de mozzarella",
+                " 1 tomate cortado en rodajas",
+                " 2 pellizcos de orégano seco",
+                " 1 chorro de aceite de oliva virgen extra"
+            ]
+        },
+        {
+            "title": "Pasta con espárragos",
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/8/1/9/pasta_con_esparragos_73918_600.jpg",
+            "comensales": "3",
+            "duracion": "15",
+            "dificultad": "Dificultad baja",
+            "caracteristicas": "Coste barato, Recomendada para vegetarianos, Recomendada para macrobióticos, Recomendada para perder peso, Receta sin azúcar, Hervido, Recetas italianas",
+            "ingredientes": [
+                " 8 nidos de tallarines",
+                " 1 manojo de espárragos",
+                " 4 cucharadas soperas de aceite de oliva virgen extra",
+                " Lascas de queso curado ahumado (opcional)",
+                " 2 dientes de ajo",
+                " Sal y pimienta al gusto",
+                " 1 cucharada sopera de harina de maíz",
+                " 1 taza de agua (240 mililitros)",
+                " 1 pastilla de caldo de pollo"
+            ]
+        }
+    ]
+}
