@@ -1,6 +1,6 @@
-let nextId = 1
-
 class User {    
+
+    static nextId = 1
 
     constructor(data){
         this.name = data.name;
