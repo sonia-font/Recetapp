@@ -1,6 +1,6 @@
-let nextId = 1
-
 class Recipe {    
+
+    static nextId = 1
 
     constructor(data){
         this.title = data.title;
