@@ -1,13 +1,33 @@
+import { NavigationContainer } from "@react-navigation/native";
+import { createStackNavigator } from "@react-navigation/stack";
 import { StatusBar } from 'expo-status-bar';
-import React from 'react';
+import React, { Component } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import EatNow from "./pages/eatNow";
+import Home from "./pages/home";
+import Login from "./pages/login";
+import MyInventory from "./pages/myInventory";
+import Recipies from "./pages/recipes";
+import SignUp from "./pages/signUp";
+import WeeklyPlan from "./pages/weeklyPlan";
+
+
+const Stack = createStackNavigator()
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <NavigationContainer>
+      <Stack.Navigator>
+        <Stack.Screen name = { 'Home' } component = {Home}  options = { {title: 'Recetapp'} }/>
+        <Stack.Screen name = { 'Login' } component = {Login}  options = { {title: 'Indentificate'} }/>
+        <Stack.Screen name = { 'SignUp' } component = {SignUp}  options = { {title: 'Registro'} }/>
+        <Stack.Screen name = { 'MyInventory' } component = {MyInventory}  options = { {title: 'Mi Heladera'} }/>
+        <Stack.Screen name = { 'EatNow' } component = {EatNow}  options = { {title: 'Que comemos?'} }/>
+        <Stack.Screen name = { 'WeeklyPlan' } component = {WeeklyPlan}  options = { {title: 'Plan Semanal'} }/>
+        <Stack.Screen name = { 'Recipies ' } component = {Recipies}  options = { {title: 'Recetas'} }/>
+      </Stack.Navigator>
+
+    </NavigationContainer>
   );
 }
 
