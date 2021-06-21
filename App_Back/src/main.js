@@ -1,16 +1,9 @@
-/*----------------------
-Router me inicializa servicios y managers
-Los distintos routers usan eso para hacer las distintas cosas
+import ExpressServer from './shared/server/ExpressServer.js'
 
-1)importo express
-2)importo el router que voy a usar
-3)instancio ese router pasandole el path y express
-https://hackernoon.com/object-oriented-routing-in-nodejs-and-express-71cb1baed9f0
+async function main(){
+    let server = await new ExpressServer().crearServidor(8000)
 
-var app = express();
-var router = app.Router()
-var ingredientRouter = new IngredientRouter("/ingredients", router);
+    console.log(`Servidor listo en http://localhost:${server.port}/api`)
+}
 
-falta todo lo que es Server, Client y main.
-Probar y tests
-*/
+main()
