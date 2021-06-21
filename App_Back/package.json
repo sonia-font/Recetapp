@@ -7,7 +7,7 @@
   "scripts": {
     "start": "node src/main.js",
     "uploadRecipe": "node test/TestCase_UploadRecipe.js",
-    "weeklyRecepie": "node test/TestCase_GetWeekPlan.js",
+    "weeklyRecepe": "node test/TestCase_GetWeekPlan.js",
     "pdfMaker": "node test/TestCase_GetBuyList.js",
     "tomi": "node test/TestCase_UploadRecipe.js"
   },
