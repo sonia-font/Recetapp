@@ -6,10 +6,10 @@ class PdfMaker {
     constructor() {
         this.fonts = {
             Roboto: {
-                normal: '../src/compartidos/pdfs/robot-fonts/Roboto-Regular.ttf',
-                bold: '../src/compartidos/pdfs/robot-fonts/Roboto-Medium.ttf',
-                italics: '../src/compartidos/pdfs/robot-fonts/Roboto-Italic.ttf',
-                bolditalics: '../src/compartidos/pdfs/robot-fonts/Roboto-MediumItalic.ttf'
+                normal: './src/shared/pdfmaker/robot-fonts/Roboto-regular.ttf',
+                bold: './src/shared/pdfmaker/robot-fonts/Roboto-Medium.ttf',
+                italics: './src/shared/pdfmaker/robot-fonts/Roboto-Italic.ttf',
+                bolditalics: './src/shared/pdfmaker/robot-fonts/Roboto-MediumItalic.ttf'
             }
         }
     }

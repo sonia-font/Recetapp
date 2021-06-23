@@ -1,4 +1,4 @@
-import Ingredient from '../models/Ingredient.js'
+import ingredients from '../models/Ingredient.js'
 
 class IngredientService {
 

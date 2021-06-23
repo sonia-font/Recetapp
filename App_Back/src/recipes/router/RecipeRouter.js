@@ -44,7 +44,7 @@ class RecipeRouter {
 
         recipeRouter.post('/recipes/start', async (req, res, next) => {
             try {
-                await (await cuGetPdfOrEmailRecipe).selectPdfOrEmailRecipe(req.query.recipe, req.query.user, req.query.format)
+                await (await cuGetPdfOrEmailRecipe).selectPdfOrEmailRecipe(req.query.idRecipe, req.query.idUser, req.query.format)
                 res.status(200).send({msg: 'Receta iniciada'})
             } catch(error) {
                 next(error)
