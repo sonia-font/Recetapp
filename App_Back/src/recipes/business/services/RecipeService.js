@@ -26,13 +26,18 @@ class RecipeService {
     }
 
     async addTestData() {
-        var self = this
+        const self = this
+        
+        const ingredient = new Ingredient({
+            name: 'Huevo',
+            unit: 'unidad'
+        })
 
         const ingredient2 = new Ingredient({
             name: 'rodajas de merluza',
             unit: 'unidad'
         })
-
+        
         const ingredient3 = new Ingredient({
             name: 'cebolla grande',
             unit: 'unidad'
@@ -44,7 +49,7 @@ class RecipeService {
         })
 
         const ingredient5 = new Ingredient({
-            name: 'puÃ±ado de perejil',
+            name: 'puñado de perejil',
             unit: 'unidad'
         })
 
@@ -61,6 +66,11 @@ class RecipeService {
         const ingredient8 = new Ingredient({
             name: 'cucharada postre de harina de trigo o maicena',
             unit: 'unidad'
+        })
+
+        const stockItem = new StockItem({
+            ingredient: ingredient,
+            amount: 3
         })
 
         const stockItem2 = new StockItem({
@@ -92,11 +102,26 @@ class RecipeService {
             ingredient: ingredient7,
             amount: 3
         })
-
+        
         const stockItem8 = new StockItem({
             ingredient: ingredient8,
             amount: 4
         })
+
+        self.add(new Recipe({
+            title: 'Merluza en salsa verde',
+            image: '..\\uploads/huevos.jpg',
+            plates: 3,
+            time: 15,
+            difficulty: 'Facil',
+            characteristics: 'Simple, Economico, Vegetariano',
+            stockIngredients: [
+                {
+                ingredient: stockItem.ingredient,
+                amount: stockItem.amount
+                }
+            ]
+        }))
 
         self.add(new Recipe({
             title: 'Merluza en salsa verde',

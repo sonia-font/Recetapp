@@ -1,15 +1,17 @@
 import PdfPrinter from 'pdfmake';
 import fs from 'fs';
 
+const path = process.cwd();
+
 class PdfMaker {
 
     constructor() {
         this.fonts = {
             Roboto: {
-                normal: './src/shared/pdfmaker/robot-fonts/Roboto-regular.ttf',
-                bold: './src/shared/pdfmaker/robot-fonts/Roboto-Medium.ttf',
-                italics: './src/shared/pdfmaker/robot-fonts/Roboto-Italic.ttf',
-                bolditalics: './src/shared/pdfmaker/robot-fonts/Roboto-MediumItalic.ttf'
+                normal: path +'/src/shared/pdfmaker/robot-fonts/Roboto-Regular.ttf',
+                bold: path +'/src/shared/pdfmaker/robot-fonts/Roboto-Medium.ttf',
+                italics: path +'/src/shared/pdfmaker/robot-fonts/Roboto-Italic.ttf',
+                bolditalics: path +'/src/shared/pdfmaker/robot-fonts/Roboto-MediumItalic.ttf'
             }
         }
     }
