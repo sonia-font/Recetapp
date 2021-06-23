@@ -63,7 +63,7 @@ class UserService {
             ingredient: ingredient,
             amount: 3
         })
-
+        
         const stockItem2 = new StockItem({
             ingredient: ingredient2,
             amount: 8

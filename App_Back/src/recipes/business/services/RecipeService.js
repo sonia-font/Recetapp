@@ -27,7 +27,7 @@ class RecipeService {
 
     async addTestData() {
         const self = this
-
+        
         const ingredient = new Ingredient({
             name: 'Huevo',
             unit: 'unidad'
@@ -37,7 +37,7 @@ class RecipeService {
             name: 'rodajas de merluza',
             unit: 'unidad'
         })
-
+        
         const ingredient3 = new Ingredient({
             name: 'cebolla grande',
             unit: 'unidad'
@@ -102,14 +102,14 @@ class RecipeService {
             ingredient: ingredient7,
             amount: 3
         })
-
+        
         const stockItem8 = new StockItem({
             ingredient: ingredient8,
             amount: 4
         })
 
         self.add(new Recipe({
-            title: '3 Huevos',
+            title: 'Merluza en salsa verde',
             image: '..\\uploads/huevos.jpg',
             plates: 3,
             time: 15,

@@ -9,7 +9,7 @@
     "uploadRecipe": "node test/TestCase_UploadRecipe.js",
     "weeklyRecipe": "node test/TestCase_GetWeekPlan.js",
     "pdfMaker": "node test/TestCase_GetBuyList.js",
-    "tomi": "node test/TestCase_UploadRecipe.js"
+    "tomi": "node test/TestCase_GetPdfOrEmailRecipe.js"
   },
   "keywords": [],
   "author": "",
@@ -21,6 +21,7 @@
     "form-data": "^4.0.0",
     "formidable": "^1.2.2",
     "handlebars": "^4.7.7",
+    "mongoose": "^5.12.14",
     "node-fetch": "^2.6.1",
     "nodemailer": "^6.6.2",
     "pdfmake": "^0.1.71"
