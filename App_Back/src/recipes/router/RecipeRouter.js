@@ -65,6 +65,19 @@ class RecipeRouter {
                 next(error)
             }         
         })
+
+        recipeRouter.use((error, req, res, next) => {
+            if(error.type == 'ERROR_USER_NOT_FOUND'){
+                res.status(400)
+            }else if (error.type == 'ERROR_DATOS_INVALIDOS'){
+                res.status(400)
+            }else if (error.type == 'ERROR_ESTUDIANTE_NO_ENCONTRADO'){
+                res.status(404)
+            }else{
+                res.status(500)
+            }
+            res.json({message:error.message})
+        })
     
         return recipeRouter
     }
