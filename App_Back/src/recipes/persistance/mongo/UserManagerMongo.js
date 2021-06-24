@@ -1,4 +1,3 @@
-import { crearErrorClienteNoEncontrado } from '../../../shared/errors/ErrorClienteNoEncontrado.js'
 
 function crearUserManagerMongo(db) {
 
