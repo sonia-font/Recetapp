@@ -15,6 +15,12 @@ class IngredientManager {
     async getById(id) {
         return this.ingredients.find((ingredient) => ingredient.id == id)
     }
+
+    async cerrar() {
+        return console.log('cerrando manager de ingredientes en cache')
+    }
 }
+  
+
 
 export default IngredientManager
