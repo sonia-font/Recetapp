@@ -54,6 +54,9 @@ class RecipeManager {
         }
     return filteredRecipes
     }
+    async cerrar() {
+        return console.log('cerrando manager de recetas en cache')
+    }
 }
 
 export default RecipeManager
