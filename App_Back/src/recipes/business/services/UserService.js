@@ -19,7 +19,7 @@ class UserService {
     }
 
     async getById(id) {
-        const {user} = await this.users.getById(id)
+        const user = await this.users.getById(id)
         if(!user){
             throw createErrorUserNotFound()
         }

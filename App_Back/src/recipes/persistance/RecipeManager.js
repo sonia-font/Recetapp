@@ -20,34 +20,34 @@ class RecipeManager {
         let filteredRecipes = []
 
         if (params.keyWord != null && params.keyWord != "" && params.keyWord != " ") {
-            if(filteredRecipes.length = 0){
+            if(filteredRecipes.length == 0){
                 filteredRecipes = this.recipes.filter((recipe) => recipe.characteristics.includes(params.keyWord))
             } else{
-                filteredRecipes = this.filteredRecipes.filter((recipe) => recipe.characteristics.includes(params.keyWord))
+                filteredRecipes = filteredRecipes.filter((recipe) => recipe.characteristics.includes(params.keyWord))
             }
         } 
 
         if(params.maxIngredients != null && params.maxIngredients > 0) {
-            if(filteredRecipes.length = 0){
+            if(filteredRecipes.length == 0){
                 filteredRecipes = this.recipes.filter((recipe) => recipe.stockIngredients.length <= params.maxIngredients)
             } else {
-                filteredRecipes = this.filteredRecipes.filter((recipe) => recipe.stockIngredients.length <= params.maxIngredients)
+                filteredRecipes = filteredRecipes.filter((recipe) => recipe.stockIngredients.length <= params.maxIngredients)
             }
         }
 
         if(params.maxTime != null && params.maxTime > 0) {
-            if(filteredRecipes.length = 0){
-                filteredRecipes =this.recipes.filter((recipe) => recipe.time <= params.maxTime)              
+            if(filteredRecipes.length == 0){
+                filteredRecipes = this.recipes.filter((recipe) => recipe.time <= params.maxTime)              
             } else {
-                filteredRecipes =this.filteredRecipes.filter((recipe) => recipe.time <= params.maxTime)              
+                filteredRecipes = filteredRecipes.filter((recipe) => recipe.time <= params.maxTime)              
             }
         }
 
         if(params.difficulty != null) {
-            if(filteredRecipes.length = 0){
+            if(filteredRecipes.length == 0){
                 filteredRecipes = this.recipes.filter((recipe) => recipe.difficulty == params.difficulty)
             } else {
-                filteredRecipes = this.filteredRecipes.filter((recipe) => recipe.difficulty == params.difficulty)
+                filteredRecipes = filteredRecipes.filter((recipe) => recipe.difficulty == params.difficulty)
             }
         }
         
