@@ -1,4 +1,4 @@
-import { getMode } from "../../config";
+import { getMode } from "../../config.js";
 
 let IngredientManager
 let RecipeManager
