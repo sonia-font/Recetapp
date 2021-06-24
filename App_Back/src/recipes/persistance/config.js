@@ -9,4 +9,8 @@ function getMode() {
   return process.env.MODE || 'PROD'
 }
 
-export { getCnxStr, getMode }
+function getDBname() {
+  return process.env.DBNAME || 'genericdb'
+}
+
+export { getCnxStr, getMode, getDBname }
