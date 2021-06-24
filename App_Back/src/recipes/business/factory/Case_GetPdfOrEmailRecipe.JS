@@ -1,4 +1,7 @@
 import fs from 'fs'
+import {createErrorInvalidRecipeId} from '../../../shared/errors/ErrorInvalidRecipeId.js'
+import {createErrorInvalidUserId} from '../../../shared/errors/ErrorInvalidUserId.js'
+import {createErrorInvalidSendFormat} from '../../../shared/errors/ErrorInvalidSendFormat.js'
 
 class Case_GetPdfOrEmailRecipe {
 
@@ -10,6 +13,15 @@ class Case_GetPdfOrEmailRecipe {
     }
     
     async selectPdfOrEmailRecipe(idRecipe, idUser, sendFormat){
+        if (idRecipe == null || idRecipe < 0) {
+            throw createErrorInvalidRecipeId()
+        } 
+        if (idUser == null || idUser < 0) {
+            throw createErrorInvalidUserId()
+        }
+        if (sendFormat != "pdf" && sendFormat != "email") {
+            throw createErrorInvalidSendFormat()
+        }
 
         const recipeToSend = []
        

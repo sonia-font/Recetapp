@@ -19,7 +19,7 @@ class RecipeManager {
     async getFiltered(params) {
         let filteredRecipes = []
 
-        if (params.keyWord != null) {
+        if (params.keyWord != null && params.keyWord != "" && params.keyWord != " ") {
             filteredRecipes = this.recipes.filter((recipe) => recipe.characteristics.includes(params.keyWord))
        //     filteredRecipes.push.apply(filteredRecipes,)
         //     if(filteredRecipes.length > 0) {
@@ -29,7 +29,7 @@ class RecipeManager {
         //     }       
         } 
 
-        if(params.maxIngredients != null) {
+        if(params.maxIngredients != null && params.maxIngredients > 0) {
             filteredRecipes = this.recipes.filter((recipe) => recipe.stockIngredients.length <= params.maxIngredients)
             // if(filteredRecipes.length > 0) {
             //     filteredRecipes = filteredRecipes.filter((recipe) => recipe.stockIngredients.length <= params.maxIngredients)
@@ -37,7 +37,7 @@ class RecipeManager {
             // }  
         }
 
-        if(params.maxTime != null) {
+        if(params.maxTime != null && params.maxTime > 0) {
             filteredRecipes =this.recipes.filter((recipe) => recipe.time <= params.maxTime)
             // if(filteredRecipes.length > 0) {
             //     filteredRecipes = filteredRecipes.filter((recipe) => recipe.time <= params.maxTime)

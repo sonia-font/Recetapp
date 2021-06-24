@@ -1,6 +1,7 @@
 import User from '../models/User.js'
 import StockItem from '../models/StockItem.js'
 import Ingredient from '../models/Ingredient.js'
+import { createErrorUserNotFound } from '../../../shared/errors/ErrorUserNotFound.js'
 
 class UserService {
 
@@ -18,7 +19,11 @@ class UserService {
     }
 
     async getById(id) {
-        return this.users.getById(id)
+        const {user} = await this.users.getById(id)
+        if(!user){
+            throw createErrorUserNotFound()
+        }
+        return user
     }
 
     async addTestData() {
