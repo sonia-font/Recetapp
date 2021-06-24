@@ -108,20 +108,20 @@ class RecipeService {
             amount: 4
         })
 
-        self.add(new Recipe({
-            title: 'Merluza en salsa verde',
-            image: '..\\uploads/huevos.jpg',
-            plates: 3,
-            time: 15,
-            difficulty: 'Facil',
-            characteristics: 'Simple, Economico, Vegetariano',
-            stockIngredients: [
-                {
-                ingredient: stockItem.ingredient,
-                amount: stockItem.amount
-                }
-            ]
-        }))
+        // self.add(new Recipe({
+        //     title: 'Merluza en salsa verde',
+        //     image: '..\\uploads/huevos.jpg',
+        //     plates: 3,
+        //     time: 15,
+        //     difficulty: 'Facil',
+        //     characteristics: 'Simple, Economico, Vegetariano',
+        //     stockIngredients: [
+        //         {
+        //         ingredient: stockItem.ingredient,
+        //         amount: stockItem.amount
+        //         }
+        //     ]
+        // }))
 
         self.add(new Recipe({
             title: 'Merluza en salsa verde',
@@ -129,7 +129,7 @@ class RecipeService {
             plates: 3,
             time: 15,
             difficulty: 'Facil',
-            characteristics: 'Simple, Economico',
+            characteristics: 'Simple, Economico, Vegetariano',
             stockIngredients: [
                 {
                     ingredient: stockItem2.ingredient,

@@ -1,7 +1,9 @@
+import NewIngredient from '../../business/models/Ingredient.js'
+import {createErrorRequestBadFormat} from '../../../shared/errors/ErrorRequestBadFormat.js'
 
 function crearIngredientManagerMongo(db) {
 
-  const dbIngredients = db.collection('Ingredient')
+  const dbIngredients = db.collection('Ingredients')
 
   return {
     add: async (ingredient) => {
@@ -9,37 +11,45 @@ function crearIngredientManagerMongo(db) {
         delete dbIngredients._id
     },
     addUnique: async (ingredient, id) => {
-        const existe = dbIngredients.some(i => {
+        const existe = await dbIngredients.some(i => {
             return i[id] == ingredient[id]
         })
         if(existe){
             return {added:0}
         }else{
-            dbIngredients.push(ingredient)
+            await dbIngredients.push(ingredient)
             return {added:1}
         }
     },
     getAll: async () => {
-        return await dbIngredients.findMany({}).toArray()
-    },
+        const registros = await dbIngredients.find({}).toArray()
+        const ingredients = await registros.map(i => {
+          try {
+            return new NewIngredient(i)
+          } catch (err) {
+            throw createErrorRequestBadFormat()
+          }
+        })
+        return ingredients
+      },
     getById: async (id) => {
-        return dbIngredients.filter(i => i.id == id)
+        return await dbIngredients.findOne({id:parseInt(id)})
     },
     deleteById: async (id) => {
-        const indiceParaBorrar = dbIngredients.findIndex(i => i.id == id)
+        const indiceParaBorrar = await dbIngredients.findIndex(i => i.id == id)
         if (indiceParaBorrar == -1) {
             return {deleted: 0}                
         }else{
-            dbIngredients.splice(indiceParaBorrar, 1)
+            await dbIngredients.splice(indiceParaBorrar, 1)
             return {deleted: 1}
         }
     },
     updateById: async (ingredient) => {
-        const indiceParaReemplazar = dbIngredients.findIndex(i => i.id == ingredient.id)
+        const indiceParaReemplazar = await dbIngredients.findIndex(i => i.id == ingredient.id)
         if(indiceParaReemplazar == -1){
             return {updated: 0}
         }else{
-            dbIngredients.splice(indiceParaReemplazar, 1, ingredient)
+            await dbIngredients.splice(indiceParaReemplazar, 1, ingredient)
             return {updated: 1}
         }
     },
