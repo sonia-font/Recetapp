@@ -6,7 +6,7 @@ async function main(){
     let client = await new AxiosClient(`http://localhost:${server.port}/api`)
 
     
-    const { data } = await client.sendRecipe(0, 0, 'pdf')
+    const { data } = await client.sendRecipe(0, 0, 'email')
 
     console.log(data)
 
