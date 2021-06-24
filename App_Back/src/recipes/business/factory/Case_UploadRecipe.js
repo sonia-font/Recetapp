@@ -1,3 +1,5 @@
+import {createErrorEmptyRequest} from '../../../shared/errors/ErrorEmptyRequest.js'
+
 class Case_UploadRecipe {
 
     constructor(parseService, recipeService) {
@@ -6,6 +8,10 @@ class Case_UploadRecipe {
     }
 
     async upload(req) {
+        if(req == null) {
+            throw createErrorEmptyRequest()
+        }
+        
         const newRecipe = await this.parseService.parseRecipe(req) 
         await this.recipeService.add(newRecipe)                
     }

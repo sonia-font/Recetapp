@@ -1,8 +1,11 @@
-import { getMode } from "../../config.js";
+import { getMode } from "../../config.js"
+import IngredientManager from './IngredientManager.js'
+import RecipeManager from './RecipeManager.js'
+import UserManager from './UserManager.js'
 
-let IngredientManager
-let RecipeManager
-let UserManager
+let _ingredientManager
+let _recipeManager
+let _userManager
 
 switch (getMode()) {
     case 'PROD':
@@ -16,36 +19,33 @@ switch (getMode()) {
         const mongoClient = crearMongoClient(cnxStr)
         const db = await mongoClient.connect()
         const IngredientManagerMongo = crearIngredientManagerMongo(db)
-        IngredientManager = IngredientManagerMongo
+        _ingredientManager = IngredientManagerMongo
         const RecipeManagerMongo = crearRecipeManagerMongo(db)
-        RecipeManager = RecipeManagerMongo
+        _recipeManager = RecipeManagerMongo
         const UserManagerMongo = crearUserManagerMongo(db)
-        UserManager = UserManagerMongo
+        _userManager = UserManagerMongo
         break;
 
     default:
-        const { crearIngredientManager } = await import('./IngredientManager.js')
-        const IngredientManagerCache = crearIngredientManager()
-        IngredientManager = IngredientManagerCache
-        const { crearRecipeManager } = await import('./RecipeManager.js')
-        const RecipeManagerCache = crearRecipeManager()
-        RecipeManager = RecipeManagerCache
-        const { crearUserManager } = await import('./UserManager.js')
-        const UserManagerCache = crearUserManager()
-        UserManager = UserManagerCache
+        const IngredientManagerCache = new IngredientManager()
+        _ingredientManager = IngredientManagerCache
+        const RecipeManagerCache = new RecipeManager()
+        _recipeManager = RecipeManagerCache
+        const UserManagerCache = new UserManager()
+        _userManager = UserManagerCache
         break;
 }
 
 function getIngredientManager(){
-    return IngredientManager
+    return _ingredientManager
 }
 
 function getRecipeManager(){
-    return RecipeManager
+    return _recipeManager
 }
 
 function getUserManager(){
-    return UserManager
+    return _userManager
 }
 
 export default{

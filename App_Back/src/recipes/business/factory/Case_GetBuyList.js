@@ -1,3 +1,6 @@
+import {createErrorInvalidRecipeId} from '../../../shared/errors/ErrorInvalidRecipeId.js'
+import {createErrorInvalidUserId} from '../../../shared/errors/ErrorInvalidUserId.js'
+
 class Case_GetBuyList {
 
     constructor(recipeService, userService, pdfMaker) {
@@ -6,7 +9,14 @@ class Case_GetBuyList {
         this.userService = userService
     }
 
-    async getMissingIngredients(idRecipe, idUser) {
+    async getMissingIngredients(idRecipe, idUser) {        
+        if (idRecipe == null || idRecipe < 0) {
+            throw createErrorInvalidRecipeId()
+        } 
+        if (idUser == null || idUser < 0) {
+            throw createErrorInvalidUserId()
+        }
+        
         var self = this
         const user = await this.userService.getById(idUser)
         const inventory = user.inventory
