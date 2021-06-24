@@ -143,22 +143,42 @@ class RecipeService {
                     ingredient: stockItem4.ingredient,
                     amount: stockItem4.amount
                 },
+            ]
+        }))
+        self.add(new Recipe({
+            title: 'Carne a las finas hierbas',
+            image: '..\\uploads/huevos.jpg',
+            plates: 2,
+            time: 20,
+            difficulty: 'Intermedia',
+            characteristics: 'Economico',
+            stockIngredients: [
                 {
-                    ingredient: stockItem5.ingredient,
-                    amount: stockItem5.amount
+                    ingredient: stockItem2.ingredient,
+                    amount: stockItem2.amount
                 },
                 {
-                    ingredient: stockItem6.ingredient,
-                    amount: stockItem6.amount
+                    ingredient: stockItem3.ingredient,
+                    amount: stockItem3.amount
+                },
+             ]
+        }))
+        self.add(new Recipe({
+            title: 'Pizza a la napolitana',
+            image: '..\\uploads/huevos.jpg',
+            plates: 3,
+            time: 15,
+            difficulty: 'Facil',
+            characteristics: 'Simple, Economico, Vegetariano',
+            stockIngredients: [
+                {
+                    ingredient: stockItem2.ingredient,
+                    amount: stockItem2.amount
                 },
                 {
-                    ingredient: stockItem7.ingredient,
-                    amount: stockItem7.amount
+                    ingredient: stockItem3.ingredient,
+                    amount: stockItem3.amount
                 },
-                {
-                    ingredient: stockItem8.ingredient,
-                    amount: stockItem8.amount
-                }
             ]
         }))
     }
