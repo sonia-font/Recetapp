@@ -65,9 +65,25 @@ class RecipeRouter {
                 next(error)
             }         
         })
+
+        recipeRouter.use((error, req, res, next) => {
+            if (error.type == 'ERROR_INVALID_ID'){
+                res.status(400)            
+            }else if (error.type == 'ERROR_INVALID_SEND_FORMAT'){
+                res.status(400)            
+            }else if (error.type == 'BAD_REQUEST'){
+                res.status(400)            
+            }else if(error.type == 'ERROR_USER_NOT_FOUND'){
+                res.status(404)
+            }else{
+                res.status(500)
+            }
+            res.json({message:error.message})
+        })
     
         return recipeRouter
     }
 }
 
 export default RecipeRouter
+

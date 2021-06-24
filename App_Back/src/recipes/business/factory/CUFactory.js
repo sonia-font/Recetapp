@@ -6,8 +6,7 @@ import Case_GetPdfOrEmailRecipe from './Case_GetPdfOrEmailRecipe.js'
 import Case_GetWeekPlan from './Case_GetWeekPlan.js'
 
 //DAOS
-import RecipeManager from '../../persistance/RecipeManager.js'
-import UserManager from '../../persistance/UserManager.js'
+import ManagerFactory from '../../persistance/ManagerFactory.js'
 
 //Servicios
 import RecipeService from '../services/RecipeService.js'
@@ -21,15 +20,14 @@ class CUFactory {
 
     constructor() {
         //daos
-        this.recipeManager = new RecipeManager()
-        this.userManager = new UserManager()
+        this.recipeManager = ManagerFactory.getRecipeManager()
+        this.userManager = ManagerFactory.getUserManager()
 
         //servicios
         this.recipeService = new RecipeService(this.recipeManager)     
         this.userService = new UserService(this.userManager)   
         this.parseService = new ParseService()
         this.pdfMaker = new PdfMaker("buylist.pdf")     
-
     }
 
     async createCase_UploadRecipe() {

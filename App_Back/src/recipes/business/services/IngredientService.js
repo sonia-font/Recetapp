@@ -1,5 +1,3 @@
-import ingredients from '../models/Ingredient.js'
-
 class IngredientService {
 
     constructor(ingredientManager) {

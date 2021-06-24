@@ -19,39 +19,38 @@ class RecipeManager {
     async getFiltered(params) {
         let filteredRecipes = []
 
-        if (params.keyWord != null) {
-            filteredRecipes = this.recipes.filter((recipe) => recipe.characteristics.includes(params.keyWord))
-       //     filteredRecipes.push.apply(filteredRecipes,)
-        //     if(filteredRecipes.length > 0) {
-        //         filteredRecipes = filteredRecipes.filter((recipe) => recipe.characteristics.includes(params.keyWord))
-        //     } else {
-        //         console.log(filteredRecipes.length)
-        //     }       
+        if (params.keyWord != null && params.keyWord != "" && params.keyWord != " ") {
+            if(filteredRecipes.length = 0){
+                filteredRecipes = this.recipes.filter((recipe) => recipe.characteristics.includes(params.keyWord))
+            } else{
+                filteredRecipes = this.filteredRecipes.filter((recipe) => recipe.characteristics.includes(params.keyWord))
+            }
         } 
 
-        if(params.maxIngredients != null) {
-            filteredRecipes = this.recipes.filter((recipe) => recipe.stockIngredients.length <= params.maxIngredients)
-            // if(filteredRecipes.length > 0) {
-            //     filteredRecipes = filteredRecipes.filter((recipe) => recipe.stockIngredients.length <= params.maxIngredients)
-            // } else {
-            // }  
+        if(params.maxIngredients != null && params.maxIngredients > 0) {
+            if(filteredRecipes.length = 0){
+                filteredRecipes = this.recipes.filter((recipe) => recipe.stockIngredients.length <= params.maxIngredients)
+            } else {
+                filteredRecipes = this.filteredRecipes.filter((recipe) => recipe.stockIngredients.length <= params.maxIngredients)
+            }
         }
 
-        if(params.maxTime != null) {
-            filteredRecipes =this.recipes.filter((recipe) => recipe.time <= params.maxTime)
-            // if(filteredRecipes.length > 0) {
-            //     filteredRecipes = filteredRecipes.filter((recipe) => recipe.time <= params.maxTime)
-            // } else {
-            // }  
+        if(params.maxTime != null && params.maxTime > 0) {
+            if(filteredRecipes.length = 0){
+                filteredRecipes =this.recipes.filter((recipe) => recipe.time <= params.maxTime)              
+            } else {
+                filteredRecipes =this.filteredRecipes.filter((recipe) => recipe.time <= params.maxTime)              
+            }
         }
 
         if(params.difficulty != null) {
-            filteredRecipes = this.recipes.filter((recipe) => recipe.difficulty == params.difficulty)
-            // if(filteredRecipes.length > 0) {
-            //     filteredRecipes = filteredRecipes.filter((recipe) => recipe.difficulty == params.difficulty)
-            // } else {
-            // }  
+            if(filteredRecipes.length = 0){
+                filteredRecipes = this.recipes.filter((recipe) => recipe.difficulty == params.difficulty)
+            } else {
+                filteredRecipes = this.filteredRecipes.filter((recipe) => recipe.difficulty == params.difficulty)
+            }
         }
+        
     return filteredRecipes
     }
 }
