@@ -44,7 +44,6 @@ class Case_GetPdfOrEmailRecipe {
                 }
             })
             body = recipe.title + `\n` + texto;
-            //Ojo que este no esta usando promesas, esta usando Sync  - Gasti.
             fs.writeFileSync('./src/shared/mails/templates/PrintRecipeBody.html', body);
             
             await this.generadorDeMail.send(user.email)
