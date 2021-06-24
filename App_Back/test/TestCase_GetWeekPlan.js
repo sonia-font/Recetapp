@@ -8,6 +8,8 @@ async function main(){
     const { data } = await client.getWeekPlan(0,'Vegetariano', 4, 90, 'Facil')
 
     console.log(data)
+
+
     server.close()
 }
 

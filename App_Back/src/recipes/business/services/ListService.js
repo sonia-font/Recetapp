@@ -1,7 +1,9 @@
 async function listRecipes(recipes){
     const newRecipes = []
-    while(newRecipes.length <= 14){
-        let r = getRandomArbitrary(0,recipes.length)
+    const maxNumberRecipes = 14
+    const minArbitraryNumber = 0
+    while(newRecipes.length <= maxNumberRecipes){
+        let r = getRandomArbitrary(minArbitraryNumber,recipes.length)
         newRecipes.push(recipes[r])
     }
     return newRecipes

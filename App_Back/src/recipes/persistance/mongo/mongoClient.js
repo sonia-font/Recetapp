@@ -1,6 +1,6 @@
 import mongodb from 'mongodb'
 
-function crearMongoClient(cnxStr) {
+function crearMongoClient(cnxStr,dbName) {
   const client = new mongodb.MongoClient(cnxStr, {
     useNewUrlParser: true,
     useUnifiedTopology: true
@@ -9,7 +9,7 @@ function crearMongoClient(cnxStr) {
   return {
     connect: async () => {
       await client.connect()
-      const db = client.db('recetappdb')
+      const db = client.db(dbName)
       return db
     },
     close: async () => {
