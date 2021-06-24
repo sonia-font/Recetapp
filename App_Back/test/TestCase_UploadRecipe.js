@@ -14,7 +14,7 @@ async function main(){
 
     const {data} = await client.getRecipes()
 
-    console.log(data)
+    console.log(data[2])
 
     server.close()
 }
