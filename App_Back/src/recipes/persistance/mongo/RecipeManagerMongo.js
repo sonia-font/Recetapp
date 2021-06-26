@@ -10,17 +10,6 @@ function crearRecipeManagerMongo(db) {
         await dbRecipes.insertOne(recipe)
         delete dbRecipes._id
     },
-    addUnique: async (recipe, id) => {
-        const existe = await dbRecipes.some(r => {
-            return r[id] == recipe[id]
-        })
-        if(existe){
-            return {added:0}
-        }else{
-            await dbRecipes.push(recipe)
-            return {added:1}
-        }
-    },
     getAll: async () => {
         const registros = await dbRecipes.find({}).toArray()
         const recipes = await registros.map(r => {
@@ -31,11 +20,10 @@ function crearRecipeManagerMongo(db) {
           }
         })
         return recipes
-      },
+    },
     getById: async (id) => {
         return await dbRecipes.findOne({id:parseInt(id)})
     },
-
     getFiltered: async (params) => {
         let filteredRecipes = []
 

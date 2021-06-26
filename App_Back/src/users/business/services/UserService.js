@@ -1,6 +1,6 @@
 import User from '../models/User.js'
-import StockItem from '../models/StockItem.js'
-import Ingredient from '../models/Ingredient.js'
+import StockItem from '../../../shared/models/StockItem.js'
+import Ingredient from '../../../ingredients/business/models/Ingredient.js'
 import { createErrorUserNotFound } from '../../../shared/errors/ErrorUserNotFound.js'
 
 class UserService {
@@ -11,11 +11,12 @@ class UserService {
     }
 
     async add(user) {
-        this.users.add(user)
+        //TODO: VER QUE VUELVE Y CREAR UN OBJETO USER
+        await this.users.add(user)
     }
 
     async getAll() {
-        return this.users.getAll()
+        return await this.users.getAll()
     }
 
     async getById(id) {
@@ -24,6 +25,25 @@ class UserService {
             throw createErrorUserNotFound()
         }
         return user
+    }
+
+    async deleteById(id) {
+        return await this.users.deleteById(id)
+    }
+
+    async updateById(user) {
+        return await this.users.updateById(user)
+    }
+
+    async getUserInventory(id) {
+        var self = this
+        var user = self.getById(id)
+        return user.inventory
+    }
+
+    async updateUserInventory(id, inventory) {
+        var self = this
+        //TODO
     }
 
     async addTestData() {

@@ -8,27 +8,27 @@ class AxiosClient {
 
     async uploadRecipe(formdata) {   
         var self = this
-        return await self.sendRequest({ url: this.url + '/recipes/upload', method: 'post', data: formdata, headers: formdata.getHeaders() })
+        return await self.sendRequest({ url: this.url + '/test/upload', method: 'post', data: formdata, headers: formdata.getHeaders() })
     }
 
     async getRecipes() {
         var self = this
-        return await self.sendRequest({ url: this.url + '/recipes' })
+        return await self.sendRequest({ url: this.url + '/test/' })
     }
 
     async getBuyList(idRecipe, idUser) {   
         var self = this
-        return await self.sendRequest({ url: this.url + '/recipes/buylist', method: 'post', params: { idRecipe, idUser } })
+        return await self.sendRequest({ url: this.url + '/test/buylist', method: 'post', params: { idRecipe, idUser } })
     }
 
     async sendRecipe(idRecipe, idUser, format) {   
         var self = this
-        return await self.sendRequest({ url: this.url + '/recipes/start', method: 'post', params: { idRecipe, idUser, format } })
+        return await self.sendRequest({ url: this.url + '/test/start', method: 'post', params: { idRecipe, idUser, format } })
     }
     
     async getWeekPlan(idUser, keyWord, maxIngredients, maxTime, difficulty) {   
         var self = this
-        return await self.sendRequest({ url: this.url + '/recipes' + `/${idUser}` + '/weekPlan',method: 'post',  params: { keyWord,  maxIngredients, maxTime, difficulty } })
+        return await self.sendRequest({ url: this.url + '/test' + `/${idUser}` + '/weekPlan',method: 'post',  params: { keyWord,  maxIngredients, maxTime, difficulty } })
         
     }
 

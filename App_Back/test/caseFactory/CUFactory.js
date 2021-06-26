@@ -6,15 +6,15 @@ import Case_GetPdfOrEmailRecipe from './Case_GetPdfOrEmailRecipe.js'
 import Case_GetWeekPlan from './Case_GetWeekPlan.js'
 
 //DAOS
-import ManagerFactory from '../../persistance/ManagerFactory.js'
+import ManagerFactory from '../../src/shared/persistance/ManagerFactory.js'
 
 //Servicios
-import RecipeService from '../services/RecipeService.js'
-import UserService from '../services/UserService.js'
-import ParseService from '../../../shared/parser/ParseService.js'
-import PdfMaker from '../../../shared/pdfmaker/PdfMaker.js'
-import {crearMailer} from "../../../shared/mails/Factory_Mailer.js"
-import configMailer from "../../../shared/mails/config.js"
+import RecipeService from '../../src/recipes/business/services/RecipeService.js'
+import UserService from '../../src/users/business/services/UserService.js'
+import ParseService from '../../src/shared/parser/ParseService.js'
+import PdfMaker from '../../src/shared/pdfmaker/PdfMaker.js'
+import {crearMailer} from "../../src/shared/mails/Factory_Mailer.js"
+import configMailer from "../../src/shared/mails/config.js"
 
 class CUFactory {
 

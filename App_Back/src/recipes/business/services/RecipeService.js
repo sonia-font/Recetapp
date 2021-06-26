@@ -1,6 +1,6 @@
 import Recipe from '../models/Recipe.js'
-import StockItem from '../models/StockItem.js'
-import Ingredient from '../models/Ingredient.js'
+import StockItem from '../../../shared/models/StockItem.js'
+import Ingredient from '../../../ingredients/business/models/Ingredient.js'
 
 class RecipeService {
 
@@ -23,6 +23,14 @@ class RecipeService {
 
     async getFiltered(params) {
         return await this.recipes.getFiltered(params)
+    }
+
+    async deleteById(id) {
+        return await this.recipes.deleteById(id)
+    }
+
+    async updateById(recipe) {
+        return await this.recipes.updateById(recipe)
     }
 
     async addTestData() {

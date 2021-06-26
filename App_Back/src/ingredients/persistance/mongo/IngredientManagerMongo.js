@@ -10,17 +10,6 @@ function crearIngredientManagerMongo(db) {
         await dbIngredients.insertOne(ingredient)
         delete dbIngredients._id
     },
-    addUnique: async (ingredient, id) => {
-        const existe = await dbIngredients.some(i => {
-            return i[id] == ingredient[id]
-        })
-        if(existe){
-            return {added:0}
-        }else{
-            await dbIngredients.push(ingredient)
-            return {added:1}
-        }
-    },
     getAll: async () => {
         const registros = await dbIngredients.find({}).toArray()
         const ingredients = await registros.map(i => {

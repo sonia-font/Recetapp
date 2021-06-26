@@ -1,7 +1,7 @@
 import { getMode } from "./config.js"
-import IngredientManager from './memory/IngredientManager.js'
-import RecipeManager from './memory/RecipeManager.js'
-import UserManager from './memory/UserManager.js'
+import IngredientManager from '../../recipes/persistance/memory/IngredientManager.js'
+import RecipeManager from '../../recipes/persistance/memory/RecipeManager.js'
+import UserManager from '../../recipes/persistance/memory/UserManager.js'
 
 let _ingredientManager
 let _recipeManager
@@ -10,9 +10,9 @@ let _userManager
 switch (getMode()) {
     case 'PROD':
         const { crearMongoClient} = await import('./mongo/mongoClient.js')
-        const { crearIngredientManagerMongo } = await import('./mongo/IngredientManagerMongo.js')
-        const { crearRecipeManagerMongo } = await import('./mongo/RecipeManagerMongo.js')
-        const { crearUserManagerMongo } = await import('./mongo/UserManagerMongo.js')
+        const { crearIngredientManagerMongo } = await import('../../recipes/persistance/mongo/IngredientManagerMongo.js')
+        const { crearRecipeManagerMongo } = await import('../../recipes/persistance/mongo/RecipeManagerMongo.js')
+        const { crearUserManagerMongo } = await import('../../recipes/persistance/mongo/UserManagerMongo.js')
         const { getCnxStr } = await import('./config.js')
         const { getDBname } = await import('./config.js')
 

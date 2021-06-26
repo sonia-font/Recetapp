@@ -1,6 +1,6 @@
-import filter from "../models/Filter.js"
-import listRecipes from "../services/ListService.js"
-import {createErrorInvalidUserId} from '../../../shared/errors/ErrorInvalidUserId.js'
+import filter from "../../src/shared/models/Filter.js"
+import listRecipes from "../../src/shared/services/ListService.js"
+import {createErrorInvalidUserId} from '../../src/shared/errors/ErrorInvalidUserId.js'
 
 class Case_GetWeekPlan {
     constructor(userService, recipeService, mailer){

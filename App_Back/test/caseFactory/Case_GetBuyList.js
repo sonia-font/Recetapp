@@ -1,5 +1,5 @@
-import {createErrorInvalidRecipeId} from '../../../shared/errors/ErrorInvalidRecipeId.js'
-import {createErrorInvalidUserId} from '../../../shared/errors/ErrorInvalidUserId.js'
+import {createErrorInvalidRecipeId} from '../../src/shared/errors/ErrorInvalidRecipeId.js'
+import {createErrorInvalidUserId} from '../../src/shared/errors/ErrorInvalidUserId.js'
 
 class Case_GetBuyList {
 

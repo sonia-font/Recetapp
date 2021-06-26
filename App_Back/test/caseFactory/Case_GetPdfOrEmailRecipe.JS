@@ -1,7 +1,7 @@
 import fs from 'fs'
-import {createErrorInvalidRecipeId} from '../../../shared/errors/ErrorInvalidRecipeId.js'
-import {createErrorInvalidUserId} from '../../../shared/errors/ErrorInvalidUserId.js'
-import {createErrorInvalidSendFormat} from '../../../shared/errors/ErrorInvalidSendFormat.js'
+import {createErrorInvalidRecipeId} from '../../src/shared/errors/ErrorInvalidRecipeId.js'
+import {createErrorInvalidUserId} from '../../src/shared/errors/ErrorInvalidUserId.js'
+import {createErrorInvalidSendFormat} from '../../src/shared/errors/ErrorInvalidSendFormat.js'
 
 class Case_GetPdfOrEmailRecipe {
 
