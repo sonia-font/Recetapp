@@ -12,7 +12,7 @@ class MockForm {
         formData.append('image', fs.createReadStream(this.imageDir))
         formData.append('plates', 3)
         formData.append('time', 30)
-        formData.append('difficulty', 'Baja')
+        formData.append('difficulty', 'Facil')
         formData.append('characteristics', 'Coste medio, Receta sin sal, Frito')
         formData.append('ingredients', JSON.stringify([
             {

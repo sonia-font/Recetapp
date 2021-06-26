@@ -2,6 +2,8 @@ import fs from 'fs'
 import path from 'path'
 import formidable from 'formidable'
 import Recipe from '../../recipes/business/models/Recipe.js'
+import Ingredient from '../../recipes/business/models/Ingredient.js'
+import StockItem from '../../recipes/business/models/StockItem.js'
 
 class ParseService {    
 
@@ -29,8 +31,8 @@ class ParseService {
                     + '/'+files.image.name
             var rawData = fs.readFileSync(oldPath)
             
-            self.uploadImage(newPath, rawData)
-
+            self.uploadImage(newPath, rawData)        
+            
             return new Recipe({
                 title: fields.title,
                 image: newPath,
@@ -38,9 +40,8 @@ class ParseService {
                 time: fields.time,
                 difficulty: fields.difficulty,
                 characteristics: fields.characteristics,
-                ingredients: fields.ingredients
+                stockIngredients: JSON.parse(fields.ingredients).map(item => ({name: item.name, amount: item.amount}))
             })
-            
         } catch(error) {
             console.log(error)
             return {}
