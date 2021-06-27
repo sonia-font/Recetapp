@@ -50,6 +50,13 @@ class UserService {
         return await this.users.updateById(user)
     }
 
+    async deleteUserInventory(id, inventoryId) {
+        const self = this
+        const user = await self.getById(id)
+        this.users.deleteInventoryById(user.inventory,inventoryId)
+        return await this.users.updateById(user)
+    }
+
     async addTestData() {
         const self = this
 
@@ -62,16 +69,30 @@ class UserService {
             ingredient: ingredient,
             amount: 4
         })
+        
+        const ingredient2 = new Ingredient({
+            name: 'Palta',
+            unit: 'unidad'
+        })
+
+        const stockItem2 = new StockItem({
+            ingredient: ingredient2,
+            amount: 1
+        })
 
         await self.add(new User({
             name: 'Usuario',
             lastname: 'Test',
             email: 'gastongp93@gmail.com',
             password: '1234',
-            inventory: {
+            inventory: [{
                 ingredient: stockItem.ingredient,
                 amount: stockItem.amount
-            }
+            },
+            {   
+                ingredient: stockItem2.ingredient,
+                amount: stockItem2.amount
+            }]
         }))
     }
 }

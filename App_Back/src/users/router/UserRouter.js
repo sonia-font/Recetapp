@@ -11,7 +11,7 @@ class UserRouter {
             try {
                 const users = await this.userService.getAll()
                 res.setHeader('Access-Control-Allow-Origin', '*');
-                res.status(200).json(user)
+                res.status(200).json(users)
             } catch(error) {
                 next(error)
             }            
@@ -45,7 +45,7 @@ class UserRouter {
                 const user = await this.userService.getByEmail(req.body.email)
                 if(!user) {
                     await this.userService.add(req.body)    
-                    const newUser = await this.userService.getByEmail(req.body.email)                
+                    const newUser = await this.userService.getByEmail(req.body.email)
 					res.setHeader('Access-Control-Allow-Origin', '*');
                     res.status(201).json(newUser.id)
                 } else {
@@ -56,6 +56,19 @@ class UserRouter {
                 next(error)
             }            
         });
+
+        //ELIMINA ELEMENTO DE USUARIO
+        userRouter.get('/:idUser/inventory/:inventoryId', async (req, res, next) => {
+            try {
+                await this.userService.deleteUserInventory(req.params.idUser,req.params.inventoryId)
+                const inventory = await this.userService.getUserInventory(req.params.idUser)
+                res.setHeader('Access-Control-Allow-Origin', '*');
+                res.status(200).json(inventory)
+            } catch(error) {
+                next(error)
+            }            
+        });
+        
 
         //DEVUELVE INVENTARIO
         userRouter.get('/:idUser/inventory', async (req, res, next) => {
@@ -78,6 +91,8 @@ class UserRouter {
                 next(error)
             }            
         });
+        
+        
     
         return userRouter
     }
