@@ -4,15 +4,13 @@ class RecipeRouter {
 
     constructor(recipeService){
         this.recipeService = recipeService
-    }
-
-    createRecipeRouter(){
         const recipeRouter = express.Router()
 
         //DEVUELVE TODAS LAS RECETAS PARA LA VISTA GENERAL
-        recipeRouter.get('/', async (req, res, next) => {
+        recipeRouter.get('/all', async (req, res, next) => {
             try {
-                
+                const recipes = await this.recipeService.getAll()
+                res.json(recipes)
             } catch(error) {
                 next(error)
             }            
@@ -80,6 +78,7 @@ class RecipeRouter {
     
         return recipeRouter
     }
+
 }
 
 export default RecipeRouter

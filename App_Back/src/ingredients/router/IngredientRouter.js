@@ -4,9 +4,6 @@ class IngredientRouter {
 
     constructor(ingredientService){
         this.ingredientService = ingredientService
-    }
-
-    createIngredientRouter(){
         const ingredientRouter = express.Router()
 
         //DEVUELVE TODOS LOS INGREDIENTES PARA LA LISTA
@@ -31,6 +28,7 @@ class IngredientRouter {
     
         return ingredientRouter
     }
+
 }
 
 export default IngredientRouter

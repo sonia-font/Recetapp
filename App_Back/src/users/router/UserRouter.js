@@ -4,9 +4,6 @@ class UserRouter {
 
     constructor(userService){
         this.userService = userService
-    }
-
-    createUserRouter(){
         const userRouter = express.Router()
 
         //DEVUELVE TODOS LOS USUARIO SI SE LLEGA A NECESITAR

@@ -1,7 +1,7 @@
 import { getMode } from "./config.js"
-import IngredientManager from '../../recipes/persistance/memory/IngredientManager.js'
+import IngredientManager from '../../ingredients/persistance/memory/IngredientManager.js'
 import RecipeManager from '../../recipes/persistance/memory/RecipeManager.js'
-import UserManager from '../../recipes/persistance/memory/UserManager.js'
+import UserManager from '../../users/persistance/memory/UserManager.js'
 
 let _ingredientManager
 let _recipeManager

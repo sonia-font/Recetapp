@@ -2,8 +2,8 @@ import fs from 'fs'
 import path from 'path'
 import formidable from 'formidable'
 import Recipe from '../../recipes/business/models/Recipe.js'
-import Ingredient from '../../recipes/business/models/Ingredient.js'
-import StockItem from '../../recipes/business/models/StockItem.js'
+import Ingredient from '../../ingredients/business/models/Ingredient.js'
+import StockItem from '../models/StockItem.js'
 
 class ParseService {    
 
