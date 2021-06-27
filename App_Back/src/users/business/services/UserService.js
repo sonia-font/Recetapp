@@ -43,7 +43,10 @@ class UserService {
 
     async updateUserInventory(id, inventory) {
         const self = this
-        //TODO
+        const user = await self.getById(id)
+        user.inventory = inventory
+
+        return await this.users.updateById(user)
     }
 
     async addTestData() {
