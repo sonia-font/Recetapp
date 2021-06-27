@@ -1,7 +1,6 @@
 import User from '../models/User.js'
 import StockItem from '../../../shared/models/StockItem.js'
 import Ingredient from '../../../ingredients/business/models/Ingredient.js'
-import { createErrorUserNotFound } from '../../../shared/errors/ErrorUserNotFound.js'
 
 class UserService {
 
@@ -21,9 +20,11 @@ class UserService {
 
     async getById(id) {
         const user = await this.users.getById(id)
-        if(!user){
-            throw createErrorUserNotFound()
-        }
+        return user
+    }
+
+    async getByEmail(email) {
+        const user = await this.users.getByEmail(email)
         return user
     }
 

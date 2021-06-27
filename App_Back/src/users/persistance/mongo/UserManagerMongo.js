@@ -24,6 +24,9 @@ function crearUserManagerMongo(db) {
     getById: async (id) => {
       return await dbUsers.findOne({id:parseInt(id)})
     },
+    getByEmail: async (email) => {
+      return await dbUsers.findOne({email:email})
+    },
     deleteById: async (id) => {
       const indiceParaBorrar = await dbUsers.findIndex(u => u.id == id)
       if (indiceParaBorrar == -1) {

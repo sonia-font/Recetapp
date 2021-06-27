@@ -26,11 +26,26 @@ class UserRouter {
             }            
         });
 
+        //DEVUELVE ID USUARIO CON EMAIL
+        userRouter.get('/:email', async (req, res, next) => {
+            try {
+                const user = await this.userService.getByEmail(req.params.email)
+                res.status(200).json(user.id)
+            } catch(error) {
+                next(error)
+            }            
+        });
+
         //AGREGA NUEVO USUARIO CON LA DATA DE GOOGLE
         userRouter.post('/', async (req, res, next) => {
             try {
-                await this.userService.add(req.body)
-                res.status(201).send({msg: 'User created!'})
+                const user = await this.userService.getByEmail(req.body.email)
+                if(!user) {
+                    await this.userService.add(req.body)
+                    res.status(201).send({msg: 'User created!'})
+                } else {
+                    res.status(403).send({msg: 'Already exists'})
+                }                
             } catch(error) {
                 next(error)
             }            

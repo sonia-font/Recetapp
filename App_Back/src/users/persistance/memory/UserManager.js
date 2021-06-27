@@ -16,6 +16,10 @@ class UserManager {
         return this.users.find((user) => user.id == id)
     }
 
+    async getByEmail(email) {
+        return this.users.find((user) => user.email == email)
+    }
+
     async deleteById(id) {
         const indiceParaBorrar = this.users.findIndex(u => u.id == id)
         if (indiceParaBorrar == -1) {
