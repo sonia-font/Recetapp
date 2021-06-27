@@ -1,15 +1,46 @@
 import { StatusBar } from 'expo-status-bar';
-import React from 'react';
+import React ,{useState,useEffect} from 'react';
 import { Button, StyleSheet, Text, View } from 'react-native';
+import AsyncStorage from '../../utils/AsyncStorage';
 
 export default function Home({navigation}) {
+
+  const [authenticated, setAuthenticated] = useState(false)  
+
+  const checkUser = async () =>{
+    console.log('Vamos a ver si existe data')
+
+    const user = await AsyncStorage.getData('@userData')
+    console.log({user})
+    if (user){
+      setAuthenticated(true)  
+    }
+  }
+  const applyLogout= async() =>{
+    AsyncStorage.clearData()
+    setAuthenticated(false)
+  }
+  
+  useEffect(() => {
+    checkUser()
+  }, [])
+
   return (
     <View style={styles.container}>
       <Text>Home</Text>
-      <Button
-      title={'Login'}
-      onPress={() => navigation.navigate('Login')}
-      />
+      {
+        authenticated ? 
+        (<Button
+          title={'Desloguear'}
+          onPress={applyLogout}
+        />
+        )
+        : 
+        (<Button
+          title={'Login'}
+          onPress={() => navigation.navigate('Login',navigation.setOptions=setAuthenticated)}
+      />)
+    }
       <StatusBar style="auto" />
     </View>
   );
