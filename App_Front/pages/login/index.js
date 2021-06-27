@@ -3,21 +3,9 @@ import React from 'react';
 import { Button, StyleSheet, Text, View } from 'react-native';
 
 export default function Login({navigation}) {
-
-    const[nombre, setNombre] = useState('')
-
-
-
   return (
     <View style={styles.container}>
       <Text>Login</Text>
-
-        <TextInput>
-            value = {nombre}
-            
-        </TextInput>
-
-
       <Button
       title={'Go back'}
       onPress={() => navigation.goBack()}
