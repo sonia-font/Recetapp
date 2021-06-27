@@ -4,6 +4,8 @@ import { Button, StyleSheet, Text, View, TouchableOpacity, Image } from 'react-n
 import * as Google from 'expo-google-app-auth'
 import AsyncStorage from '../../utils/AsyncStorage';
 
+
+
 export default function Login({navigation,route}) {
   const {changeAuthenticated} = route.params || {changeAuthenticated : ""}
   
@@ -23,7 +25,22 @@ export default function Login({navigation,route}) {
         console.log(user);
         console.log('====================================');
 
-        AsyncStorage.storeData('@userData', user)
+        //--Guardar el ID del usuario en memoria para ser utilizado luego por la aplicacion.--
+        //Hacemos un post con los datos del user para guardarlo (o no) en BD.
+        //Get by Email que devuelve el id del usuario.
+
+        // fetch('https://mywebsite.com/endpoint/', {
+        //   method: 'POST',
+        //   body: JSON.stringify({
+        //     firstParam: 'yourValue',
+        //     secondParam: 'yourOtherValue'
+        //   })
+         //.then(data => {
+          //     const internalUser = data
+          // })
+        // });
+
+        //AsyncStorage.storeData('@userData', internalUser)
         console.log(changeAuthenticated)
         changeAuthenticated(true)
         

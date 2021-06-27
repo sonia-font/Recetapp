@@ -26,7 +26,6 @@ export default function App() {
         <Stack.Screen name = { 'WeeklyPlan' } component = {WeeklyPlan}  options = { {title: 'Plan Semanal'} }/>
         <Stack.Screen name = { 'Recipies ' } component = {Recipies}  options = { {title: 'Recetas'} }/>
       </Stack.Navigator>
-
     </NavigationContainer>
   );
 }
