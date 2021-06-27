@@ -21,10 +21,10 @@ class ExpressServer {
         this.ingredientService = new IngredientService(this.ingredientManager)
         this.userService = new UserService(this.userManager)
 
-        this.recipeRouter = new RecipeRouter().createRecipeRouter(this.recipeService)        
-        this.ingredientRouter = new IngredientRouter().createIngredientRouter(this.ingredientService)
-        this.userRouter = new UserRouter().createUserRouter(this.userService)
-        this.testRouter = new TestRouter().createTestRouter()
+        this.recipeRouter = new RecipeRouter(this.recipeService)     
+        this.ingredientRouter = new IngredientRouter(this.ingredientService)
+        this.userRouter = new UserRouter(this.userService)
+        this.testRouter = new TestRouter()
     }
 
     crearServidor(port){

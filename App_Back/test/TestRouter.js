@@ -5,9 +5,6 @@ class TestRouter {
 
     constructor(){
         this.factory = new CUFactory()
-    }
-
-    createTestRouter(){
         const testRouter = express.Router()
         const cuUploadRecipe = this.factory.createCase_UploadRecipe()
         const cuGetRecipes = this.factory.createCase_GetRecipes()

@@ -4,15 +4,13 @@ class IngredientRouter {
 
     constructor(ingredientService){
         this.ingredientService = ingredientService
-    }
-
-    createIngredientRouter(){
         const ingredientRouter = express.Router()
 
         //DEVUELVE TODOS LOS INGREDIENTES PARA LA LISTA
         ingredientRouter.get('/', async (req, res, next) => {
             try {
                 const ingredients = await this.ingredientService.getAll()
+                res.setHeader('Access-Control-Allow-Origin', '*');
                 res.status(200).json(ingredients)
             } catch(error) {
                 next(error)
@@ -23,6 +21,7 @@ class IngredientRouter {
         ingredientRouter.get('/:idIngredient', async (req, res, next) => {
             try {
                 const ingredient = await this.ingredientService.getById(req.params.idIngredient)
+                res.setHeader('Access-Control-Allow-Origin', '*');
                 res.status(200).json(ingredient)        
             } catch(error) {
                 next(error)
@@ -31,6 +30,7 @@ class IngredientRouter {
     
         return ingredientRouter
     }
+
 }
 
 export default IngredientRouter
