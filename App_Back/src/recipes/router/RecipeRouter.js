@@ -19,6 +19,7 @@ class RecipeRouter {
         recipeRouter.get('/', async (req, res, next) => {
             try {
                 const recipes = await this.recipeService.getAll()
+                res.setHeader('Access-Control-Allow-Origin', '*');
                 res.status(200).json(recipes)
             } catch(error) {
                 next(error)
@@ -35,6 +36,7 @@ class RecipeRouter {
                     req.query.difficulty
                 )
                 const recipes = await this.recipeService.getFiltered(params)
+                res.setHeader('Access-Control-Allow-Origin', '*');
                 res.status(200).json(recipes)
             } catch(error) {
                 next(error)
@@ -45,6 +47,7 @@ class RecipeRouter {
         recipeRouter.get('/:idRecipe', async (req, res, next) => {
             try {
                 const recipe = await this.recipeService.getById(req.params.idRecipe)
+                res.setHeader('Access-Control-Allow-Origin', '*');
                 res.status(200).json(recipe)   
             } catch(error) {
                 next(error)
@@ -58,7 +61,7 @@ class RecipeRouter {
 
                 const pdfMaker = new PdfMaker()   
                 pdfMaker.generate(generatePdfBody(recipe), 'receta.pdf')
-
+                res.setHeader('Access-Control-Allow-Origin', '*');
                 res.status(200).send({msg: 'Receta generada'})
             } catch(error) {
                 next(error)
@@ -74,7 +77,7 @@ class RecipeRouter {
 
                 generateEmailBody(recipe)
                 await mailer.send(user.email)
-
+                res.setHeader('Access-Control-Allow-Origin', '*');
                 res.status(200).send({msg: 'Receta enviada'})
             } catch(error) {
                 next(error)
@@ -96,6 +99,7 @@ class RecipeRouter {
                 const user = await this.userService.getById(idUser)
                 const mailer = crearMailer(configMailer.configMailer)
                 await mailer.send(user.email, recipeList)
+                res.setHeader('Access-Control-Allow-Origin', '*');
                 res.status(200).send({msg: "Plan Enviado"})
             } catch(error) {
                 next(error)
@@ -109,6 +113,7 @@ class RecipeRouter {
                 const newRecipe = await parser.parseRecipe(req) 
 
                 await this.recipeService.add(newRecipe)   
+                res.setHeader('Access-Control-Allow-Origin', '*');
                 res.status(201).send({msg: 'Recipe Uploaded!'})
             } catch(error) {
                 next(error)
