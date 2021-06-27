@@ -20,6 +20,10 @@ export default function Home({navigation}) {
     AsyncStorage.clearData()
     setAuthenticated(false)
   }
+
+  const changeAuthenticated = (value) => {
+    setAuthenticated(value)
+  }
   
   useEffect(() => {
     checkUser()
@@ -38,7 +42,7 @@ export default function Home({navigation}) {
         : 
         (<Button
           title={'Login'}
-          onPress={() => navigation.navigate('Login',navigation.setOptions=setAuthenticated)}
+          onPress={() => navigation.navigate('Login',{changeAuthenticated})}
       />)
     }
       <StatusBar style="auto" />

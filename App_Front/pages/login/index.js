@@ -1,11 +1,11 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { Button, StyleSheet, Text, View } from 'react-native';
+import { Button, StyleSheet, Text, View, TouchableOpacity, Image } from 'react-native';
 import * as Google from 'expo-google-app-auth'
 import AsyncStorage from '../../utils/AsyncStorage';
 
 export default function Login({navigation,route}) {
-  const {setAuthentication} = route.params || {setAuthentication : ""}
+  const {changeAuthenticated} = route.params || {changeAuthenticated : ""}
   
   const signInWithGoogle = async () => {
     console.log('Aqui nos conectamos!')
@@ -24,8 +24,8 @@ export default function Login({navigation,route}) {
         console.log('====================================');
 
         AsyncStorage.storeData('@userData', user)
-        console.log(setAuthentication)
-        setAuthentication(true)
+        console.log(changeAuthenticated)
+        changeAuthenticated(true)
         
         /* Log-Out */
         await Google.logOutAsync({ accessToken, ...config });
@@ -34,15 +34,29 @@ export default function Login({navigation,route}) {
 }
   return (
     <View style={styles.container}>
-      <Text>Login</Text>
-      <Button
-      title={'Go back'}
-      onPress={() => navigation.goBack()}
-      />
-      <StatusBar style="auto" />
-    </View>
+            <StatusBar style="auto" />
+            <TouchableOpacity
+                activeOpacity={0.5}
+                onPress={signInWithGoogle}
+                style={styles.buttonGoogleStyle}
+            >
+                <Image
+                    source={require('../../assets/btn_google_signin.png')}
+                />
+            </TouchableOpacity>
+
+            <Button
+            title={'Go back'}
+            onPress={() => navigation.goBack()}
+            />
+        </View>
   );
 }
+
+/*<Button
+title={'Go back'}
+onPress={() => navigation.goBack()}
+*/
 
 const styles = StyleSheet.create({
   container: {
