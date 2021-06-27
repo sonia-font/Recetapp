@@ -10,8 +10,13 @@ class UserService {
     }
 
     async add(user) {
-        //TODO: VER QUE VUELVE Y CREAR UN OBJETO USER
-        await this.users.add(user)
+        const newUser = new User({
+            name: user.name,
+            lastname: user.lastname,
+            email: user.email,
+            inventory: []
+        })
+        await this.users.add(newUser)
     }
 
     async getAll() {

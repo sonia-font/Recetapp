@@ -5,7 +5,6 @@ class User {
         this.name = data.name
         this.lastname = data.lastname
         this.email = data.email
-        this.password = data.password
         this.inventory = data.inventory //de stockitems
         this.id = nextId++   
     }
