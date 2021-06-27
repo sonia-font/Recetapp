@@ -44,12 +44,13 @@ class UserRouter {
             try {
                 const user = await this.userService.getByEmail(req.body.email)
                 if(!user) {
-                    await this.userService.add(req.body)
+                    await this.userService.add(req.body)    
+                    const newUser = await this.userService.getByEmail(req.body.email)                
 					res.setHeader('Access-Control-Allow-Origin', '*');
-                    res.status(201).send({msg: 'User created!'})
+                    res.status(201).json(newUser.id)
                 } else {
 					res.setHeader('Access-Control-Allow-Origin', '*');
-                    res.status(403).send({msg: 'Already exists'})
+                    res.status(403).json(user.id)
                 }                
             } catch(error) {
                 next(error)
