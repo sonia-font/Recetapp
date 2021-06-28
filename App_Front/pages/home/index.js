@@ -68,11 +68,16 @@ export default function Home({navigation}) {
           title={'Login'}
           onPress={() => navigation.navigate('Login',{changeAuthenticated})}
       />)
+
     }
-      {/* <Button
+      {/* {<Button
          title={'Desloguear'}
         onPress={applyLogout}
-      /> */}
+      />} */}
+      {<Button
+         title={'WeeklyPlan'}
+        onPress={() => navigation.navigate('WeeklyPlan')}
+      />}
       <StatusBar style="auto" />
     </View>
   );

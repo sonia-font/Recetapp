@@ -7,7 +7,7 @@ import EatNow from "./pages/eatNow";
 import Home from "./pages/home";
 import Login from "./pages/login";
 import MyInventory from "./pages/myInventory";
-import Recipies from "./pages/recipes";
+import Recipes from "./pages/recipes";
 import SignUp from "./pages/signUp";
 import WeeklyPlan from "./pages/weeklyPlan";
 import recipeDetail from "./pages/recipeDetail";
@@ -17,7 +17,13 @@ const Stack = createStackNavigator()
 export default function App() {
   return (
     <NavigationContainer>
-      <Stack.Navigator>
+      <Stack.Navigator
+        screenOptions={{
+          headerTitle: "",
+          headerShown: true,
+          headerTransparent: true,
+          headerTintColor: 'white'
+        }}>
         <Stack.Screen name = { 'Home' } component = {Home}  options = { {title: 'Recetapp'} }/>
         <Stack.Screen name = { 'Login' } component = {Login}  options = { {title: 'Indentificate'} }/>
         <Stack.Screen name = { 'SignUp' } component = {SignUp}  options = { {title: 'Registro'} }/>
