@@ -10,7 +10,7 @@ import MyInventory from "./pages/myInventory";
 import Recipies from "./pages/recipes";
 import SignUp from "./pages/signUp";
 import WeeklyPlan from "./pages/weeklyPlan";
-
+import recipeDetail from "./pages/recipeDetail";
 
 const Stack = createStackNavigator()
 
@@ -25,6 +25,7 @@ export default function App() {
         <Stack.Screen name = { 'EatNow' } component = {EatNow}  options = { {title: 'Que comemos?'} }/>
         <Stack.Screen name = { 'WeeklyPlan' } component = {WeeklyPlan}  options = { {title: 'Plan Semanal'} }/>
         <Stack.Screen name = { 'Recipies ' } component = {Recipies}  options = { {title: 'Recetas'} }/>
+        <Stack.Screen name = { 'recipeDetail' } component = {recipeDetail}  options = { {title: 'detalle de receta'} }/>
       </Stack.Navigator>
     </NavigationContainer>
   );
