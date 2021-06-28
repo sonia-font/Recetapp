@@ -7,12 +7,15 @@ import configMailer from "../../shared/mails/config.js"
 import generateEmailBody from '../../shared/services/GenerateEmailBody.js';
 import listRecipes from '../../shared/services/ListService.js';
 import ParseService from '../../shared/parser/ParseService.js';
+import Recipe from '../business/models/Recipe.js';
+import StockItem from '../../shared/models/StockItem.js';
+import Ingredient from '../../ingredients/business/models/Ingredient.js';
 
 class RecipeRouter {
 
-    constructor(recipeService){
-        this.recipeService = recipeService             
-
+    constructor(recipeService, userService){
+        this.recipeService = recipeService       
+        this.userService = userService   
         const recipeRouter = express.Router()
 
         //DEVUELVE TODAS LAS RECETAS PARA LA VISTA GENERAL
@@ -57,7 +60,7 @@ class RecipeRouter {
         //IMPRIME UNA RECETA EN PDF
         recipeRouter.post('/:idRecipe/pdf', async (req, res, next) => {
             try {
-                const recipe = await this.recipeService.getById(idRecipe)
+                const recipe = await this.recipeService.getById(req.params.idRecipe)
 
                 const pdfMaker = new PdfMaker()   
                 pdfMaker.generate(generatePdfBody(recipe), 'receta.pdf')
@@ -69,11 +72,11 @@ class RecipeRouter {
         });
 
         //ENVIA UNA RECETA POR EMAIL
-        recipeRouter.post('/:idRecipe/:idUser/send', async (req, res, next) => {
+        recipeRouter.post('/:idRecipe/send', async (req, res, next) => {
             try {
                 const mailer = crearMailer(configMailer.configPrintRecipe)
-                const user = await this.userService.getById(idUser);
-                const recipe = await this.recipeService.getById(idRecipe)
+                const user = await this.userService.getById(req.query.idUser);
+                const recipe = await this.recipeService.getById(req.params.idRecipe)
 
                 generateEmailBody(recipe)
                 await mailer.send(user.email)
@@ -85,7 +88,7 @@ class RecipeRouter {
         });
 
         //ENVIA PLAN SEMANAL SEGUN FILTRO
-        recipeRouter.post('/', async (req, res, next) => {
+        recipeRouter.post('/plan/:idUser', async (req, res, next) => {
             try {                   
                 const params = new filter(
                     req.query.keyWord,
@@ -96,8 +99,8 @@ class RecipeRouter {
                 const recipes = await this.recipeService.getFiltered(params)
                 const recipeList = await listRecipes(recipes)
                 
-                const user = await this.userService.getById(idUser)
-                const mailer = crearMailer(configMailer.configMailer)
+                const user = await this.userService.getById(req.params.idUser)
+                const mailer = crearMailer(configMailer.configWeeklyPlan)
                 await mailer.send(user.email, recipeList)
                 res.setHeader('Access-Control-Allow-Origin', '*');
                 res.status(200).send({msg: "Plan Enviado"})
@@ -106,7 +109,7 @@ class RecipeRouter {
             }            
         });
 
-        //AGREGA NUEVA RECETA
+        //AGREGA NUEVA RECETA CON FORMULARIO
         recipeRouter.post('/', async (req, res, next) => {
             try {
                 const parser = new ParseService()
@@ -119,6 +122,26 @@ class RecipeRouter {
                 next(error)
             }            
         });     
+
+        //AGREGA NUEVA RECETA
+        recipeRouter.post('/test', async (req, res, next) => {
+            try {
+                const newRecipe = new Recipe({
+                    title: req.body.title,
+                    image: req.body.image,
+                    plates: req.body.plates,
+                    time: req.body.time,
+                    difficulty: req.body.difficulty,
+                    characteristics: req.body.characteristics,
+                    stockIngredients: req.body.stockIngredients
+                })
+                await this.recipeService.add(newRecipe)   
+                res.setHeader('Access-Control-Allow-Origin', '*');
+                res.status(201).send({msg: 'Recipe created!'})
+            } catch(error) {
+                next(error)
+            }            
+        });  
 
         // recipeRouter.use((error, req, res, next) => {
         //     if (error.type == 'ERROR_INVALID_ID'){

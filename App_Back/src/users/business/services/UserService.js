@@ -9,14 +9,8 @@ class UserService {
         this.addTestData()
     }
 
-    async add(user) {
-        const newUser = new User({
-            name: user.name,
-            lastname: user.lastname,
-            email: user.email,
-            inventory: []
-        })
-        await this.users.add(newUser)
+    async add(user) {        
+        await this.users.add(user)
     }
 
     async getAll() {

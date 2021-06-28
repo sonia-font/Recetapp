@@ -38,7 +38,7 @@ class ParseService {
                 time: fields.time,
                 difficulty: fields.difficulty,
                 characteristics: fields.characteristics,
-                stockIngredients: JSON.parse(fields.ingredients).map(item => ({name: item.name, amount: item.amount}))
+                stockIngredients: JSON.parse(fields.ingredients)
             })
         } catch(error) {
             console.log(error)

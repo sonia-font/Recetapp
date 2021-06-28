@@ -1,4 +1,5 @@
 import express from 'express'
+import User from '../business/models/User.js';
 
 class UserRouter {
 
@@ -11,7 +12,7 @@ class UserRouter {
             try {
                 const users = await this.userService.getAll()
                 res.setHeader('Access-Control-Allow-Origin', '*');
-                res.status(200).json(user)
+                res.status(200).json(users)
             } catch(error) {
                 next(error)
             }            
@@ -44,13 +45,19 @@ class UserRouter {
             try {
                 const user = await this.userService.getByEmail(req.body.email)
                 if(!user) {
-                    await this.userService.add(req.body)    
-                    const newUser = await this.userService.getByEmail(req.body.email)                
+                    const newUser = new User({
+                        name: req.body.name,
+                        lastname: req.body.lastname,
+                        email: req.body.email,
+                        inventory: []
+                    })
+                    await this.userService.add(newUser)    
+                    const createdUser = await this.userService.getByEmail(req.body.email)                
 					res.setHeader('Access-Control-Allow-Origin', '*');
-                    res.status(201).json(newUser.id)
+                    res.status(201).json(createdUser.id)
                 } else {
 					res.setHeader('Access-Control-Allow-Origin', '*');
-                    res.status(403).json(user.id)
+                    res.status(409).json(user.id)
                 }                
             } catch(error) {
                 next(error)

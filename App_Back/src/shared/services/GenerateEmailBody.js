@@ -1,3 +1,5 @@
+import fs from 'fs'
+
 async function generateEmailBody(recipe){
     let body = ""
     let texto = ""

@@ -1,4 +1,5 @@
 import express from 'express'
+import Ingredient from '../business/models/Ingredient.js';
 
 class IngredientRouter {
 
@@ -27,6 +28,21 @@ class IngredientRouter {
                 next(error)
             }            
         });
+
+        //AGREGA NUEVO INGREDIENTE
+        ingredientRouter.post('/test', async (req, res, next) => {
+            try {
+                const newIngredient = new Ingredient({
+                    name: req.body.name,
+                    unit: req.body.unit
+                })
+                await this.ingredientService.add(newIngredient)   
+                res.setHeader('Access-Control-Allow-Origin', '*');
+                res.status(201).send({msg: 'Ingredient created!'})
+            } catch(error) {
+                next(error)
+            }            
+        }); 
     
         return ingredientRouter
     }
