@@ -27,24 +27,30 @@ function crearUserManagerMongo(db) {
     getByEmail: async (email) => {
       return await dbUsers.findOne({email:email})
     },
+
     deleteById: async (id) => {
-      const indiceParaBorrar = await dbUsers.findIndex(u => u.id == id)
-      if (indiceParaBorrar == -1) {
-          return {deleted: 0}                
-      }else{
-          await dbUsers.splice(indiceParaBorrar, 1)
-          return {deleted: 1}
-      }
-    },
-    updateById: async (user) => {
-      const indiceParaReemplazar = await dbUsers.findIndex(u => u.id == user.id)
-      if(indiceParaReemplazar == -1){
+      const user = await this.getById({id:parseInt(user.id)})
+      if(user){
           return {updated: 0}
       }else{
-          await dbUsers.splice(indiceParaReemplazar, 1, user)
+          await dbUsers.deleteOne({"id": user.id})
           return {updated: 1}
       }
     },
+
+    async deleteInventoryById(inventory, inventoryId) {
+      const indiceParaBorrar = inventory.findIndex(i => i.ingredient.id == inventoryId)
+      if (indiceParaBorrar == -1) {
+          return {deleted: 0}                
+      }else{
+          inventory.splice(indiceParaBorrar, 1)
+          return {deleted: 1}
+      }
+     },
+
+    updateById: async (user) => {
+      dbUsers.replaceOne({"id": user.id},user)
+      },
     cerrar: async () => {
       console.log('closing userManager from Mongo...')
       await db.close()

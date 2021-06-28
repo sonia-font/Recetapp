@@ -10,9 +10,9 @@ let _userManager
 switch (getMode()) {
     case 'PROD':
         const { crearMongoClient} = await import('./mongo/mongoClient.js')
-        const { crearIngredientManagerMongo } = await import('../../recipes/persistance/mongo/IngredientManagerMongo.js')
+        const { crearIngredientManagerMongo } = await import('../../ingredients/persistance/mongo/IngredientManagerMongo.js')
         const { crearRecipeManagerMongo } = await import('../../recipes/persistance/mongo/RecipeManagerMongo.js')
-        const { crearUserManagerMongo } = await import('../../recipes/persistance/mongo/UserManagerMongo.js')
+        const { crearUserManagerMongo } = await import('../../users/persistance/mongo/UserManagerMongo.js')
         const { getCnxStr } = await import('./config.js')
         const { getDBname } = await import('./config.js')
 

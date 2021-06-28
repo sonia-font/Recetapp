@@ -14,7 +14,7 @@ export default function MyInventory({navigation}) {
   }
 
   useEffect(()=>{
-    fetch(`${BASE_URL}/users/0/inventory`)
+    fetch(`${BASE_URL}/users/${user.id}/inventory`)
     .then(res => {
         return res.json()
     })
@@ -23,10 +23,12 @@ export default function MyInventory({navigation}) {
     })
   }, [])
 
-
-  // deleteElement((id)=>{
-
-  // })
+  async function eliminarElemento(id){
+    fetch(`${BASE_URL}/users/${user.id}/inventory/${id}`)
+    .then(res => {
+        return res.json()
+    })
+  }
 
   return (
     <View style={styles.container}>
@@ -34,9 +36,9 @@ export default function MyInventory({navigation}) {
       <ScrollView>
           {
               inventario.map((item, index) =>(
-                
                   <View key={index}>
-                      <Text>{item.ingredient.name}</Text>
+                      <Text>{item.ingredient.name} - {item.ingredient.unit} - {item.amount} </Text>
+                      <Button className={'button center'} title={'Delete'} key={index} onPress={() => eliminarElemento(item.ingredient.id)} />
                   </View>
               ))
           }      
