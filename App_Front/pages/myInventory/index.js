@@ -23,11 +23,15 @@ export default function MyInventory({navigation}) {
     })
   }, [])
 
+
   async function eliminarElemento(id){
     fetch(`${BASE_URL}/users/${user.id}/inventory/${id}`)
     .then(res => {
         return res.json()
     })
+    .then(data => {
+      setInventario(data)
+  })
   }
 
   return (
