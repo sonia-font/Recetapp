@@ -64,6 +64,19 @@ class UserRouter {
             }            
         });
 
+        //ELIMINA ELEMENTO DE USUARIO
+        userRouter.get('/:idUser/inventory/:inventoryId', async (req, res, next) => {
+            try {
+                await this.userService.deleteUserInventory(req.params.idUser,req.params.inventoryId)
+                const inventory = await this.userService.getUserInventory(req.params.idUser)
+                res.setHeader('Access-Control-Allow-Origin', '*');
+                res.status(200).json(inventory)
+            } catch(error) {
+                next(error)
+            }            
+        });
+        
+
         //DEVUELVE INVENTARIO
         userRouter.get('/:idUser/inventory', async (req, res, next) => {
             try {
@@ -85,6 +98,8 @@ class UserRouter {
                 next(error)
             }            
         });
+        
+        
     
         return userRouter
     }

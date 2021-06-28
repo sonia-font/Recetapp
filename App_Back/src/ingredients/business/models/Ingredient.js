@@ -4,7 +4,7 @@ class Ingredient {
     constructor(data){
         this.name = data.name
         this.unit = data.unit
-        this.id = nextId++   
+        this.id = nextId++
     }
 }
 

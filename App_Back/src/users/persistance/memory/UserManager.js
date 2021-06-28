@@ -29,6 +29,16 @@ class UserManager {
             return {deleted: 1}
         }
     }
+
+    async deleteInventoryById(inventory, inventoryId) {
+        const indiceParaBorrar = inventory.findIndex(i => i.ingredient.id == inventoryId)
+        if (indiceParaBorrar == -1) {
+            return {deleted: 0}                
+        }else{
+            inventory.splice(indiceParaBorrar, 1)
+            return {deleted: 1}
+        }
+    }
       
     async updateById(user) {
         const indiceParaReemplazar = this.users.findIndex(u => u.id == user.id)
