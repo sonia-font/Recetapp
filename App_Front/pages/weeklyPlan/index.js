@@ -22,10 +22,11 @@ export default function WeeklyPlan({navigation}) {
     fetch(`${BASE_URL}/recipes/plan/${userId}?keyWord=${keyword}&maxIngredients=${maxIngredients}&maxTime=${maxTime}&difficulty=${difficulty}`, {method: 'POST'})
     .then(res => res.json())
     .then(data => console.log(data))
+    .then(navigation.goBack())
   }
 
   return (    
-    <ImageBackground source={image} style={styles.image}>      
+    <ImageBackground source={image} style={styles.background}>      
       <View style={styles.container}> 
         <Text style={styles.title}>Plan Semanal</Text>
         <StatusBar backgroundColor="#ffffff"/>
@@ -134,7 +135,7 @@ const styles = StyleSheet.create({
     width: 300,
     height: 25
   },
-  image: {
+  background: {
     flex: 1,
     resizeMode: 'cover',
     alignItems: 'center',
