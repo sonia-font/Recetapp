@@ -1,12 +1,14 @@
 import { StatusBar } from 'expo-status-bar';
-import React from 'react';
+import React,{useState} from 'react';
 import { Button, StyleSheet, Text, View, TouchableOpacity, Image } from 'react-native';
 import * as Google from 'expo-google-app-auth'
 import AsyncStorage from '../../utils/AsyncStorage';
 
-
+const BASE_URL = `http://192.168.0.156:8000`
 
 export default function Login({navigation,route}) {
+
+  const [usuario, setUsuario] = useState()
   const {changeAuthenticated} = route.params || {changeAuthenticated : ""}
   
   const signInWithGoogle = async () => {
@@ -21,27 +23,28 @@ export default function Login({navigation,route}) {
     
     if (type === 'success') {
 
-        console.log('====================================');
-        console.log(user);
-        console.log('====================================');
-
         //--Guardar el ID del usuario en memoria para ser utilizado luego por la aplicacion.--
         //Hacemos un post con los datos del user para guardarlo (o no) en BD.
         //Get by Email que devuelve el id del usuario.
 
-        // fetch('https://mywebsite.com/endpoint/', {
-        //   method: 'POST',
-        //   body: JSON.stringify({
-        //     firstParam: 'yourValue',
-        //     secondParam: 'yourOtherValue'
-        //   })
-         //.then(data => {
-          //     const internalUser = data
-          // })
-        // });
+        fetch(`${BASE_URL}/users/`, {
+          method: 'POST',
+          headers: {
+            Accept: 'application/json',
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({
+            name: user.givenName,
+            lastname: user.familyName,
+            email: user.email
+          })
+        })
+        .then(response => response.json())
+        .then(data => 
+          setUsuario(data)
+          );
 
-        //AsyncStorage.storeData('@userData', internalUser)
-        console.log(changeAuthenticated)
+         AsyncStorage.storeData('@userData',usuario)
         changeAuthenticated(true)
         
         /* Log-Out */
@@ -51,7 +54,7 @@ export default function Login({navigation,route}) {
 }
   return (
     <View style={styles.container}>
-            <StatusBar style="auto" />
+            <StatusBar style="auto"/>
             <TouchableOpacity
                 activeOpacity={0.5}
                 onPress={signInWithGoogle}
