@@ -1,13 +1,12 @@
 import { StatusBar } from 'expo-status-bar';
 import React, {useEffect, useState} from 'react';
-import { Button, StyleSheet, Text, View, FlatList, ScrollView, TouchableOpacity } from 'react-native';
+import { Button, Text, View, FlatList, ScrollView, TouchableOpacity, SafeAreaView, ImageBackground, Image } from 'react-native';
 import ReceAppstyles from '../style/style';
+import image from '../../assets/backgrounds/portada1.jpg'
 
-const BASE_URL = `http://192.168.0.14:8000`;
+const BASE_URL = `http://192.168.0.8:8000`;
 
 export default function EatNow({navigation}) {
-
-
 
   const [recipes, setRecipes] = useState([])
 
@@ -15,19 +14,29 @@ export default function EatNow({navigation}) {
     return (
       <View>
         <TouchableOpacity
-            style={[ReceAppstyles.big_btn, ReceAppstyles.bcg_green]}
+            style={[ReceAppstyles.card, ReceAppstyles.background]}
             onPress={() => navigation.navigate('recipeDetail',{item})}
           >
-          <Text>Receta : {item.title}</Text>
-          <Text>Caracteristicas: {item.characteristics}</Text>
-          <Text>Ingridientes</Text>
-          <FlatList
-            data={item.stockIngredients}
-            renderItem= { ({item}) => {
-              return <Text>{item.ingredient.name}</Text>
+          <Image
+            style={[ReceAppstyles.imagesRece, {flex:2}]}
+            source={{
+              uri: item.image,
             }}
-            keyExtractor={item => item.ingredient.id.toString()}
           />
+      
+          <View style={{flex:3}}>
+            <Text style={ReceAppstyles.text_titulo_card}>{item.title}</Text>
+            <Text>Caracteristicas: {item.characteristics}</Text>
+            <Text>Ingredientes:</Text>
+            <FlatList
+              data={item.stockIngredients}
+              renderItem= { ({item}) => {
+                return <Text>-{item.amount} {item.ingredient.name}</Text>
+              }}
+              keyExtractor={item => item.ingredient.id.toString()}
+            />
+          </View>
+    
         </TouchableOpacity>
       </View>
 
@@ -41,35 +50,29 @@ export default function EatNow({navigation}) {
     })
     .then(data => {
       setRecipes(data)
-      console.log(data)
     })
   }, [])
 
 
   return (
-    <View style={styles.container}>
-      <Text>Que como?</Text>
-      <ScrollView>
-        <FlatList
-          data={recipes}
-          renderItem={renderItem}
-          keyExtractor={item => item.id.toString()}
+    <ImageBackground source={image} style={ReceAppstyles.image}> 
+      <View style={[ReceAppstyles.container, ReceAppstyles.container_transparent]}>
+        
+        <SafeAreaView >
+          <Text style={[ReceAppstyles.title, {textAlign:'center'}]}>Que como?</Text>
+          <FlatList
+            data={recipes}
+            renderItem={renderItem}
+            keyExtractor={item => item.id.toString()}
+            
+          />
+        </SafeAreaView>
+        <Button
+        title={'Go back'}
+        onPress={() => navigation.goBack()}
         />
-      </ScrollView>
-      <Button
-      title={'Go back'}
-      onPress={() => navigation.goBack()}
-      />
-      <StatusBar style="auto" />
-    </View>
+        <StatusBar style="auto" />
+      </View>
+    </ImageBackground> 
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});

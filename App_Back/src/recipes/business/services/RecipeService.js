@@ -133,7 +133,7 @@ class RecipeService {
 
         self.add(new Recipe({
             title: 'Merluza en salsa verde',
-            image: '..\\uploads/huevos.jpg',
+            image: 'https://t2.rg.ltmcdn.com/es/images/2/0/2/tortillas_de_harina_integral_75202_600.jpg',
             plates: 3,
             time: 15,
             difficulty: 'Facil',
@@ -155,7 +155,7 @@ class RecipeService {
         }))
         self.add(new Recipe({
             title: 'Carne a las finas hierbas',
-            image: '..\\uploads/huevos.jpg',
+            image: 'https://t1.rg.ltmcdn.com/es/images/2/8/1/tamales_de_verduras_75182_600.jpg',
             plates: 2,
             time: 20,
             difficulty: 'Intermedia',
@@ -173,7 +173,7 @@ class RecipeService {
         }))
         self.add(new Recipe({
             title: 'Pizza a la napolitana',
-            image: '..\\uploads/huevos.jpg',
+            image: 'https://t2.rg.ltmcdn.com/es/images/1/7/1/tarta_de_humita_75171_600.jpg',
             plates: 3,
             time: 15,
             difficulty: 'Facil',
