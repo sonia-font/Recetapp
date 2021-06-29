@@ -13,7 +13,7 @@ export default function MyInventory({navigation}) {
   const [elementosTotalesInventario, setElementosLista] = useState([])
   const [inventoryUnit, setUnit] = useState("Kg")
   const [inventoryElement, setElement] = useState()
-  const [amountValue, setAmount] = useState(0)
+  const [amountValue, setAmount] = useState()
 
   //const user = await AsyncStorage.getData('@userData')
   const user = {
@@ -90,7 +90,7 @@ export default function MyInventory({navigation}) {
 
   return (
     <ImageBackground source={image} style={styles.background}>
-    <View>
+    <View style={styles.container}>
       <Text style={styles.title}>Mi Inventario</Text>
 
       <Text style={styles.maintext}>
@@ -102,9 +102,9 @@ export default function MyInventory({navigation}) {
       <ScrollView 
       style={{
         paddingTop: 20,
-        paddingLeft: 30,
-        paddingBottom: 100,
-        height: '50%'}}>
+        paddingLeft: 20,
+        paddingBottom: 20,
+        }}>
           {
               inventario.map((item, index) =>(
                   <View key={index}>
@@ -121,7 +121,7 @@ export default function MyInventory({navigation}) {
                         fontSize: 13,
                         fontWeight:'normal',
                         position:"absolute",
-                        right:30,
+                        right:5,
                         color:'white'
                       }}> 
 
@@ -131,9 +131,8 @@ export default function MyInventory({navigation}) {
                           style={{
                             fontSize: 13,
                             fontWeight:'normal',
-                            textAlign:'center',
                           }}> 
-                         - 
+                         {" "}
                          {item.ingredient.unit}
 
                       <Pressable  style={styles.button} key={index} onPress={() => eliminarElemento(item.ingredient.id)}>
@@ -147,13 +146,17 @@ export default function MyInventory({navigation}) {
           }
       </ScrollView>
 
-      <Text style={styles.maintext}>
+      <View style={{
+        alignItems:'center', justifyContent: 'center', color:'black', backgroundColor:'white'
+      }}>
+        
+      <Text style={styles.subtext}>
           Añadí un nuevo elemento
       </Text>
       
-
+      
       <Picker
-      style={{ height: 20, width: 80, marginLeft:30, flex: 1, flexDirection: 'row'}}
+      style={{ height: 20, width: 130, marginBottom:10, marginTop:5}}
       mode = "dropdown"
       selectedValue={elementosTotalesInventario.name}
       onValueChange={(value) => {
@@ -168,23 +171,28 @@ export default function MyInventory({navigation}) {
       }
       </Picker>
 
-
-      <TextInput style = {{
-
-      }}
-      style={{ height: 50, width: 100, paddingLeft:30, flex: 1, flexDirection: 'row' }}
-        value={inventoryUnit}
-        editable={false}
-      />
-
       <TextInput 
-            style={{ height: 50, width: 100, paddingLeft:30, flex: 1, flexDirection: 'row' }}
+            style={styles.filter}
                 value={amountValue}
                 placeholder={'Cantidad'}
                 onChangeText={setAmount}
       />
-      <Button
-        title={'Add to Inventory'}
+
+      <TextInput style = {{
+
+      }}
+      style={{ height: 20, width: 100, paddingLeft:30}}
+        value={inventoryUnit}
+        editable={false}
+      />
+
+      </View>
+      <Button style={{
+        width: 20
+      }
+    }width = '200'   
+    color='#696969'
+        title={'Añadir'}
         onPress={() => addInventoryElement(inventoryElement,amountValue)}
       />
 
@@ -199,14 +207,16 @@ const styles = StyleSheet.create({
     flex: 1,
     resizeMode: 'cover',
     backgroundColor: 'rgba(255,255,255,0.2)',
-    alignItems: 'center',
+    alignItems: 'stretch',
     justifyContent: 'center',
   },
   title: {
     fontSize: 50,
     marginBottom: 2,
-    marginTop: 30,
-    color: 'white'    
+    marginTop: 150,
+    color: 'white',   
+    textAlign: 'center',
+ 
   },
   maintext: {    
     textAlign: 'center',
@@ -214,6 +224,13 @@ const styles = StyleSheet.create({
     marginLeft: 20,
     marginRight: 20,
     color: 'white'
+  },
+  subtext: {    
+    textAlign: 'center',
+    margintop: 4000,
+    marginLeft: 20,
+    marginRight: 20,
+    color: 'black'
   },
   text: {    
     textAlign: 'center',
@@ -224,8 +241,9 @@ const styles = StyleSheet.create({
     backgroundColor: 'white',
     borderWidth: 1,
     marginBottom: 10,
-    width: 300,
-    height: 25
+    width: 100,
+    height: 20,
+    textAlign:'center'
   },
   background: {
     flex: 1,
@@ -237,7 +255,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     paddingVertical: 2,
-    paddingHorizontal: 4,
+    paddingHorizontal: 20,
     borderRadius: 8,
     elevation: 0,
     backgroundColor: 'white',
