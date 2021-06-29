@@ -70,13 +70,13 @@ class UserService {
         })
         
         const ingredient2 = new Ingredient({
-            name: 'Palta',
+            name: 'rodajas de merluza',
             unit: 'unidad'
         })
 
         const stockItem2 = new StockItem({
             ingredient: ingredient2,
-            amount: 1
+            amount: 5
         })
 
         await self.add(new User({
