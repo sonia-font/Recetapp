@@ -5,7 +5,7 @@ import ReceAppstyles from '../style/style';
 import image from '../../assets/backgrounds/fondo1.jpg';
 import AsyncStorage from '../../utils/AsyncStorage';
 
-const BASE_URL = `http://192.168.30.81:8000`;
+const BASE_URL = `http://localhost:8000`;
 
 export default function recipeDetail({navigation, route}) {
 

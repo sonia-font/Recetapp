@@ -5,7 +5,7 @@ import * as Google from 'expo-google-app-auth'
 import AsyncStorage from '../../utils/AsyncStorage';
 import loginImage from '../../assets/backgrounds/extra3.jpg'
 
-const BASE_URL = `http://192.168.0.156:8000`
+const BASE_URL = `http://localhost:8000`
 
 export default function Login({navigation,route}) {
 
@@ -73,17 +73,12 @@ export default function Login({navigation,route}) {
           />
         </TouchableOpacity>
         <Button
-        title={'Que como?'}
-        onPress={() => navigation.navigate('EatNow')}
+        title={'HOME'}
+        onPress={() => {
+          changeAuthenticated(true)
+          navigation.goBack()}}
         />
-		<Button
-        title={'Heladera'}
-        onPress={() => navigation.navigate('MyInventory')}
-        />
-        <Button
-        title={'Plan Semanal'}
-        onPress={() => navigation.navigate('WeeklyPlan')}
-        />             </View>
+        </View>
         )
         :
         (navigation.navigate("Home"))
