@@ -1,5 +1,7 @@
 import express from 'express'
 import User from '../business/models/User.js';
+import StockItem from '../../shared/models/StockItem.js'
+import Ingredient from '../../ingredients/business/models/Ingredient.js'
 
 class UserRouter {
 
@@ -89,9 +91,26 @@ class UserRouter {
         });
 
         //AGREGA STOCK AL INVENTARIO
-        userRouter.put('/:idUser/inventory', async (req, res, next) => {
+        userRouter.post('/:idUser/inventory', async (req, res, next) => {
             try {
-                await this.userService.updateUserInventory(req.params.idUser, req.body)
+                const ingredient = new Ingredient({
+                    name: req.body.ingredient.name,
+                    unit: req.body.ingredient.unit
+                })
+        
+                const stockItem = new StockItem({
+                    ingredient: ingredient,
+                    amount: req.body.amount
+                })
+
+                const newItem = {
+                    ingredient: stockItem.ingredient,
+                    amount: stockItem.amount
+                }
+
+                const user = await this.userService.getById(req.params.idUser)
+                user.inventory.push(newItem)
+                await this.userService.updateUserInventory(req.params.idUser, user.inventory)
                 res.setHeader('Access-Control-Allow-Origin', '*');
                 res.status(200).send({msg: 'Inventory updated!'})
             } catch(error) {

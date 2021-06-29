@@ -33,8 +33,8 @@ class IngredientRouter {
         ingredientRouter.post('/test', async (req, res, next) => {
             try {
                 const newIngredient = new Ingredient({
-                    name: req.body.name,
-                    unit: req.body.unit
+                    name: req.query.name,
+                    unit: req.query.unit
                 })
                 await this.ingredientService.add(newIngredient)   
                 res.setHeader('Access-Control-Allow-Origin', '*');
