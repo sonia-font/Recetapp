@@ -4,7 +4,7 @@ import { ImageBackground, Button, StyleSheet, Text, View, TextInput } from 'reac
 import {Picker} from '@react-native-picker/picker';
 import image from '../../assets/backgrounds/fondo2.jpg'
 
-const BASE_URL = `http://192.168.30.81:8000`
+const BASE_URL = `http://localhost:8000`
 
 export default function WeeklyPlan({navigation}) {
 
