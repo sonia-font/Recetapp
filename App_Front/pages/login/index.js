@@ -1,8 +1,9 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { Button, StyleSheet, Text, View, TouchableOpacity, Image } from 'react-native';
+import { ImageBackground, Button, StyleSheet, Text, View, TouchableOpacity, Image } from 'react-native';
 import * as Google from 'expo-google-app-auth'
 import AsyncStorage from '../../utils/AsyncStorage';
+import loginImage from '../../assets/backgrounds/extra3.jpg'
 
 
 
@@ -50,23 +51,25 @@ export default function Login({navigation,route}) {
     }
 }
   return (
-    <View style={styles.container}>
-            <StatusBar style="auto" />
-            <TouchableOpacity
-                activeOpacity={0.5}
-                onPress={signInWithGoogle}
-                style={styles.buttonGoogleStyle}
-            >
-                <Image
-                    source={require('../../assets/btn_google_signin.png')}
-                />
-            </TouchableOpacity>
+    <ImageBackground source={loginImage} style={styles.background}>
+      <View style={styles.container}>
+      <StatusBar backgroundColor="#ffffff"/>
+        <TouchableOpacity
+          activeOpacity={0.5}
+          onPress={signInWithGoogle}
+          style={styles.buttonGoogleStyle}
+        >
+          <Image
+              source={require('../../assets/btn_google_signin.png')}
+          />
+        </TouchableOpacity>
 
-            <Button
-            title={'Go back'}
-            onPress={() => navigation.goBack()}
-            />
-        </View>
+        <Button
+        title={'Go back'}
+        onPress={() => navigation.goBack()}
+        />
+      </View>
+    </ImageBackground>
   );
 }
 
@@ -82,4 +85,9 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  background: {
+    flex: 1,
+    resizeMode: 'cover',
+    alignItems: 'center'
+  }
 });
