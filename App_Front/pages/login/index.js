@@ -41,11 +41,12 @@ export default function Login({navigation,route}) {
           })
         })
         .then(response => response.json())
-        .then(data => 
-          setUsuario(data)
-          );
+        .then(user => 
+          setUsuario(user),
+          
+        );
 
-         AsyncStorage.storeData('@userData',usuario)
+        await AsyncStorage.storeData('@userData',user)
         changeAuthenticated(true)
         navigation.goBack()
         
@@ -54,10 +55,14 @@ export default function Login({navigation,route}) {
         /* `accessToken` is now invalid and cannot be used to get data from the Google API with HTTP requests */
     }
 }
+       
   return (
     <ImageBackground source={loginImage} style={styles.background}>
       <View style={styles.container}>
       <StatusBar backgroundColor="#ffffff"/>
+      {
+        !usuario ? (
+          <View>
         <TouchableOpacity
           activeOpacity={0.5}
           onPress={signInWithGoogle}
@@ -71,14 +76,18 @@ export default function Login({navigation,route}) {
         title={'Que como?'}
         onPress={() => navigation.navigate('EatNow')}
         />
-        <Button
+		<Button
         title={'Heladera'}
         onPress={() => navigation.navigate('MyInventory')}
         />
         <Button
         title={'Plan Semanal'}
         onPress={() => navigation.navigate('WeeklyPlan')}
-        />     
+        />             </View>
+        )
+        :
+        (navigation.navigate("Home"))
+      }
       </View>
     </ImageBackground>
   );
