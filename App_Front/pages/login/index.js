@@ -34,7 +34,7 @@ export default function Login({navigation,route}) {
             Accept: 'application/json',
             'Content-Type': 'application/json'
           },
-          body: JSON.stringify({
+          params: JSON.stringify({
             name: user.givenName,
             lastname: user.familyName,
             email: user.email
