@@ -8,8 +8,7 @@ import generateEmailBody from '../../shared/services/GenerateEmailBody.js';
 import listRecipes from '../../shared/services/ListService.js';
 import ParseService from '../../shared/parser/ParseService.js';
 import Recipe from '../business/models/Recipe.js';
-import StockItem from '../../shared/models/StockItem.js';
-import Ingredient from '../../ingredients/business/models/Ingredient.js';
+import generateMissingIngredients from '../../shared/services/GenerateMissingIngredients.js';
 
 class RecipeRouter {
 
@@ -52,6 +51,24 @@ class RecipeRouter {
                 const recipe = await this.recipeService.getById(req.params.idRecipe)
                 res.setHeader('Access-Control-Allow-Origin', '*');
                 res.status(200).json(recipe)   
+            } catch(error) {
+                next(error)
+            }            
+        });
+
+        //IMPRIME UNA LISTA DE COMPRA
+        recipeRouter.post('/:idRecipe/buylist', async (req, res, next) => {
+            try {
+                const user = await this.userService.getById(req.query.idUser);
+                const recipe = await this.recipeService.getById(req.params.idRecipe)
+                const inventory = user.inventory
+
+                const missingIngredients = generateMissingIngredients(inventory, recipe)
+
+                const pdfMaker = new PdfMaker()   
+                pdfMaker.generate(missingIngredients, 'buylist.pdf')
+                res.setHeader('Access-Control-Allow-Origin', '*')
+                res.status(200).send({msg: 'Buylist generada'})
             } catch(error) {
                 next(error)
             }            
