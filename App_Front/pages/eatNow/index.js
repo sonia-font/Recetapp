@@ -2,9 +2,9 @@ import { StatusBar } from 'expo-status-bar';
 import React, {useEffect, useState} from 'react';
 import { Button, Text, View, FlatList, ScrollView, TouchableOpacity, SafeAreaView, ImageBackground, Image } from 'react-native';
 import ReceAppstyles from '../style/style';
-import image from '../../assets/backgrounds/portada1.jpg'
+import image from '../../assets/backgrounds/base2.jpg'
 
-const BASE_URL = `http://192.168.0.8:8000`;
+const BASE_URL = `http://192.168.30.81:8000`;
 
 export default function EatNow({navigation}) {
 
@@ -67,11 +67,7 @@ export default function EatNow({navigation}) {
             
           />
         </SafeAreaView>
-        <Button
-        title={'Go back'}
-        onPress={() => navigation.goBack()}
-        />
-        <StatusBar style="auto" />
+        <StatusBar backgroundColor="#ffffff"/>
       </View>
     </ImageBackground> 
   );

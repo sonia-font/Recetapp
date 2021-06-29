@@ -51,8 +51,8 @@ const ReceAppstyles = StyleSheet.create({
         paddingTop: 10
     },
     small_btn: {
-        width: 310,
-        height: 65,
+        width: 200,
+        height: 50,
         borderRadius: 12,
         borderWidth: 0
     },
@@ -64,6 +64,9 @@ const ReceAppstyles = StyleSheet.create({
     },
     bcg_blue: {
         backgroundColor: '#40A3B8'
+    },
+    bcg_grey: {
+        backgroundColor: '#696969'
     },
     background: {
         backgroundColor: '#efecffef'
@@ -91,10 +94,10 @@ const ReceAppstyles = StyleSheet.create({
         marginBottom: 2
       },
     image: {
-    flex: 1,
-    resizeMode: 'cover',
-    alignItems: 'center',
-    justifyContent: 'center'
+        flex: 1,
+        resizeMode: 'cover',
+        alignItems: 'center',
+        justifyContent: 'center'
     }
   })
 
