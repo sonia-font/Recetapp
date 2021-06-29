@@ -44,6 +44,7 @@ export default function Login({navigation,route}) {
         //AsyncStorage.storeData('@userData', internalUser)
         console.log(changeAuthenticated)
         changeAuthenticated(true)
+        navigation.goBack()
         
         /* Log-Out */
         await Google.logOutAsync({ accessToken, ...config });
@@ -60,14 +61,21 @@ export default function Login({navigation,route}) {
           style={styles.buttonGoogleStyle}
         >
           <Image
-              source={require('../../assets/btn_google_signin.png')}
+              source={require('../../assets/btn_google_signin.png')} style={styles.image}
           />
-        </TouchableOpacity>
-
+        </TouchableOpacity>   
         <Button
-        title={'Go back'}
-        onPress={() => navigation.goBack()}
+        title={'Que como?'}
+        onPress={() => navigation.navigate('EatNow')}
         />
+        <Button
+        title={'Heladera'}
+        onPress={() => navigation.navigate('MyInventory')}
+        />
+        <Button
+        title={'Plan Semanal'}
+        onPress={() => navigation.navigate('WeeklyPlan')}
+        />     
       </View>
     </ImageBackground>
   );
@@ -81,13 +89,18 @@ onPress={() => navigation.goBack()}
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
+    paddingTop: 120
   },
   background: {
     flex: 1,
     resizeMode: 'cover',
     alignItems: 'center'
-  }
+  },
+  image: {
+    height: 100,
+    width: 200,
+    resizeMode: 'contain'
+  },
 });

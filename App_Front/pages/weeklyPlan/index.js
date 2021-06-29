@@ -12,6 +12,7 @@ export default function WeeklyPlan({navigation}) {
   const [maxIngredients, setMaxIngredients] = useState()
   const [maxTime, setMaxTime] = useState()
   const [difficulty, setDifficulty] = useState()
+  const [result, setResult] = useState()
 
   //const user = await AsyncStorage.getData('@userData')
   const user = {
@@ -21,7 +22,7 @@ export default function WeeklyPlan({navigation}) {
   const pedirPlan = async (userId, keyword, maxIngredients, maxTime, difficulty) => {
     fetch(`${BASE_URL}/recipes/plan/${userId}?keyWord=${keyword}&maxIngredients=${maxIngredients}&maxTime=${maxTime}&difficulty=${difficulty}`, {method: 'POST'})
     .then(res => res.json())
-    .then(data => console.log(data))
+    .then(data => setResult(data))
     .then(navigation.goBack())
   }
 
@@ -96,7 +97,9 @@ export default function WeeklyPlan({navigation}) {
         color="#696969"
         title={'Arma tu plan'}
         onPress={() => pedirPlan(user.id, keyWord, maxIngredients, maxTime, difficulty)}
-        />        
+        />     
+
+        <Text>{result}</Text>   
       </View>
     </ImageBackground>    
   );
@@ -106,7 +109,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     resizeMode: 'cover',
-    backgroundColor: 'rgba(255,255,255,0.2)',
+    // backgroundColor: 'rgba(255,255,255,0.2)',
     alignItems: 'center',
     justifyContent: 'center',
   },
