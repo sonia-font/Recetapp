@@ -1,18 +1,38 @@
 import { StatusBar } from 'expo-status-bar';
-import React  from 'react';
-import { StyleSheet, Text, View, TouchableOpacity, Image, ImageBackground, FlatList } from 'react-native';
+import React, { useEffect }  from 'react';
+import { StyleSheet, Text, View, TouchableOpacity, Image, ImageBackground, FlatList, Alert } from 'react-native';
 import ReceAppstyles from '../style/style';
-import image from '../../assets/backgrounds/base1.jpg'
+import image from '../../assets/backgrounds/base1.jpg';
+import AsyncStorage from '../../utils/AsyncStorage';
 
-
+const BASE_URL = `http://192.168.0.8:8000`;
 
 export default function recipeDetail({navigation, route}) {
 
     const {item} = route.params || {item : ""}
   
     const generatePdf = () => {
-
+      console.log(item)
+      fetch(`${BASE_URL}/test/buylist?idRecipe=${item.id.toString()}&idUser=0`, {
+        method: 'POST'
+      })
+      .then(() => alertaPDFGenerated())
+      ;
     }
+
+    const alertaPDFGenerated = () =>
+    Alert.alert(
+      "PDF Generado exitosamente",
+      "lista de ingredientes faltantes generada",
+      [
+        { text: "OK", onPress: () => console.log("OK Pressed") }
+      ]
+    );
+
+    // useEffect(() => {
+    //   AsyncStorage.getData('@userData')
+    //   .then(data => {console.log("jajaja",data)})
+    // }, [])
 
 
     return (
