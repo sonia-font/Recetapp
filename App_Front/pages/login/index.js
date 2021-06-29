@@ -41,35 +41,53 @@ export default function Login({navigation,route}) {
           })
         })
         .then(response => response.json())
-        .then(data => 
-          setUsuario(data)
-          );
+        .then(user => 
+          setUsuario(user),
+          
+        );
 
-         AsyncStorage.storeData('@userData',usuario)
+        await AsyncStorage.storeData('@userData',user)
         changeAuthenticated(true)
+        navigation.goBack()
         
         /* Log-Out */
         await Google.logOutAsync({ accessToken, ...config });
         /* `accessToken` is now invalid and cannot be used to get data from the Google API with HTTP requests */
     }
 }
+       
   return (
     <ImageBackground source={loginImage} style={styles.background}>
       <View style={styles.container}>
       <StatusBar backgroundColor="#ffffff"/>
+      {
+        !usuario ? (
+          <View>
         <TouchableOpacity
           activeOpacity={0.5}
           onPress={signInWithGoogle}
           style={styles.buttonGoogleStyle}
         >
           <Image
-              source={require('../../assets/btn_google_signin.png')}
+              source={require('../../assets/btn_google_signin.png')} style={styles.image}
           />
         </TouchableOpacity>
         <Button
-        title={'Go back'}
-        onPress={() => navigation.goBack()}
+        title={'Que como?'}
+        onPress={() => navigation.navigate('EatNow')}
         />
+		<Button
+        title={'Heladera'}
+        onPress={() => navigation.navigate('MyInventory')}
+        />
+        <Button
+        title={'Plan Semanal'}
+        onPress={() => navigation.navigate('WeeklyPlan')}
+        />             </View>
+        )
+        :
+        (navigation.navigate("Home"))
+      }
       </View>
     </ImageBackground>
   );
@@ -83,13 +101,18 @@ onPress={() => navigation.goBack()}
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
+    paddingTop: 120
   },
   background: {
     flex: 1,
     resizeMode: 'cover',
     alignItems: 'center'
-  }
+  },
+  image: {
+    height: 100,
+    width: 200,
+    resizeMode: 'contain'
+  },
 });
