@@ -41,11 +41,12 @@ export default function Login({navigation,route}) {
           })
         })
         .then(response => response.json())
-        .then(data => 
-          setUsuario(data)
-          );
+        .then(user => 
+          setUsuario(user),
+          
+        );
 
-         AsyncStorage.storeData('@userData',usuario)
+        await AsyncStorage.storeData('@userData',user)
         changeAuthenticated(true)
         
         /* Log-Out */
@@ -53,10 +54,14 @@ export default function Login({navigation,route}) {
         /* `accessToken` is now invalid and cannot be used to get data from the Google API with HTTP requests */
     }
 }
+       
   return (
     <ImageBackground source={loginImage} style={styles.background}>
       <View style={styles.container}>
       <StatusBar backgroundColor="#ffffff"/>
+      {
+        !usuario ? (
+          <View>
         <TouchableOpacity
           activeOpacity={0.5}
           onPress={signInWithGoogle}
@@ -70,6 +75,11 @@ export default function Login({navigation,route}) {
         title={'Go back'}
         onPress={() => navigation.goBack()}
         />
+        </View>
+        )
+        :
+        (navigation.navigate("Home"))
+      }
       </View>
     </ImageBackground>
   );
