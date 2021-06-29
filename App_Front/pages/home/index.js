@@ -63,7 +63,13 @@ export default function Home({navigation}) {
           
               <TouchableOpacity onPress={() => navigation.navigate('WeeklyPlan')}>
                 <Image source={require('../../assets/buttons/botonPlan.jpg')} style={styles.image} />
-              </TouchableOpacity>      
+              </TouchableOpacity> 
+
+              <Button
+                color="#696969"
+                title={'Desloguear'}
+                onPress={applyLogout}/>
+
             </View> 
           )
           : 
